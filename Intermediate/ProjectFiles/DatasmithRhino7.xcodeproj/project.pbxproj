@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A21C47D6D9630FB5298C5BEE /* DatasmithRhino7.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 816E9C9DE8E848AB6152168E /* DatasmithRhino7.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		816E9C9DE8E848AB6152168E /* DatasmithRhino7.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino7.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino7.Target.cs"; sourceTree = SOURCE_ROOT; };
+		BD68EBFB780A00DDD5CA64E5 /* DatasmithRhino7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithRhino7; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E992F7E4FCF693167AB0C81 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	C3347A40F5DB9F12A89F6289 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		19554D8A8ABAE7A83C9857EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456A46F14A903BFF9A29CF8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98DB28E9A98590B4D8D69CC6;
+			remoteInfo = "DatasmithRhino7_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		6D0185FE680519AD21403BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98DB28E9A98590B4D8D69CC6 /* DatasmithRhino7_Build */;
+			targetProxy = 19554D8A8ABAE7A83C9857EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		E4C8CC06845A33F4EB3DD1D5 = {
+			isa = PBXGroup;
+			children = (
+				816E9C9DE8E848AB6152168E /* DatasmithRhino7.Target.cs */,
+				172E04602CF214692D74678E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172E04602CF214692D74678E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD68EBFB780A00DDD5CA64E5 /* DatasmithRhino7 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		98DB28E9A98590B4D8D69CC6 /* DatasmithRhino7_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = CA80C49597E480D4AA9840FF /* Build configuration list for PBXLegacyTarget "DatasmithRhino7_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "DatasmithRhino7_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino7_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		5C6286D1E71DD990EEC232B1 /* DatasmithRhino7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F413CCB51B170A4E507E8CBC /* Build configuration list for PBXNativeTarget "DatasmithRhino7" */;
+			buildPhases = (
+				C3347A40F5DB9F12A89F6289 /* Embed App Extensions */, 
+				4875369B009A6C70603DD8EA /* Shell Script */, 
+			);
+			dependencies = (
+				6D0185FE680519AD21403BF5 /* PBXTargetDependency */,
+			);
+			name = "DatasmithRhino7";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino7";
+			productReference = "BD68EBFB780A00DDD5CA64E5";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		191D35173F5D1F4FF067F1AF /* DatasmithRhino7_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FDFFB708A314E6CC2531F7 /* Build configuration list for PBXNativeTarget "DatasmithRhino7_Index" */;
+			buildPhases = (
+				2E992F7E4FCF693167AB0C81 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DatasmithRhino7_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino7_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456A46F14A903BFF9A29CF8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					5C6286D1E71DD990EEC232B1 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4F79747AB74DD5628E14039A /* Build configuration list for PBXProject "DatasmithRhino7" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = E4C8CC06845A33F4EB3DD1D5;
+			productRefGroup = 172E04602CF214692D74678E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			5C6286D1E71DD990EEC232B1 /* DatasmithRhino7 */,
+			98DB28E9A98590B4D8D69CC6 /* DatasmithRhino7_Build */,
+			191D35173F5D1F4FF067F1AF /* DatasmithRhino7_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2AB4A41CD3A06E6B21839CF7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		271A9C0B5748B3847FCA8305 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		CAE362C1A43B6CF4FE4BF478 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		4AB1A3D7DC2F93C25E14D91D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		2DD6B90A830F695FB01A64F0 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		77D47352D455E68F36A635DA /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		6EA12C8463179AE8BE321B50 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E973460FC8285B69FB07844E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		2F3F834FFA15321AFEEB0188 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		5E48E08EE6A6C18A5CC44281 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		99CD31CC3F9C20855C8F1540 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		17DE5E3F3E70015AAA05A524 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		E8860C2D70AF50DE45CF755A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		72ECD04AE1D02D325CA4E2BE /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		131CDE4BEF0821D9AC771D0B /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		36833E0730F668C5D83E232B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		00142E14DB91C16B0038998F /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		0D40B66E98B125B420B62A67 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		0C7901163BB3FCF967983F59 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		1622AE4C3A830EF21411B7F2 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithRhino7-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F79747AB74DD5628E14039A /* Build configuration list for PBXProject "DatasmithRhino7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB4A41CD3A06E6B21839CF7 /* "Debug" */,
+				271A9C0B5748B3847FCA8305 /* "DebugGame" */,
+				CAE362C1A43B6CF4FE4BF478 /* "Development" */,
+				4AB1A3D7DC2F93C25E14D91D /* "Shipping" */,
+				2DD6B90A830F695FB01A64F0 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		CA80C49597E480D4AA9840FF /* Build configuration list for PBXLegacyTarget "DatasmithRhino7_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CD31CC3F9C20855C8F1540 /* "Debug" */,
+				17DE5E3F3E70015AAA05A524 /* "DebugGame" */,
+				E8860C2D70AF50DE45CF755A /* "Development" */,
+				72ECD04AE1D02D325CA4E2BE /* "Shipping" */,
+				131CDE4BEF0821D9AC771D0B /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F413CCB51B170A4E507E8CBC /* Build configuration list for PBXNativeTarget "DatasmithRhino7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D47352D455E68F36A635DA /* "Debug" */,
+				6EA12C8463179AE8BE321B50 /* "DebugGame" */,
+				E973460FC8285B69FB07844E /* "Development" */,
+				2F3F834FFA15321AFEEB0188 /* "Shipping" */,
+				5E48E08EE6A6C18A5CC44281 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		92FDFFB708A314E6CC2531F7 /* Build configuration list for PBXNativeTarget "DatasmithRhino7_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36833E0730F668C5D83E232B /* "Debug" */,
+				00142E14DB91C16B0038998F /* "DebugGame" */,
+				0D40B66E98B125B420B62A67 /* "Development" */,
+				0C7901163BB3FCF967983F59 /* "Shipping" */,
+				1622AE4C3A830EF21411B7F2 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 456A46F14A903BFF9A29CF8B /* Project object */;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DatasmithUE4ArchiCAD.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BCEEAA9A0B12673D0A7B1841</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>569B7DD512425E1B8BE3227B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E51E89B3B4F113DBF9201448</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

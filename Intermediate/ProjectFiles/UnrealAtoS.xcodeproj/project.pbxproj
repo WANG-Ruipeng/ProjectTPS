@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF14E05DA272D0766B93C614 /* UnrealAtoSMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D96477CC50C1E41C106F9C2 /* UnrealAtoSMainMac.cpp */; };
+		586F8CCD06558CBC646727DC /* UnrealAtoSApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C67B56A2A53DE916646585C /* UnrealAtoSApp.cpp */; };
+		E7911C6265DABB12162FDEF2 /* UnrealAtoSApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 752E19F196B170A8A0A03C93 /* UnrealAtoSApp.h */; };
+		B9D8B61E84B9644ED251C882 /* UnrealAtoS.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = A8E9E235299CFB46B6436C22 /* UnrealAtoS.Build.cs */; };
+		4890237942D0004D8B1AB56C /* UnrealAtoS.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = BCCC8F03014E537067B3A164 /* UnrealAtoS.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D96477CC50C1E41C106F9C2 /* UnrealAtoSMainMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealAtoSMainMac.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private/Mac/UnrealAtoSMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		3C67B56A2A53DE916646585C /* UnrealAtoSApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealAtoSApp.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private/UnrealAtoSApp.cpp"; sourceTree = SOURCE_ROOT; };
+		752E19F196B170A8A0A03C93 /* UnrealAtoSApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealAtoSApp.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Public/UnrealAtoSApp.h"; sourceTree = SOURCE_ROOT; };
+		A8E9E235299CFB46B6436C22 /* UnrealAtoS.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealAtoS.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/UnrealAtoS.Build.cs"; sourceTree = SOURCE_ROOT; };
+		BCCC8F03014E537067B3A164 /* UnrealAtoS.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealAtoS.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/UnrealAtoS.Target.cs"; sourceTree = SOURCE_ROOT; };
+		0A64CF882B30568C67EC2BA5 /* UnrealAtoS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealAtoS; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9640946083A60E744B7E8B33 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14E05DA272D0766B93C614 /* UnrealAtoSMainMac.cpp in Sources */,
+				586F8CCD06558CBC646727DC /* UnrealAtoSApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	ADD2C96A9658F03D8EC11731 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		960A373C14B5673C1C507F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128F0867DE8416BCA95DC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1093326D17B97F3532605695;
+			remoteInfo = "UnrealAtoS_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		F70DE8F3387782ED32D89DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1093326D17B97F3532605695 /* UnrealAtoS_Build */;
+			targetProxy = 960A373C14B5673C1C507F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		DBABD644F33FC66D2CBAEFF1 = {
+			isa = PBXGroup;
+			children = (
+				52495A295BA22DF495348E18 /* Private */,
+				1CA7C6B4BCC5B03CAA13DB8B /* Public */,
+				A8E9E235299CFB46B6436C22 /* UnrealAtoS.Build.cs */,
+				BCCC8F03014E537067B3A164 /* UnrealAtoS.Target.cs */,
+				09E3CB5A7A6ED62533086B53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52495A295BA22DF495348E18 = {
+			isa = PBXGroup;
+			children = (
+				7106D5808A658342C01305A4 /* Mac */,
+				3C67B56A2A53DE916646585C /* UnrealAtoSApp.cpp */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private";
+			sourceTree = "<absolute>";
+		};
+		7106D5808A658342C01305A4 = {
+			isa = PBXGroup;
+			children = (
+				2D96477CC50C1E41C106F9C2 /* UnrealAtoSMainMac.cpp */,
+			);
+			name = "Mac";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		1CA7C6B4BCC5B03CAA13DB8B = {
+			isa = PBXGroup;
+			children = (
+				752E19F196B170A8A0A03C93 /* UnrealAtoSApp.h */,
+			);
+			name = "Public";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Public";
+			sourceTree = "<absolute>";
+		};
+		09E3CB5A7A6ED62533086B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A64CF882B30568C67EC2BA5 /* UnrealAtoS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1093326D17B97F3532605695 /* UnrealAtoS_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = B9241EC783000DA78E54E9D4 /* Build configuration list for PBXLegacyTarget "UnrealAtoS_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealAtoS_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealAtoS_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		77A51523B3F9876AE59AA6B1 /* UnrealAtoS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD013ECA0F060327CEB3D29 /* Build configuration list for PBXNativeTarget "UnrealAtoS" */;
+			buildPhases = (
+				ADD2C96A9658F03D8EC11731 /* Embed App Extensions */, 
+				E15BAC8AC61F56D24083AEB2 /* Shell Script */, 
+			);
+			dependencies = (
+				F70DE8F3387782ED32D89DB2 /* PBXTargetDependency */,
+			);
+			name = "UnrealAtoS";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealAtoS";
+			productReference = "0A64CF882B30568C67EC2BA5";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		A7FAC10181114AAADE912B80 /* UnrealAtoS_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F92562D04961A90D3ACE07 /* Build configuration list for PBXNativeTarget "UnrealAtoS_Index" */;
+			buildPhases = (
+				9640946083A60E744B7E8B33 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealAtoS_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealAtoS_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128F0867DE8416BCA95DC61C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					77A51523B3F9876AE59AA6B1 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F77DB32015ACB627F99D448A /* Build configuration list for PBXProject "UnrealAtoS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = DBABD644F33FC66D2CBAEFF1;
+			productRefGroup = 09E3CB5A7A6ED62533086B53;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			77A51523B3F9876AE59AA6B1 /* UnrealAtoS */,
+			1093326D17B97F3532605695 /* UnrealAtoS_Build */,
+			A7FAC10181114AAADE912B80 /* UnrealAtoS_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AB66E985AC7AA68B5898ADA8 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/UnrealAtoS",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		907CBA12BEDA8949E6C28A29 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/UnrealAtoS",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		283AA32B7F57AD33110E750E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/UnrealAtoS",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		B49A634BDCCFC46F99E01243 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/UnrealAtoS",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		4845AB2BB51B29417D682D98 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealAtoS/Inc/UnrealAtoS",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Mac/UnrealAtoS/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		A56C8EDA172DC4D429627F27 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		CC79639FA483858EAD5D6BAC /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		21ECC0AF49958B78DDB9A1C3 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		56761F534340A70B78731CFB /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		FC4E4EE788572FF7F3A6F7C3 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		FA83AD2C27B8F32A2316BF30 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealAtoS";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		9CB0B89C883679F59D539BAA /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealAtoS";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		183B003713BECB356716744D /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealAtoS";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		1E44D37520B257BB145F8279 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealAtoS";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		E70EB972BF69BFEA54A32CDA /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealAtoS";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		6F6B90141B8CD948AE04E55A /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		FDE16B498D754AACE06748A2 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		934E7646A56898EF6B5C27A1 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		5B7F58985105B4B23B33EF2F /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		062C06F83640FBF252C09C03 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealAtoS-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77DB32015ACB627F99D448A /* Build configuration list for PBXProject "UnrealAtoS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB66E985AC7AA68B5898ADA8 /* "Debug" */,
+				907CBA12BEDA8949E6C28A29 /* "DebugGame" */,
+				283AA32B7F57AD33110E750E /* "Development" */,
+				B49A634BDCCFC46F99E01243 /* "Shipping" */,
+				4845AB2BB51B29417D682D98 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B9241EC783000DA78E54E9D4 /* Build configuration list for PBXLegacyTarget "UnrealAtoS_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83AD2C27B8F32A2316BF30 /* "Debug" */,
+				9CB0B89C883679F59D539BAA /* "DebugGame" */,
+				183B003713BECB356716744D /* "Development" */,
+				1E44D37520B257BB145F8279 /* "Shipping" */,
+				E70EB972BF69BFEA54A32CDA /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		0DD013ECA0F060327CEB3D29 /* Build configuration list for PBXNativeTarget "UnrealAtoS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56C8EDA172DC4D429627F27 /* "Debug" */,
+				CC79639FA483858EAD5D6BAC /* "DebugGame" */,
+				21ECC0AF49958B78DDB9A1C3 /* "Development" */,
+				56761F534340A70B78731CFB /* "Shipping" */,
+				FC4E4EE788572FF7F3A6F7C3 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		82F92562D04961A90D3ACE07 /* Build configuration list for PBXNativeTarget "UnrealAtoS_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6B90141B8CD948AE04E55A /* "Debug" */,
+				FDE16B498D754AACE06748A2 /* "DebugGame" */,
+				934E7646A56898EF6B5C27A1 /* "Development" */,
+				5B7F58985105B4B23B33EF2F /* "Shipping" */,
+				062C06F83640FBF252C09C03 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 128F0867DE8416BCA95DC61C /* Project object */;
+}

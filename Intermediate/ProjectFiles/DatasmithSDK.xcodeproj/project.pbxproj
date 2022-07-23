@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39FBB1FCC8ED1002D258598 /* DatasmithSDK.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0BACAC96BCB2260674B12 /* DatasmithSDK.Build.cs */; };
+		6D050190ABA180050907CECA /* DatasmithSDK.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CEEAFB17A79680C697008E6E /* DatasmithSDK.Target.cs */; };
+		F6DACEFE2CEC90DFF99A80EA /* 1.Welcome.md in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1760F809C4B17BA487F1D /* 1.Welcome.md */; };
+		B20304FABF0CCD3C53A829F1 /* 2.SetUpYourProject.md in Sources */ = {isa = PBXBuildFile; fileRef = C0D2D34094A69F023FD08E07 /* 2.SetUpYourProject.md */; };
+		F4BCA1C41C3457AE5AB04C29 /* 3.ExportToDatasmith.md in Sources */ = {isa = PBXBuildFile; fileRef = E8961FEDCD44969398844EAE /* 3.ExportToDatasmith.md */; };
+		86B135FB3AFA6F706DF3FB11 /* DatasmithSDK_config.txt in Sources */ = {isa = PBXBuildFile; fileRef = B14305DCD36BB4EB901C82C4 /* DatasmithSDK_config.txt */; };
+		2476421DED3F281DB2848DF7 /* examples.dox in Sources */ = {isa = PBXBuildFile; fileRef = 48E1A77A8D9495770D0E6D0E /* examples.dox */; };
+		76BA3B1AF66C6D6A2F70D7C3 /* footer.txt in Sources */ = {isa = PBXBuildFile; fileRef = B852822DCADE5F2DB50D94F2 /* footer.txt */; };
+		C3395EFC860AB7150833A733 /* header.txt in Sources */ = {isa = PBXBuildFile; fileRef = 040D26451623C7D709E3C13A /* header.txt */; };
+		40A21E47283C8FC23DF07695 /* Datasmith SDK Documentation.html in Sources */ = {isa = PBXBuildFile; fileRef = 29C72169617744EA87C4C831 /* Datasmith SDK Documentation.html */; };
+		5CF3AA6B426F074DE37151A4 /* Datasmith SDK Documentation.zip in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0B73C9328E16C11D09E13 /* Datasmith SDK Documentation.zip */; };
+		1167AD2EAF405968264957BC /* run_doxygen.bat in Sources */ = {isa = PBXBuildFile; fileRef = 0E71E325B9C2BB85AA4F29BD /* run_doxygen.bat */; };
+		B71A179146BCE8E07823EA1F /* styles.css in Sources */ = {isa = PBXBuildFile; fileRef = 5D8865C8DA3F0DBAB66937A5 /* styles.css */; };
+		C80A8214A97DDDE175FC0503 /* Third Party Software Notices.pdf in Sources */ = {isa = PBXBuildFile; fileRef = 6A08201F517B970F85AA58FE /* Third Party Software Notices.pdf */; };
+		1DA3593E254C1E7BD9ECEB35 /* DatasmithSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92247FCEE928B2B7767DCBC0 /* DatasmithSDK.cpp */; };
+		BF08565FE25B1F8B54974E9F /* DatasmithSDK.h in Sources */ = {isa = PBXBuildFile; fileRef = 16C8289653D5CAB1B582AA6F /* DatasmithSDK.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CC0BACAC96BCB2260674B12 /* DatasmithSDK.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithSDK.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/DatasmithSDK.Build.cs"; sourceTree = SOURCE_ROOT; };
+		CEEAFB17A79680C697008E6E /* DatasmithSDK.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithSDK.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/DatasmithSDK.Target.cs"; sourceTree = SOURCE_ROOT; };
+		3CC1760F809C4B17BA487F1D /* 1.Welcome.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "1.Welcome.md"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/1.Welcome.md"; sourceTree = SOURCE_ROOT; };
+		C0D2D34094A69F023FD08E07 /* 2.SetUpYourProject.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "2.SetUpYourProject.md"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/2.SetUpYourProject.md"; sourceTree = SOURCE_ROOT; };
+		E8961FEDCD44969398844EAE /* 3.ExportToDatasmith.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "3.ExportToDatasmith.md"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/3.ExportToDatasmith.md"; sourceTree = SOURCE_ROOT; };
+		B14305DCD36BB4EB901C82C4 /* DatasmithSDK_config.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithSDK_config.txt"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/DatasmithSDK_config.txt"; sourceTree = SOURCE_ROOT; };
+		48E1A77A8D9495770D0E6D0E /* examples.dox */ = {isa = PBXFileReference; explicitFileType = file.text; name = "examples.dox"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/examples.dox"; sourceTree = SOURCE_ROOT; };
+		B852822DCADE5F2DB50D94F2 /* footer.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "footer.txt"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/footer.txt"; sourceTree = SOURCE_ROOT; };
+		040D26451623C7D709E3C13A /* header.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "header.txt"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/header.txt"; sourceTree = SOURCE_ROOT; };
+		29C72169617744EA87C4C831 /* Datasmith SDK Documentation.html */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Datasmith SDK Documentation.html"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/output/Datasmith SDK Documentation.html"; sourceTree = SOURCE_ROOT; };
+		9EA0B73C9328E16C11D09E13 /* Datasmith SDK Documentation.zip */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Datasmith SDK Documentation.zip"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/output/Datasmith SDK Documentation.zip"; sourceTree = SOURCE_ROOT; };
+		0E71E325B9C2BB85AA4F29BD /* run_doxygen.bat */ = {isa = PBXFileReference; explicitFileType = file.text; name = "run_doxygen.bat"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/run_doxygen.bat"; sourceTree = SOURCE_ROOT; };
+		5D8865C8DA3F0DBAB66937A5 /* styles.css */ = {isa = PBXFileReference; explicitFileType = file.text; name = "styles.css"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/styles.css"; sourceTree = SOURCE_ROOT; };
+		6A08201F517B970F85AA58FE /* Third Party Software Notices.pdf */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Third Party Software Notices.pdf"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/Third Party Software Notices.pdf"; sourceTree = SOURCE_ROOT; };
+		92247FCEE928B2B7767DCBC0 /* DatasmithSDK.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithSDK.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.cpp"; sourceTree = SOURCE_ROOT; };
+		16C8289653D5CAB1B582AA6F /* DatasmithSDK.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DatasmithSDK.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.h"; sourceTree = SOURCE_ROOT; };
+		AF8574BFC6F6080F384D4E32 /* DatasmithSDK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithSDK; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E0384E8D9B6AB040B39A6C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA3593E254C1E7BD9ECEB35 /* DatasmithSDK.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	0C014402EA8491F3A8564999 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		B44BC4A76119C94CDD73D753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6241295258E6DB7CAF436DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7F53581ED3E55AEC8DCF71;
+			remoteInfo = "DatasmithSDK_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		DC2FF1809560F89F462B75DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7F53581ED3E55AEC8DCF71 /* DatasmithSDK_Build */;
+			targetProxy = B44BC4A76119C94CDD73D753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		B7ECD9D937AD58E85407ECE0 = {
+			isa = PBXGroup;
+			children = (
+				114DE02AE281D576CFE19ED7 /* Documentation */,
+				7F4F59FCD684B2EE8ACF105D /* Private */,
+				9CC0BACAC96BCB2260674B12 /* DatasmithSDK.Build.cs */,
+				CEEAFB17A79680C697008E6E /* DatasmithSDK.Target.cs */,
+				3C500E15B611338104490EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		114DE02AE281D576CFE19ED7 = {
+			isa = PBXGroup;
+			children = (
+				D83FEDEEF7AF03DF77ECE27D /* build */,
+				3CC1760F809C4B17BA487F1D /* 1.Welcome.md */,
+				C0D2D34094A69F023FD08E07 /* 2.SetUpYourProject.md */,
+				E8961FEDCD44969398844EAE /* 3.ExportToDatasmith.md */,
+				6A08201F517B970F85AA58FE /* Third Party Software Notices.pdf */,
+			);
+			name = "Documentation";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation";
+			sourceTree = "<absolute>";
+		};
+		D83FEDEEF7AF03DF77ECE27D = {
+			isa = PBXGroup;
+			children = (
+				3B1AEF35CBD37361F3332C63 /* output */,
+				B14305DCD36BB4EB901C82C4 /* DatasmithSDK_config.txt */,
+				48E1A77A8D9495770D0E6D0E /* examples.dox */,
+				B852822DCADE5F2DB50D94F2 /* footer.txt */,
+				040D26451623C7D709E3C13A /* header.txt */,
+				0E71E325B9C2BB85AA4F29BD /* run_doxygen.bat */,
+				5D8865C8DA3F0DBAB66937A5 /* styles.css */,
+			);
+			name = "build";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build";
+			sourceTree = "<absolute>";
+		};
+		3B1AEF35CBD37361F3332C63 = {
+			isa = PBXGroup;
+			children = (
+				29C72169617744EA87C4C831 /* Datasmith SDK Documentation.html */,
+				9EA0B73C9328E16C11D09E13 /* Datasmith SDK Documentation.zip */,
+			);
+			name = "output";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Documentation/build/output";
+			sourceTree = "<absolute>";
+		};
+		7F4F59FCD684B2EE8ACF105D = {
+			isa = PBXGroup;
+			children = (
+				92247FCEE928B2B7767DCBC0 /* DatasmithSDK.cpp */,
+				16C8289653D5CAB1B582AA6F /* DatasmithSDK.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private";
+			sourceTree = "<absolute>";
+		};
+		3C500E15B611338104490EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8574BFC6F6080F384D4E32 /* DatasmithSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A7F53581ED3E55AEC8DCF71 /* DatasmithSDK_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = DAF494C6E6E6F568579ED00F /* Build configuration list for PBXLegacyTarget "DatasmithSDK_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "DatasmithSDK_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithSDK_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C06B212A610BFFE9B916732B /* DatasmithSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85626883BD9F9CF6E0B032D3 /* Build configuration list for PBXNativeTarget "DatasmithSDK" */;
+			buildPhases = (
+				0C014402EA8491F3A8564999 /* Embed App Extensions */, 
+				595F92557F7F716EDDE09356 /* Shell Script */, 
+			);
+			dependencies = (
+				DC2FF1809560F89F462B75DB /* PBXTargetDependency */,
+			);
+			name = "DatasmithSDK";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithSDK";
+			productReference = "AF8574BFC6F6080F384D4E32";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		EB38D94F2266A266FC918DE2 /* DatasmithSDK_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5712E098E7D6722B603E4D1 /* Build configuration list for PBXNativeTarget "DatasmithSDK_Index" */;
+			buildPhases = (
+				46E0384E8D9B6AB040B39A6C /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DatasmithSDK_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithSDK_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6241295258E6DB7CAF436DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					C06B212A610BFFE9B916732B = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FA953786EA68754967B20175 /* Build configuration list for PBXProject "DatasmithSDK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = B7ECD9D937AD58E85407ECE0;
+			productRefGroup = 3C500E15B611338104490EF8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			C06B212A610BFFE9B916732B /* DatasmithSDK */,
+			1A7F53581ED3E55AEC8DCF71 /* DatasmithSDK_Build */,
+			EB38D94F2266A266FC918DE2 /* DatasmithSDK_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		740A5AB89C3CA089B5A209B4 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithSDK",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		E8F1B6C191A4BED5152CB088 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithSDK",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		785AA37997ACAA319BD5FCAD /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithSDK",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		9EF3A9A2D138D081485C361B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithSDK",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		607282CBC255C2E5B6B5B0B2 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithSDK/Inc/DatasmithSDK",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		CC30977FB81B4FEF979FF42E /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		0BDF478913DD46DDA3B656E0 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		6BE619D75385FD2806F61246 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		FEC046421D052A0986B93DF4 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		497040D6E6E1FE9A744E9407 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		081431C1422C8E2B6EEE8DE0 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithSDK";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		C5E338D7BB3DD82A8AE3D850 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithSDK";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		427CADEAEB58B8F782625F60 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithSDK";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		F21EEF5F407276541D634BF7 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithSDK";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		DFE177A9A0FFCC7A3D77FECE /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithSDK";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		29D8566CB6BFE3B756DD894E /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		76CD9ACA30B8CBFD27CE60D6 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		9A5F93DE38A7B5A0D0ED5F49 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		AE15254991DD183D2877E078 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		EFAA92C7A16641F965720021 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithSDK-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA953786EA68754967B20175 /* Build configuration list for PBXProject "DatasmithSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740A5AB89C3CA089B5A209B4 /* "Debug" */,
+				E8F1B6C191A4BED5152CB088 /* "DebugGame" */,
+				785AA37997ACAA319BD5FCAD /* "Development" */,
+				9EF3A9A2D138D081485C361B /* "Shipping" */,
+				607282CBC255C2E5B6B5B0B2 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DAF494C6E6E6F568579ED00F /* Build configuration list for PBXLegacyTarget "DatasmithSDK_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081431C1422C8E2B6EEE8DE0 /* "Debug" */,
+				C5E338D7BB3DD82A8AE3D850 /* "DebugGame" */,
+				427CADEAEB58B8F782625F60 /* "Development" */,
+				F21EEF5F407276541D634BF7 /* "Shipping" */,
+				DFE177A9A0FFCC7A3D77FECE /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		85626883BD9F9CF6E0B032D3 /* Build configuration list for PBXNativeTarget "DatasmithSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC30977FB81B4FEF979FF42E /* "Debug" */,
+				0BDF478913DD46DDA3B656E0 /* "DebugGame" */,
+				6BE619D75385FD2806F61246 /* "Development" */,
+				FEC046421D052A0986B93DF4 /* "Shipping" */,
+				497040D6E6E1FE9A744E9407 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C5712E098E7D6722B603E4D1 /* Build configuration list for PBXNativeTarget "DatasmithSDK_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D8566CB6BFE3B756DD894E /* "Debug" */,
+				76CD9ACA30B8CBFD27CE60D6 /* "DebugGame" */,
+				9A5F93DE38A7B5A0D0ED5F49 /* "Development" */,
+				AE15254991DD183D2877E078 /* "Shipping" */,
+				EFAA92C7A16641F965720021 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6241295258E6DB7CAF436DE5 /* Project object */;
+}

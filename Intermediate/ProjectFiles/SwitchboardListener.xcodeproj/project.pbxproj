@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3C74F86D059C571BB04025D /* CpuUtilizationMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9E869D7BA5FD7A3BDF8C5EF /* CpuUtilizationMonitor.cpp */; };
+		BEFF87D4CC6DEDA03BE8F652 /* CpuUtilizationMonitor.h in Sources */ = {isa = PBXBuildFile; fileRef = B20B53E63EA46AC5518579FE /* CpuUtilizationMonitor.h */; };
+		E2B0B8DF8AC93EAA0260C8D0 /* SwitchboardListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A54D17622101F21725AE /* SwitchboardListener.cpp */; };
+		0CF165188EFF9E388689F11B /* SwitchboardListener.h in Sources */ = {isa = PBXBuildFile; fileRef = B50D1571A94B4F514382144D /* SwitchboardListener.h */; };
+		FE1DAEEE64780BCB8A09D399 /* SwitchboardListenerApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 64251C02C28F4A48FF899809 /* SwitchboardListenerApp.h */; };
+		4CAF57A7C7D36A89DC181A71 /* SwitchboardListenerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51AFD40E7D2691AB3A7C0D83 /* SwitchboardListenerMain.cpp */; };
+		2E4D8FB437CC4E7484A5A2B4 /* SwitchboardListenerVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 206403B69E49BD4B0BABB112 /* SwitchboardListenerVersion.h */; };
+		BA3CCAD8F8ECCED0A1D4797A /* SwitchboardMessageFuture.h in Sources */ = {isa = PBXBuildFile; fileRef = 44B6510FCAA5ECAB0D1FED19 /* SwitchboardMessageFuture.h */; };
+		23DA0CF1BFC277839B7DF9FB /* SwitchboardPacket.h in Sources */ = {isa = PBXBuildFile; fileRef = 02757C98D6D2134BEA8972E8 /* SwitchboardPacket.h */; };
+		F7AD8066BE05049B4EB0B51E /* SwitchboardProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFDD11DF5CF5DEC7BC560D54 /* SwitchboardProtocol.cpp */; };
+		2853D53B0CA12E9A6724F911 /* SwitchboardProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 4111C495785EAD51C05EB8F9 /* SwitchboardProtocol.h */; };
+		C133EFF5AAAB2CA1A02B3D6A /* SwitchboardTasks.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C98EAC821BB6BBE4FF9D4B /* SwitchboardTasks.h */; };
+		31484F5EA8BB94CA9BDB7AD8 /* SyncStatus.h in Sources */ = {isa = PBXBuildFile; fileRef = B239EFBCF7577016D45965AE /* SyncStatus.h */; };
+		5F8B7E6189105F1A06867AAC /* Icon.ico in Sources */ = {isa = PBXBuildFile; fileRef = 3988310E2DEB7EBC3F50F8A8 /* Icon.ico */; };
+		4F328E9572ECD29D9A992D04 /* Resource.h in Sources */ = {isa = PBXBuildFile; fileRef = 08154ED34074A1667476643D /* Resource.h */; };
+		8733E0890FA3EA0E93D61257 /* Resource.rc in Sources */ = {isa = PBXBuildFile; fileRef = 81CAA71AB3DC12A05B2D0618 /* Resource.rc */; };
+		9DAA7BCBAE9133D8CD500E3F /* Resource.rc2 in Sources */ = {isa = PBXBuildFile; fileRef = 0B488EF6AE1E713202F65176 /* Resource.rc2 */; };
+		CF00CFA5A7FD15C196A4C361 /* WindowsCpuUtilizationMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDF8E49772CF554FB5FA48 /* WindowsCpuUtilizationMonitor.cpp */; };
+		2BFAC38C8F8776D7E3A08EA8 /* WindowsCpuUtilizationMonitor.h in Sources */ = {isa = PBXBuildFile; fileRef = ECEE239DC6B9420E758D5F2A /* WindowsCpuUtilizationMonitor.h */; };
+		C59B300507CC8284D94D8317 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = A7D21E8F43A1626F2153E02C /* ReadMe.md */; };
+		02A9E3991A0192243F031525 /* SwitchboardListener.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = CA54E362E74C87723E626DFB /* SwitchboardListener.Build.cs */; };
+		1E28F34870E1856813EECEB3 /* SwitchboardListener.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0141FF4192E47D10570BDFD4 /* SwitchboardListener.Target.cs */; };
+		CC87B29864C4E25A2DC8EC64 /* listener_tests.py in Sources */ = {isa = PBXBuildFile; fileRef = 271F6001A2398931BB680F6A /* listener_tests.py */; };
+		4E1BF13CBCD315A75805FE26 /* transfer_test.cfg in Sources */ = {isa = PBXBuildFile; fileRef = DE9B73096EB311425C29CE8F /* transfer_test.cfg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9E869D7BA5FD7A3BDF8C5EF /* CpuUtilizationMonitor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CpuUtilizationMonitor.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/CpuUtilizationMonitor.cpp"; sourceTree = SOURCE_ROOT; };
+		B20B53E63EA46AC5518579FE /* CpuUtilizationMonitor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CpuUtilizationMonitor.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/CpuUtilizationMonitor.h"; sourceTree = SOURCE_ROOT; };
+		D1F0A54D17622101F21725AE /* SwitchboardListener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SwitchboardListener.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.cpp"; sourceTree = SOURCE_ROOT; };
+		B50D1571A94B4F514382144D /* SwitchboardListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardListener.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.h"; sourceTree = SOURCE_ROOT; };
+		64251C02C28F4A48FF899809 /* SwitchboardListenerApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardListenerApp.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerApp.h"; sourceTree = SOURCE_ROOT; };
+		51AFD40E7D2691AB3A7C0D83 /* SwitchboardListenerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SwitchboardListenerMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		206403B69E49BD4B0BABB112 /* SwitchboardListenerVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardListenerVersion.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerVersion.h"; sourceTree = SOURCE_ROOT; };
+		44B6510FCAA5ECAB0D1FED19 /* SwitchboardMessageFuture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardMessageFuture.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardMessageFuture.h"; sourceTree = SOURCE_ROOT; };
+		02757C98D6D2134BEA8972E8 /* SwitchboardPacket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardPacket.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardPacket.h"; sourceTree = SOURCE_ROOT; };
+		DFDD11DF5CF5DEC7BC560D54 /* SwitchboardProtocol.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SwitchboardProtocol.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.cpp"; sourceTree = SOURCE_ROOT; };
+		4111C495785EAD51C05EB8F9 /* SwitchboardProtocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardProtocol.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.h"; sourceTree = SOURCE_ROOT; };
+		30C98EAC821BB6BBE4FF9D4B /* SwitchboardTasks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardTasks.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardTasks.h"; sourceTree = SOURCE_ROOT; };
+		B239EFBCF7577016D45965AE /* SyncStatus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SyncStatus.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SyncStatus.h"; sourceTree = SOURCE_ROOT; };
+		3988310E2DEB7EBC3F50F8A8 /* Icon.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Icon.ico"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Icon.ico"; sourceTree = SOURCE_ROOT; };
+		08154ED34074A1667476643D /* Resource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Resource.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.h"; sourceTree = SOURCE_ROOT; };
+		81CAA71AB3DC12A05B2D0618 /* Resource.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.rc"; sourceTree = SOURCE_ROOT; };
+		0B488EF6AE1E713202F65176 /* Resource.rc2 */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc2"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.rc2"; sourceTree = SOURCE_ROOT; };
+		5CCDF8E49772CF554FB5FA48 /* WindowsCpuUtilizationMonitor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WindowsCpuUtilizationMonitor.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/WindowsCpuUtilizationMonitor.cpp"; sourceTree = SOURCE_ROOT; };
+		ECEE239DC6B9420E758D5F2A /* WindowsCpuUtilizationMonitor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "WindowsCpuUtilizationMonitor.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/WindowsCpuUtilizationMonitor.h"; sourceTree = SOURCE_ROOT; };
+		A7D21E8F43A1626F2153E02C /* ReadMe.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReadMe.md"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/ReadMe.md"; sourceTree = SOURCE_ROOT; };
+		CA54E362E74C87723E626DFB /* SwitchboardListener.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SwitchboardListener.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Build.cs"; sourceTree = SOURCE_ROOT; };
+		0141FF4192E47D10570BDFD4 /* SwitchboardListener.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SwitchboardListener.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Target.cs"; sourceTree = SOURCE_ROOT; };
+		271F6001A2398931BB680F6A /* listener_tests.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "listener_tests.py"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Tests/listener_tests.py"; sourceTree = SOURCE_ROOT; };
+		DE9B73096EB311425C29CE8F /* transfer_test.cfg */ = {isa = PBXFileReference; explicitFileType = file.text; name = "transfer_test.cfg"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Tests/transfer_test.cfg"; sourceTree = SOURCE_ROOT; };
+		F3AD6DA64E368234F0ECD067 /* SwitchboardListener */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SwitchboardListener; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA49B97B304027AEC987598 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C74F86D059C571BB04025D /* CpuUtilizationMonitor.cpp in Sources */,
+				E2B0B8DF8AC93EAA0260C8D0 /* SwitchboardListener.cpp in Sources */,
+				4CAF57A7C7D36A89DC181A71 /* SwitchboardListenerMain.cpp in Sources */,
+				F7AD8066BE05049B4EB0B51E /* SwitchboardProtocol.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	89702281E518757E89C3B482 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		A2EE9B00080097B6E716CDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00AC7AE40ACB1CC121C4ACE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D758EBC11877532D6B5B65EC;
+			remoteInfo = "SwitchboardListener_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		1A18F72BD381D5951B0ECD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D758EBC11877532D6B5B65EC /* SwitchboardListener_Build */;
+			targetProxy = A2EE9B00080097B6E716CDE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		6E7141AB9F9FDF9373B2E4DE = {
+			isa = PBXGroup;
+			children = (
+				08B62F589831EEA4A9B2CFB7 /* Private */,
+				6CC299037BEC2E3FD5447047 /* Tests */,
+				A7D21E8F43A1626F2153E02C /* ReadMe.md */,
+				CA54E362E74C87723E626DFB /* SwitchboardListener.Build.cs */,
+				0141FF4192E47D10570BDFD4 /* SwitchboardListener.Target.cs */,
+				1D7AAB5218668E502AB43F54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08B62F589831EEA4A9B2CFB7 = {
+			isa = PBXGroup;
+			children = (
+				61ACC6836B6E433959552E8E /* Windows */,
+				E9E869D7BA5FD7A3BDF8C5EF /* CpuUtilizationMonitor.cpp */,
+				B20B53E63EA46AC5518579FE /* CpuUtilizationMonitor.h */,
+				D1F0A54D17622101F21725AE /* SwitchboardListener.cpp */,
+				B50D1571A94B4F514382144D /* SwitchboardListener.h */,
+				64251C02C28F4A48FF899809 /* SwitchboardListenerApp.h */,
+				51AFD40E7D2691AB3A7C0D83 /* SwitchboardListenerMain.cpp */,
+				206403B69E49BD4B0BABB112 /* SwitchboardListenerVersion.h */,
+				44B6510FCAA5ECAB0D1FED19 /* SwitchboardMessageFuture.h */,
+				02757C98D6D2134BEA8972E8 /* SwitchboardPacket.h */,
+				DFDD11DF5CF5DEC7BC560D54 /* SwitchboardProtocol.cpp */,
+				4111C495785EAD51C05EB8F9 /* SwitchboardProtocol.h */,
+				30C98EAC821BB6BBE4FF9D4B /* SwitchboardTasks.h */,
+				B239EFBCF7577016D45965AE /* SyncStatus.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private";
+			sourceTree = "<absolute>";
+		};
+		61ACC6836B6E433959552E8E = {
+			isa = PBXGroup;
+			children = (
+				90D0D7C2A11836D920898F79 /* Resources */,
+				5CCDF8E49772CF554FB5FA48 /* WindowsCpuUtilizationMonitor.cpp */,
+				ECEE239DC6B9420E758D5F2A /* WindowsCpuUtilizationMonitor.h */,
+			);
+			name = "Windows";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		90D0D7C2A11836D920898F79 = {
+			isa = PBXGroup;
+			children = (
+				3988310E2DEB7EBC3F50F8A8 /* Icon.ico */,
+				08154ED34074A1667476643D /* Resource.h */,
+				81CAA71AB3DC12A05B2D0618 /* Resource.rc */,
+				0B488EF6AE1E713202F65176 /* Resource.rc2 */,
+			);
+			name = "Resources";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources";
+			sourceTree = "<absolute>";
+		};
+		6CC299037BEC2E3FD5447047 = {
+			isa = PBXGroup;
+			children = (
+				271F6001A2398931BB680F6A /* listener_tests.py */,
+				DE9B73096EB311425C29CE8F /* transfer_test.cfg */,
+			);
+			name = "Tests";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Tests";
+			sourceTree = "<absolute>";
+		};
+		1D7AAB5218668E502AB43F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD6DA64E368234F0ECD067 /* SwitchboardListener */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D758EBC11877532D6B5B65EC /* SwitchboardListener_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = EBBA35D6B90CE1044B153726 /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "SwitchboardListener_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SwitchboardListener_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		86B3B4EA80CF84BE42EE0C6E /* SwitchboardListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B38AA08DA86BA3ED751C2C8 /* Build configuration list for PBXNativeTarget "SwitchboardListener" */;
+			buildPhases = (
+				89702281E518757E89C3B482 /* Embed App Extensions */, 
+				037A9E2BF76FB8BA32EDADFB /* Shell Script */, 
+			);
+			dependencies = (
+				1A18F72BD381D5951B0ECD4F /* PBXTargetDependency */,
+			);
+			name = "SwitchboardListener";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SwitchboardListener";
+			productReference = "F3AD6DA64E368234F0ECD067";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		142F46E58B985EB61E3428AF /* SwitchboardListener_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D69D6FC29F76984781BB94 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */;
+			buildPhases = (
+				FDA49B97B304027AEC987598 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "SwitchboardListener_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SwitchboardListener_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00AC7AE40ACB1CC121C4ACE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					86B3B4EA80CF84BE42EE0C6E = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 306EA2D2FCAFCDB69286C0E2 /* Build configuration list for PBXProject "SwitchboardListener" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 6E7141AB9F9FDF9373B2E4DE;
+			productRefGroup = 1D7AAB5218668E502AB43F54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			86B3B4EA80CF84BE42EE0C6E /* SwitchboardListener */,
+			D758EBC11877532D6B5B65EC /* SwitchboardListener_Build */,
+			142F46E58B985EB61E3428AF /* SwitchboardListener_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0347E06EAF69F2850412C9A7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		04A67B7122720CEAB3A808D9 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		8835448512CB5C37CC447E77 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		43DA6E6409EB5D1C2A8DD27F /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		EAE9F0F4FB4CBB57284F2741 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		430C6B113EC1CA3AEF189338 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		E675A549AC2CE41C8ECCD937 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		094B50102199EB4DFD6C0AB7 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		C96155830A8106FA13EBB11F /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		DA9F1D1C4B213296A94EA935 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		66D6837CDFBB669CC3267E9E /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		F2AA69C09AA3866FEE987839 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		B29302FAE14939FD710E3765 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		3CC810BDFF0E41B04C32B707 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		8D8149F9B0E0F05F6E35D216 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		3806CE20D02E7EF0B1F6E8EA /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		3FF47A501A93EA90FEF4395A /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		5E015C223C406CFB760247CF /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		DAD4F385B11A3AD12FDD59DB /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		1D4CB500775FDF8BACB2AA11 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "SwitchboardListener-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306EA2D2FCAFCDB69286C0E2 /* Build configuration list for PBXProject "SwitchboardListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0347E06EAF69F2850412C9A7 /* "Debug" */,
+				04A67B7122720CEAB3A808D9 /* "DebugGame" */,
+				8835448512CB5C37CC447E77 /* "Development" */,
+				43DA6E6409EB5D1C2A8DD27F /* "Shipping" */,
+				EAE9F0F4FB4CBB57284F2741 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		EBBA35D6B90CE1044B153726 /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D6837CDFBB669CC3267E9E /* "Debug" */,
+				F2AA69C09AA3866FEE987839 /* "DebugGame" */,
+				B29302FAE14939FD710E3765 /* "Development" */,
+				3CC810BDFF0E41B04C32B707 /* "Shipping" */,
+				8D8149F9B0E0F05F6E35D216 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		3B38AA08DA86BA3ED751C2C8 /* Build configuration list for PBXNativeTarget "SwitchboardListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430C6B113EC1CA3AEF189338 /* "Debug" */,
+				E675A549AC2CE41C8ECCD937 /* "DebugGame" */,
+				094B50102199EB4DFD6C0AB7 /* "Development" */,
+				C96155830A8106FA13EBB11F /* "Shipping" */,
+				DA9F1D1C4B213296A94EA935 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		15D69D6FC29F76984781BB94 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3806CE20D02E7EF0B1F6E8EA /* "Debug" */,
+				3FF47A501A93EA90FEF4395A /* "DebugGame" */,
+				5E015C223C406CFB760247CF /* "Development" */,
+				DAD4F385B11A3AD12FDD59DB /* "Shipping" */,
+				1D4CB500775FDF8BACB2AA11 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00AC7AE40ACB1CC121C4ACE9 /* Project object */;
+}

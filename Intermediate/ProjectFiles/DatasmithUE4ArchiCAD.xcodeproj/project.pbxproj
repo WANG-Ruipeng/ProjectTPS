@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C345632821144D6DD1FAEE7 /* DatasmithUE4ArchiCAD.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0D54645857D58409F9579D7F /* DatasmithUE4ArchiCAD.Build.cs */; };
+		1CA02256E208777020EF3683 /* DatasmithUE4ArchiCAD.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DatasmithUE4ArchiCAD.Target.cs */; };
+		A8168B6C9561A4A97ACF15E9 /* DatasmithUE4ArchiCAD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A5929D4D0360E4149497E /* DatasmithUE4ArchiCAD.cpp */; };
+		0A86500677765B4596D6896B /* DatasmithUE4ArchiCAD.h in Sources */ = {isa = PBXBuildFile; fileRef = 85D7417C7A056D3E3F7BD90D /* DatasmithUE4ArchiCAD.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D54645857D58409F9579D7F /* DatasmithUE4ArchiCAD.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithUE4ArchiCAD.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/DatasmithUE4ArchiCAD.Build.cs"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DatasmithUE4ArchiCAD.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithUE4ArchiCAD.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/DatasmithUE4ArchiCAD.Target.cs"; sourceTree = SOURCE_ROOT; };
+		7E4A5929D4D0360E4149497E /* DatasmithUE4ArchiCAD.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithUE4ArchiCAD.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private/DatasmithUE4ArchiCAD.cpp"; sourceTree = SOURCE_ROOT; };
+		85D7417C7A056D3E3F7BD90D /* DatasmithUE4ArchiCAD.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DatasmithUE4ArchiCAD.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private/DatasmithUE4ArchiCAD.h"; sourceTree = SOURCE_ROOT; };
+		F7FB4F494C2F6616AF8F73FA /* DatasmithUE4ArchiCAD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithUE4ArchiCAD; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8E34392524162C11F47506A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8168B6C9561A4A97ACF15E9 /* DatasmithUE4ArchiCAD.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	63CD6D07CFDE8A7D4C05353D /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		6A6D1B6AE35E1B111BDF5A09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54528B80902A44A3C7B9EFF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569B7DD512425E1B8BE3227B;
+			remoteInfo = "DatasmithUE4ArchiCAD_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		2710BCCBBF3468D5E31A07C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 569B7DD512425E1B8BE3227B /* DatasmithUE4ArchiCAD_Build */;
+			targetProxy = 6A6D1B6AE35E1B111BDF5A09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		2F26C77635BFE911693B5E61 = {
+			isa = PBXGroup;
+			children = (
+				5E7B393F3152BF2E4DDCF3BA /* Private */,
+				0D54645857D58409F9579D7F /* DatasmithUE4ArchiCAD.Build.cs */,
+				5873D72E80F5FC38B15BAE4B /* DatasmithUE4ArchiCAD.Target.cs */,
+				65924ACFDB718127560B20D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E7B393F3152BF2E4DDCF3BA = {
+			isa = PBXGroup;
+			children = (
+				7E4A5929D4D0360E4149497E /* DatasmithUE4ArchiCAD.cpp */,
+				85D7417C7A056D3E3F7BD90D /* DatasmithUE4ArchiCAD.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private";
+			sourceTree = "<absolute>";
+		};
+		65924ACFDB718127560B20D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7FB4F494C2F6616AF8F73FA /* DatasmithUE4ArchiCAD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		569B7DD512425E1B8BE3227B /* DatasmithUE4ArchiCAD_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 94FFDB148A2EFF48B6B3D4C3 /* Build configuration list for PBXLegacyTarget "DatasmithUE4ArchiCAD_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "DatasmithUE4ArchiCAD_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithUE4ArchiCAD_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		BCEEAA9A0B12673D0A7B1841 /* DatasmithUE4ArchiCAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3693A58CE8AF69BF72A63F1A /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD" */;
+			buildPhases = (
+				63CD6D07CFDE8A7D4C05353D /* Embed App Extensions */, 
+				FCB29879110BEE2405F19E52 /* Shell Script */, 
+			);
+			dependencies = (
+				2710BCCBBF3468D5E31A07C2 /* PBXTargetDependency */,
+			);
+			name = "DatasmithUE4ArchiCAD";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithUE4ArchiCAD";
+			productReference = "F7FB4F494C2F6616AF8F73FA";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		E51E89B3B4F113DBF9201448 /* DatasmithUE4ArchiCAD_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E046FED9803F7D14D9D3B54D /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD_Index" */;
+			buildPhases = (
+				D8E34392524162C11F47506A /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DatasmithUE4ArchiCAD_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithUE4ArchiCAD_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54528B80902A44A3C7B9EFF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					BCEEAA9A0B12673D0A7B1841 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B9AB679AD0468173EB923344 /* Build configuration list for PBXProject "DatasmithUE4ArchiCAD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 2F26C77635BFE911693B5E61;
+			productRefGroup = 65924ACFDB718127560B20D5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			BCEEAA9A0B12673D0A7B1841 /* DatasmithUE4ArchiCAD */,
+			569B7DD512425E1B8BE3227B /* DatasmithUE4ArchiCAD_Build */,
+			E51E89B3B4F113DBF9201448 /* DatasmithUE4ArchiCAD_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		7C56BF27D99D421D41E06C0D /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporterUI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MessagingCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithValidator",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatasmithValidator/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithUE4ArchiCAD",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		B376A36268CBA475C01F7EF1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporterUI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MessagingCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithValidator",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatasmithValidator/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithUE4ArchiCAD",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		52E69F4AAB8CA8D41D84638D /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporterUI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MessagingCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithValidator",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatasmithValidator/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithUE4ArchiCAD",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		A9733A8433EDC5705A255931 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporterUI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MessagingCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithValidator",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatasmithValidator/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithUE4ArchiCAD",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		DC00B98808659C610A83999A /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatsmithUE4ArchiCAD/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DirectLink",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/RawMesh",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/StaticMeshDescription",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithExporterUI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/MessagingCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithValidator",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/DatasmithValidator/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithUE4ArchiCAD/Inc/DatasmithUE4ArchiCAD",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		037A577780A389D2AD06969F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		ED2EC4157CFADEE9EEDF581E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		BC0E6B44C55E7ED4CEE28C7A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		18CFAEC449157342CB4869B6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		898151D149E35D0C9FFBA594 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		A9E8B013582C64712F1A8B78 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithUE4ArchiCAD";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		FFDA0F960A7B5A1F72185FE2 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithUE4ArchiCAD";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		F17A73D926593A4D197A4323 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithUE4ArchiCAD";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		EB9863441E88DB75D30C2FB3 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithUE4ArchiCAD";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		FB478DF77FB300A8CCC2671E /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithUE4ArchiCAD";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		1E62A3AEC317FC1B458A7597 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		880109637515B8FFE3B2C194 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		DB0F73E5708AC4039E7CA767 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		1FB5192CB4D3C9B6B542CCA1 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		CE526D6E70CEA89B1C7FA233 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "DatasmithUE4ArchiCAD-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9AB679AD0468173EB923344 /* Build configuration list for PBXProject "DatasmithUE4ArchiCAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C56BF27D99D421D41E06C0D /* "Debug" */,
+				B376A36268CBA475C01F7EF1 /* "DebugGame" */,
+				52E69F4AAB8CA8D41D84638D /* "Development" */,
+				A9733A8433EDC5705A255931 /* "Shipping" */,
+				DC00B98808659C610A83999A /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		94FFDB148A2EFF48B6B3D4C3 /* Build configuration list for PBXLegacyTarget "DatasmithUE4ArchiCAD_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E8B013582C64712F1A8B78 /* "Debug" */,
+				FFDA0F960A7B5A1F72185FE2 /* "DebugGame" */,
+				F17A73D926593A4D197A4323 /* "Development" */,
+				EB9863441E88DB75D30C2FB3 /* "Shipping" */,
+				FB478DF77FB300A8CCC2671E /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		3693A58CE8AF69BF72A63F1A /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037A577780A389D2AD06969F /* "Debug" */,
+				ED2EC4157CFADEE9EEDF581E /* "DebugGame" */,
+				BC0E6B44C55E7ED4CEE28C7A /* "Development" */,
+				18CFAEC449157342CB4869B6 /* "Shipping" */,
+				898151D149E35D0C9FFBA594 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E046FED9803F7D14D9D3B54D /* Build configuration list for PBXNativeTarget "DatasmithUE4ArchiCAD_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E62A3AEC317FC1B458A7597 /* "Debug" */,
+				880109637515B8FFE3B2C194 /* "DebugGame" */,
+				DB0F73E5708AC4039E7CA767 /* "Development" */,
+				1FB5192CB4D3C9B6B542CCA1 /* "Shipping" */,
+				CE526D6E70CEA89B1C7FA233 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54528B80902A44A3C7B9EFF3 /* Project object */;
+}

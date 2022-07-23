@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCDB93C7BE9FFD1FE0AE8F1 /* BootstrapPackagedGame.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 78C35A087F30E920842C2DFA /* BootstrapPackagedGame.Build.cs */; };
+		6EFDCB77488E8264F4C508D7 /* BootstrapPackagedGame.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = B39EC8FFBF5D5CEB9677CAE7 /* BootstrapPackagedGame.Target.cs */; };
+		67B69AEA5656BD18CAE20F64 /* BootstrapPackagedGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5518A793E0641D1565F9A9 /* BootstrapPackagedGame.cpp */; };
+		9A7D9273C3EAD6D09FBFD5C5 /* BootstrapPackagedGame.h in Sources */ = {isa = PBXBuildFile; fileRef = 4E147AA84CCF2795B4F51D2A /* BootstrapPackagedGame.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78C35A087F30E920842C2DFA /* BootstrapPackagedGame.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BootstrapPackagedGame.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/BootstrapPackagedGame.Build.cs"; sourceTree = SOURCE_ROOT; };
+		B39EC8FFBF5D5CEB9677CAE7 /* BootstrapPackagedGame.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BootstrapPackagedGame.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/BootstrapPackagedGame.Target.cs"; sourceTree = SOURCE_ROOT; };
+		EA5518A793E0641D1565F9A9 /* BootstrapPackagedGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BootstrapPackagedGame.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private/BootstrapPackagedGame.cpp"; sourceTree = SOURCE_ROOT; };
+		4E147AA84CCF2795B4F51D2A /* BootstrapPackagedGame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BootstrapPackagedGame.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private/BootstrapPackagedGame.h"; sourceTree = SOURCE_ROOT; };
+		7B4DB244A98D569679184C17 /* BootstrapPackagedGame */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BootstrapPackagedGame; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3BB24A724E8E6AE3BF25529 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	8A30D71E61ED48E660EBE701 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		7250FF0FA47013017BA10AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F050EF3AB251917B1CCA37E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E548806AA69F6DE61B4C00C8;
+			remoteInfo = "BootstrapPackagedGame_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		9C9049A703E5031F8CFCA9BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E548806AA69F6DE61B4C00C8 /* BootstrapPackagedGame_Build */;
+			targetProxy = 7250FF0FA47013017BA10AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		E489C660A4FD68499D430E54 = {
+			isa = PBXGroup;
+			children = (
+				0C0296A4E1A4F51BF1A5EF3F /* Private */,
+				78C35A087F30E920842C2DFA /* BootstrapPackagedGame.Build.cs */,
+				B39EC8FFBF5D5CEB9677CAE7 /* BootstrapPackagedGame.Target.cs */,
+				2208A7B256AE3F267274B3C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C0296A4E1A4F51BF1A5EF3F = {
+			isa = PBXGroup;
+			children = (
+				EA5518A793E0641D1565F9A9 /* BootstrapPackagedGame.cpp */,
+				4E147AA84CCF2795B4F51D2A /* BootstrapPackagedGame.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private";
+			sourceTree = "<absolute>";
+		};
+		2208A7B256AE3F267274B3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4DB244A98D569679184C17 /* BootstrapPackagedGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E548806AA69F6DE61B4C00C8 /* BootstrapPackagedGame_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 22769D05A73F65FB85692CB5 /* Build configuration list for PBXLegacyTarget "BootstrapPackagedGame_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "BootstrapPackagedGame_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BootstrapPackagedGame_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		51BAF9E9A72FF0834FAABEF9 /* BootstrapPackagedGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C409721921864176BA40E0 /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame" */;
+			buildPhases = (
+				8A30D71E61ED48E660EBE701 /* Embed App Extensions */, 
+				FF12E29D02EE8B70D6017DE8 /* Shell Script */, 
+			);
+			dependencies = (
+				9C9049A703E5031F8CFCA9BD /* PBXTargetDependency */,
+			);
+			name = "BootstrapPackagedGame";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BootstrapPackagedGame";
+			productReference = "7B4DB244A98D569679184C17";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		33BF75FEA512435904E82A5B /* BootstrapPackagedGame_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A95ADC3424C52E4DE92132 /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame_Index" */;
+			buildPhases = (
+				E3BB24A724E8E6AE3BF25529 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "BootstrapPackagedGame_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BootstrapPackagedGame_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F050EF3AB251917B1CCA37E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					51BAF9E9A72FF0834FAABEF9 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 296E400909A6C4394C4115FD /* Build configuration list for PBXProject "BootstrapPackagedGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = E489C660A4FD68499D430E54;
+			productRefGroup = 2208A7B256AE3F267274B3C5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			51BAF9E9A72FF0834FAABEF9 /* BootstrapPackagedGame */,
+			E548806AA69F6DE61B4C00C8 /* BootstrapPackagedGame_Build */,
+			33BF75FEA512435904E82A5B /* BootstrapPackagedGame_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D9C124B55C5F192FB27D2726 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Windows",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		2A0743099C8513B51912AF12 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Windows",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		ED81564D4ADC06064BAAC638 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/Windows",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		D720C4842CCC65F7D423A712 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BootstrapPackagedGame-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		B3CCC9CC2A9D72E8DB24BB99 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BootstrapPackagedGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		60F6DFF3EB668EEAAA6A2BE1 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BootstrapPackagedGame-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		0549AB4C66E55289B3EE45A0 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BootstrapPackagedGame";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		4264251DD526264884C9225F /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BootstrapPackagedGame";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		AF440D4B9D05B5CB161E2F54 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BootstrapPackagedGame";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		C8928901D2B74E81EBBCC5E2 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BootstrapPackagedGame-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		A149ED2EDA8F86B6E3774D06 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BootstrapPackagedGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		CFD9FEA7C21B13F682B5CDE4 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BootstrapPackagedGame-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		296E400909A6C4394C4115FD /* Build configuration list for PBXProject "BootstrapPackagedGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C124B55C5F192FB27D2726 /* "Debug" */,
+				2A0743099C8513B51912AF12 /* "Development" */,
+				ED81564D4ADC06064BAAC638 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		22769D05A73F65FB85692CB5 /* Build configuration list for PBXLegacyTarget "BootstrapPackagedGame_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0549AB4C66E55289B3EE45A0 /* "Debug" */,
+				4264251DD526264884C9225F /* "Development" */,
+				AF440D4B9D05B5CB161E2F54 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E2C409721921864176BA40E0 /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720C4842CCC65F7D423A712 /* "Debug" */,
+				B3CCC9CC2A9D72E8DB24BB99 /* "Development" */,
+				60F6DFF3EB668EEAAA6A2BE1 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F0A95ADC3424C52E4DE92132 /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8928901D2B74E81EBBCC5E2 /* "Debug" */,
+				A149ED2EDA8F86B6E3774D06 /* "Development" */,
+				CFD9FEA7C21B13F682B5CDE4 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F050EF3AB251917B1CCA37E6 /* Project object */;
+}

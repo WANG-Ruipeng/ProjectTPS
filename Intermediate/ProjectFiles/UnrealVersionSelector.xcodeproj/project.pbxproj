@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4E1D57A963FE6FC3F2C1352 /* GenericPlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF6968BBED4B2B217111D1B9 /* GenericPlatformInstallation.cpp */; };
+		5BE2EB9868F960A898910072 /* GenericPlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = 6ED26D5D37C11E2788CA5874 /* GenericPlatformInstallation.h */; };
+		FDA24A75EE8B4FA20F1B1EB4 /* LinuxPlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534E9345CC6BB94E68F64D1A /* LinuxPlatformInstallation.cpp */; };
+		DECEE9AFF3AA31918A779BC6 /* LinuxPlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = AFEBB90C415E6352B3B809E9 /* LinuxPlatformInstallation.h */; };
+		AEFE67268D2D366141796A63 /* com.epicgames.UnrealEngine.desktop in Sources */ = {isa = PBXBuildFile; fileRef = FD007459C9705AA0209415D6 /* com.epicgames.UnrealEngine.desktop */; };
+		0CAA711D5C178C17416B5B94 /* com.epicgames.UnrealEngineEditor.desktop in Sources */ = {isa = PBXBuildFile; fileRef = 93409897C91FD9D6A91D826A /* com.epicgames.UnrealEngineEditor.desktop */; };
+		2016B5E43FCA811AE8901AE2 /* com.epicgames.UnrealVersionSelector.desktop in Sources */ = {isa = PBXBuildFile; fileRef = BB180529ED532292A5DFC689 /* com.epicgames.UnrealVersionSelector.desktop */; };
+		B1AC0C0A93FB6626C400801B /* Icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 501480806B94707F549A6BA1 /* Icon.png */; };
+		D7C2D600BA3E2DEF2806FD45 /* uproject.xml in Sources */ = {isa = PBXBuildFile; fileRef = 61A7D876EA41AB0226B5DCB0 /* uproject.xml */; };
+		2ED85A1C10090B07552F961F /* UnrealVersionSelectorLinuxMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A0AF65EA8D2ADCB2CD96E1 /* UnrealVersionSelectorLinuxMain.cpp */; };
+		176F7A056E43B03DC6C82C83 /* PlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72125A232A53142D85A6F3F /* PlatformInstallation.cpp */; };
+		B4A60481CEA172B469FD225E /* PlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = 7110E2ECF023062BF2B009E5 /* PlatformInstallation.h */; };
+		C3704DD697321EBCFF3A50C8 /* UnrealVersionSelector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F6F25567819CAFEC73121 /* UnrealVersionSelector.cpp */; };
+		C24552B454434D049C1EBE5D /* UnrealVersionSelector.h in Sources */ = {isa = PBXBuildFile; fileRef = 539C1C37DE665E37C01AACC0 /* UnrealVersionSelector.h */; };
+		E1019EFBFB27955AE8A3DC50 /* Icon.ico in Sources */ = {isa = PBXBuildFile; fileRef = 47610E8DC9EB95CD9955558C /* Icon.ico */; };
+		3781735FCA92AB1D273E8131 /* Resource.h in Sources */ = {isa = PBXBuildFile; fileRef = 246726BF908C22B1FAA3F1DF /* Resource.h */; };
+		AD676BAEC7B5D08CAC11C479 /* Resource.rc in Sources */ = {isa = PBXBuildFile; fileRef = B4358F55F7BE2808E0DC6861 /* Resource.rc */; };
+		C5D53D0C32A392939093B163 /* Resource.rc2 in Sources */ = {isa = PBXBuildFile; fileRef = 27FD56726DF58512A3AC0B5A /* Resource.rc2 */; };
+		1AAFE956FBEFC541502C0D7C /* WindowsPlatformInstallation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3805FAA632ABAB41BBFC745 /* WindowsPlatformInstallation.cpp */; };
+		7AABA86333C36321E625E60A /* WindowsPlatformInstallation.h in Sources */ = {isa = PBXBuildFile; fileRef = 55D6F33841BCF435995C8369 /* WindowsPlatformInstallation.h */; };
+		7DDEF43ACEEB165130A060CD /* UnrealVersionSelector.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = F41F34D007E9137F7BC974F6 /* UnrealVersionSelector.Build.cs */; };
+		A76EC5B0A13874A150484028 /* UnrealVersionSelector.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9298C9897C3C45F4A424F81B /* UnrealVersionSelector.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF6968BBED4B2B217111D1B9 /* GenericPlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GenericPlatformInstallation.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform/GenericPlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		6ED26D5D37C11E2788CA5874 /* GenericPlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GenericPlatformInstallation.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform/GenericPlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		534E9345CC6BB94E68F64D1A /* LinuxPlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LinuxPlatformInstallation.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/LinuxPlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		AFEBB90C415E6352B3B809E9 /* LinuxPlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LinuxPlatformInstallation.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/LinuxPlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		FD007459C9705AA0209415D6 /* com.epicgames.UnrealEngine.desktop */ = {isa = PBXFileReference; explicitFileType = file.text; name = "com.epicgames.UnrealEngine.desktop"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/com.epicgames.UnrealEngine.desktop"; sourceTree = SOURCE_ROOT; };
+		93409897C91FD9D6A91D826A /* com.epicgames.UnrealEngineEditor.desktop */ = {isa = PBXFileReference; explicitFileType = file.text; name = "com.epicgames.UnrealEngineEditor.desktop"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/com.epicgames.UnrealEngineEditor.desktop"; sourceTree = SOURCE_ROOT; };
+		BB180529ED532292A5DFC689 /* com.epicgames.UnrealVersionSelector.desktop */ = {isa = PBXFileReference; explicitFileType = file.text; name = "com.epicgames.UnrealVersionSelector.desktop"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/com.epicgames.UnrealVersionSelector.desktop"; sourceTree = SOURCE_ROOT; };
+		501480806B94707F549A6BA1 /* Icon.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon.png"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/Icon.png"; sourceTree = SOURCE_ROOT; };
+		61A7D876EA41AB0226B5DCB0 /* uproject.xml */ = {isa = PBXFileReference; explicitFileType = file.text; name = "uproject.xml"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources/uproject.xml"; sourceTree = SOURCE_ROOT; };
+		A1A0AF65EA8D2ADCB2CD96E1 /* UnrealVersionSelectorLinuxMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVersionSelectorLinuxMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/UnrealVersionSelectorLinuxMain.cpp"; sourceTree = SOURCE_ROOT; };
+		C72125A232A53142D85A6F3F /* PlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlatformInstallation.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/PlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		7110E2ECF023062BF2B009E5 /* PlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlatformInstallation.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/PlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		3F2F6F25567819CAFEC73121 /* UnrealVersionSelector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealVersionSelector.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/UnrealVersionSelector.cpp"; sourceTree = SOURCE_ROOT; };
+		539C1C37DE665E37C01AACC0 /* UnrealVersionSelector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealVersionSelector.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/UnrealVersionSelector.h"; sourceTree = SOURCE_ROOT; };
+		47610E8DC9EB95CD9955558C /* Icon.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Icon.ico"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Icon.ico"; sourceTree = SOURCE_ROOT; };
+		246726BF908C22B1FAA3F1DF /* Resource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Resource.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.h"; sourceTree = SOURCE_ROOT; };
+		B4358F55F7BE2808E0DC6861 /* Resource.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.rc"; sourceTree = SOURCE_ROOT; };
+		27FD56726DF58512A3AC0B5A /* Resource.rc2 */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc2"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.rc2"; sourceTree = SOURCE_ROOT; };
+		F3805FAA632ABAB41BBFC745 /* WindowsPlatformInstallation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WindowsPlatformInstallation.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/WindowsPlatformInstallation.cpp"; sourceTree = SOURCE_ROOT; };
+		55D6F33841BCF435995C8369 /* WindowsPlatformInstallation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "WindowsPlatformInstallation.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/WindowsPlatformInstallation.h"; sourceTree = SOURCE_ROOT; };
+		F41F34D007E9137F7BC974F6 /* UnrealVersionSelector.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealVersionSelector.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/UnrealVersionSelector.Build.cs"; sourceTree = SOURCE_ROOT; };
+		9298C9897C3C45F4A424F81B /* UnrealVersionSelector.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealVersionSelector.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/UnrealVersionSelector.Target.cs"; sourceTree = SOURCE_ROOT; };
+		77FBF0D739ACC6C0CFF98BE3 /* UnrealVersionSelector */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealVersionSelector; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B09EEFCEEB06989AE475C35 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E1D57A963FE6FC3F2C1352 /* GenericPlatformInstallation.cpp in Sources */,
+				176F7A056E43B03DC6C82C83 /* PlatformInstallation.cpp in Sources */,
+				C3704DD697321EBCFF3A50C8 /* UnrealVersionSelector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	15AD47B26FB215A61EDA3336 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		F91084CE2A2E97635CEE0028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27645FC7D24F76BFDBBAE9F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E745824DC6D2EB5C78367FC3;
+			remoteInfo = "UnrealVersionSelector_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		2A6D4FE2C353A8BEA7B992B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E745824DC6D2EB5C78367FC3 /* UnrealVersionSelector_Build */;
+			targetProxy = F91084CE2A2E97635CEE0028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		6B9C39C978294B37DEA6D28F = {
+			isa = PBXGroup;
+			children = (
+				CC5CB13C64BF47EF9963069E /* Private */,
+				F41F34D007E9137F7BC974F6 /* UnrealVersionSelector.Build.cs */,
+				9298C9897C3C45F4A424F81B /* UnrealVersionSelector.Target.cs */,
+				731C2C362B280AF260A83C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5CB13C64BF47EF9963069E = {
+			isa = PBXGroup;
+			children = (
+				1F2EF5A5386FA6131F251D1C /* GenericPlatform */,
+				4701140D55ACBE81DE53C9C5 /* Linux */,
+				4F5BC9FA776B39A73E94F463 /* Windows */,
+				C72125A232A53142D85A6F3F /* PlatformInstallation.cpp */,
+				7110E2ECF023062BF2B009E5 /* PlatformInstallation.h */,
+				3F2F6F25567819CAFEC73121 /* UnrealVersionSelector.cpp */,
+				539C1C37DE665E37C01AACC0 /* UnrealVersionSelector.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private";
+			sourceTree = "<absolute>";
+		};
+		1F2EF5A5386FA6131F251D1C = {
+			isa = PBXGroup;
+			children = (
+				DF6968BBED4B2B217111D1B9 /* GenericPlatformInstallation.cpp */,
+				6ED26D5D37C11E2788CA5874 /* GenericPlatformInstallation.h */,
+			);
+			name = "GenericPlatform";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform";
+			sourceTree = "<absolute>";
+		};
+		4701140D55ACBE81DE53C9C5 = {
+			isa = PBXGroup;
+			children = (
+				D66B1DEB1A367DEE2CC3B169 /* Resources */,
+				534E9345CC6BB94E68F64D1A /* LinuxPlatformInstallation.cpp */,
+				AFEBB90C415E6352B3B809E9 /* LinuxPlatformInstallation.h */,
+				A1A0AF65EA8D2ADCB2CD96E1 /* UnrealVersionSelectorLinuxMain.cpp */,
+			);
+			name = "Linux";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		D66B1DEB1A367DEE2CC3B169 = {
+			isa = PBXGroup;
+			children = (
+				FD007459C9705AA0209415D6 /* com.epicgames.UnrealEngine.desktop */,
+				93409897C91FD9D6A91D826A /* com.epicgames.UnrealEngineEditor.desktop */,
+				BB180529ED532292A5DFC689 /* com.epicgames.UnrealVersionSelector.desktop */,
+				501480806B94707F549A6BA1 /* Icon.png */,
+				61A7D876EA41AB0226B5DCB0 /* uproject.xml */,
+			);
+			name = "Resources";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Linux/Resources";
+			sourceTree = "<absolute>";
+		};
+		4F5BC9FA776B39A73E94F463 = {
+			isa = PBXGroup;
+			children = (
+				AB399AEDA484C0CC652FCFCD /* Resources */,
+				F3805FAA632ABAB41BBFC745 /* WindowsPlatformInstallation.cpp */,
+				55D6F33841BCF435995C8369 /* WindowsPlatformInstallation.h */,
+			);
+			name = "Windows";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		AB399AEDA484C0CC652FCFCD = {
+			isa = PBXGroup;
+			children = (
+				47610E8DC9EB95CD9955558C /* Icon.ico */,
+				246726BF908C22B1FAA3F1DF /* Resource.h */,
+				B4358F55F7BE2808E0DC6861 /* Resource.rc */,
+				27FD56726DF58512A3AC0B5A /* Resource.rc2 */,
+			);
+			name = "Resources";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources";
+			sourceTree = "<absolute>";
+		};
+		731C2C362B280AF260A83C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77FBF0D739ACC6C0CFF98BE3 /* UnrealVersionSelector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E745824DC6D2EB5C78367FC3 /* UnrealVersionSelector_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = E45C84626108273B6D276AC7 /* Build configuration list for PBXLegacyTarget "UnrealVersionSelector_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealVersionSelector_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealVersionSelector_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		B83A7DB551362745A06E9192 /* UnrealVersionSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150BEA78D4682AAF91F86B83 /* Build configuration list for PBXNativeTarget "UnrealVersionSelector" */;
+			buildPhases = (
+				15AD47B26FB215A61EDA3336 /* Embed App Extensions */, 
+				5207174C94C3B7C360278D6E /* Shell Script */, 
+			);
+			dependencies = (
+				2A6D4FE2C353A8BEA7B992B3 /* PBXTargetDependency */,
+			);
+			name = "UnrealVersionSelector";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealVersionSelector";
+			productReference = "77FBF0D739ACC6C0CFF98BE3";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		63D184FAF3D2E4FF85A1E7E5 /* UnrealVersionSelector_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC499C8A02A4AF417C2CF2DD /* Build configuration list for PBXNativeTarget "UnrealVersionSelector_Index" */;
+			buildPhases = (
+				3B09EEFCEEB06989AE475C35 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealVersionSelector_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealVersionSelector_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27645FC7D24F76BFDBBAE9F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					B83A7DB551362745A06E9192 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4DF169A6527F3E42749EB517 /* Build configuration list for PBXProject "UnrealVersionSelector" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 6B9C39C978294B37DEA6D28F;
+			productRefGroup = 731C2C362B280AF260A83C11;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			B83A7DB551362745A06E9192 /* UnrealVersionSelector */,
+			E745824DC6D2EB5C78367FC3 /* UnrealVersionSelector_Build */,
+			63D184FAF3D2E4FF85A1E7E5 /* UnrealVersionSelector_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3A4E492E3D49E02BC0F7207E /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		3F0930C9342C9882A4629520 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		6C4D3AB43A625BDDC5869C16 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		B526A3BAD9E2BD588E253ACD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		D539B5B62CC90C6AE48BE9BB /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealVersionSelector/Inc/UnrealVersionSelector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		E15883AD9296F361D6B8AAE6 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		55F49B2721325F08E06244AA /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		C5CA3F5563966E9D4814BF15 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		986FF8872CB87663684A4118 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		A14205B07E648E443939EC8D /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		981DF4EB9098D5ED1FD87720 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		2D1E67CE424EFFFFB2B8AB86 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		796CC9EBE53D59E49F6161F4 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		D11E407A52DDA6D63F5436BE /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		ADBABF5EE45307D96753A418 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealVersionSelector";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		69E769D4F907755BE6996B3C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		670BB9F23FF57C0651487F05 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		134BC54F5CCEC1E16FA32D74 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		9A9E0ABCA40966EE10F7B6EC /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		28EFAA7647CCD90FB54F1B62 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealVersionSelector-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF169A6527F3E42749EB517 /* Build configuration list for PBXProject "UnrealVersionSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4E492E3D49E02BC0F7207E /* "Debug" */,
+				3F0930C9342C9882A4629520 /* "DebugGame" */,
+				6C4D3AB43A625BDDC5869C16 /* "Development" */,
+				B526A3BAD9E2BD588E253ACD /* "Shipping" */,
+				D539B5B62CC90C6AE48BE9BB /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E45C84626108273B6D276AC7 /* Build configuration list for PBXLegacyTarget "UnrealVersionSelector_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981DF4EB9098D5ED1FD87720 /* "Debug" */,
+				2D1E67CE424EFFFFB2B8AB86 /* "DebugGame" */,
+				796CC9EBE53D59E49F6161F4 /* "Development" */,
+				D11E407A52DDA6D63F5436BE /* "Shipping" */,
+				ADBABF5EE45307D96753A418 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		150BEA78D4682AAF91F86B83 /* Build configuration list for PBXNativeTarget "UnrealVersionSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15883AD9296F361D6B8AAE6 /* "Debug" */,
+				55F49B2721325F08E06244AA /* "DebugGame" */,
+				C5CA3F5563966E9D4814BF15 /* "Development" */,
+				986FF8872CB87663684A4118 /* "Shipping" */,
+				A14205B07E648E443939EC8D /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		AC499C8A02A4AF417C2CF2DD /* Build configuration list for PBXNativeTarget "UnrealVersionSelector_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E769D4F907755BE6996B3C /* "Debug" */,
+				670BB9F23FF57C0651487F05 /* "DebugGame" */,
+				134BC54F5CCEC1E16FA32D74 /* "Development" */,
+				9A9E0ABCA40966EE10F7B6EC /* "Shipping" */,
+				28EFAA7647CCD90FB54F1B62 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27645FC7D24F76BFDBBAE9F4 /* Project object */;
+}

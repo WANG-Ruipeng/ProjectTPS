@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectTPS",
+			"Path": "/Users/wangruipeng/Documents/Unreal Projects/ProjectTPS/Source/ProjectTPS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectTPSEditor",
+			"Path": "/Users/wangruipeng/Documents/Unreal Projects/ProjectTPS/Source/ProjectTPSEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

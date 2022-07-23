@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170FC0A0FAA3BB53B524BAD6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 933E3E0FACCB04C1A06F81B5 /* DefaultEngine.ini */; };
+		0B9EE90813E47D0BBE68DAB5 /* BuildPatchTool.Automation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 58A930525655D9CBB9C08A92 /* BuildPatchTool.Automation.cs */; };
+		556FF77C67E3DFB8770BE80A /* BuildPatchTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = A90442359A327BE7FF969947 /* BuildPatchTool.Build.cs */; };
+		B598FEA846B56A21864682FE /* BuildPatchTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* BuildPatchTool.Target.cs */; };
+		8623F3F3A2494F4A1457B3A3 /* BuildPatchTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED01A4DA88223D4DC025A852 /* BuildPatchTool.cpp */; };
+		12A4308745A392BFD6AFF643 /* ToolMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0EC152EBB9EF652509E4799 /* ToolMode.cpp */; };
+		8DA05EDC584B86607AA0E0FD /* AutomationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18C80471C4F4CC3D0B61EA9C /* AutomationMode.cpp */; };
+		0C0F91222F5601735D97F9A5 /* ChunkDeltaOptimiseMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44B6668A2995C84F0B1815F3 /* ChunkDeltaOptimiseMode.cpp */; };
+		9A858D5CD2098D2CB5C1D049 /* CompactifyMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA6431249F6CA080CE5E2C0E /* CompactifyMode.cpp */; };
+		8D411475989A91F4F99E87A9 /* DiffManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9A4A15309CCEF83E61DD0C4 /* DiffManifestMode.cpp */; };
+		64A4B09F7895243B597FCF90 /* EnumerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F418931B30DB501BDC875BFA /* EnumerationMode.cpp */; };
+		CA4C76026FA92870715011F4 /* MergeManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAF17B637A4C4F49D5115FF1 /* MergeManifestMode.cpp */; };
+		38D4520ACCB4E7DC48B5D42B /* PackageChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E21CCB0575F1FA4069F303E /* PackageChunksMode.cpp */; };
+		5FECA190381125B9ED84C99A /* PatchGenerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 561DA3BC6934AB341D504558 /* PatchGenerationMode.cpp */; };
+		7F9FF276F1BAEA99A313AAE0 /* VerifyChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1356A437901B3E9958315939 /* VerifyChunksMode.cpp */; };
+		BC633BD2F3FC210FA6481198 /* BuildPatchTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFC7329930F74373C2A812 /* BuildPatchTool.h */; };
+		9074A40211AC004D46B9BA8E /* ToolMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 7F18A5A7F19A39CB450B18E1 /* ToolMode.h */; };
+		530BFF273A15C5F9BB28417E /* AutomationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 581FFEFA47C35265F439B281 /* AutomationMode.h */; };
+		8A5051D989DDCD845CC2AE05 /* ChunkDeltaOptimiseMode.h in Sources */ = {isa = PBXBuildFile; fileRef = ACD81230F3C1D356D7274ED2 /* ChunkDeltaOptimiseMode.h */; };
+		9C3E8381B9B2EC19597E9DEA /* CompactifyMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C4EC6FDD5BBD229570F84E6F /* CompactifyMode.h */; };
+		B1227233665CA963017F3D4B /* DiffManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 594BCBAAD595AC2D3B286B07 /* DiffManifestMode.h */; };
+		51F5FA1A04B861A3EF14D096 /* EnumerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8B3FCD43AE844AE248310 /* EnumerationMode.h */; };
+		F178BFDB4C203488B66AE271 /* MergeManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 618F5E481E9A5B457B346A1D /* MergeManifestMode.h */; };
+		E1AF59003F27582C71EA288C /* PackageChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = F88556CFDF47E0D5D6429B44 /* PackageChunksMode.h */; };
+		DCA02514C93E95BC0DA2F99C /* PatchGenerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = C733498E12B5FF7667D14F98 /* PatchGenerationMode.h */; };
+		438B65335495469F1314249E /* VerifyChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 01436333556B7F568BBA08AC /* VerifyChunksMode.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		933E3E0FACCB04C1A06F81B5 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/BuildPatchTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		58A930525655D9CBB9C08A92 /* BuildPatchTool.Automation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Automation.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Automation.cs"; sourceTree = SOURCE_ROOT; };
+		A90442359A327BE7FF969947 /* BuildPatchTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		10E4841AB4578BB4EF66F8B7 /* BuildPatchTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Target.cs"; sourceTree = SOURCE_ROOT; };
+		ED01A4DA88223D4DC025A852 /* BuildPatchTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BuildPatchTool.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/BuildPatchTool.cpp"; sourceTree = SOURCE_ROOT; };
+		F0EC152EBB9EF652509E4799 /* ToolMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ToolMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolMode.cpp"; sourceTree = SOURCE_ROOT; };
+		18C80471C4F4CC3D0B61EA9C /* AutomationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AutomationMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/AutomationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		44B6668A2995C84F0B1815F3 /* ChunkDeltaOptimiseMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChunkDeltaOptimiseMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/ChunkDeltaOptimiseMode.cpp"; sourceTree = SOURCE_ROOT; };
+		BA6431249F6CA080CE5E2C0E /* CompactifyMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CompactifyMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/CompactifyMode.cpp"; sourceTree = SOURCE_ROOT; };
+		C9A4A15309CCEF83E61DD0C4 /* DiffManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DiffManifestMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/DiffManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		F418931B30DB501BDC875BFA /* EnumerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnumerationMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/EnumerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		EAF17B637A4C4F49D5115FF1 /* MergeManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MergeManifestMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/MergeManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		1E21CCB0575F1FA4069F303E /* PackageChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PackageChunksMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PackageChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		561DA3BC6934AB341D504558 /* PatchGenerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PatchGenerationMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PatchGenerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		1356A437901B3E9958315939 /* VerifyChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerifyChunksMode.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/VerifyChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		1FAFC7329930F74373C2A812 /* BuildPatchTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildPatchTool.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/BuildPatchTool.h"; sourceTree = SOURCE_ROOT; };
+		7F18A5A7F19A39CB450B18E1 /* ToolMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ToolMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/Interfaces/ToolMode.h"; sourceTree = SOURCE_ROOT; };
+		581FFEFA47C35265F439B281 /* AutomationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AutomationMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/AutomationMode.h"; sourceTree = SOURCE_ROOT; };
+		ACD81230F3C1D356D7274ED2 /* ChunkDeltaOptimiseMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChunkDeltaOptimiseMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/ChunkDeltaOptimiseMode.h"; sourceTree = SOURCE_ROOT; };
+		C4EC6FDD5BBD229570F84E6F /* CompactifyMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CompactifyMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/CompactifyMode.h"; sourceTree = SOURCE_ROOT; };
+		594BCBAAD595AC2D3B286B07 /* DiffManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DiffManifestMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/DiffManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		3FB8B3FCD43AE844AE248310 /* EnumerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumerationMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/EnumerationMode.h"; sourceTree = SOURCE_ROOT; };
+		618F5E481E9A5B457B346A1D /* MergeManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MergeManifestMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/MergeManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		F88556CFDF47E0D5D6429B44 /* PackageChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PackageChunksMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PackageChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		C733498E12B5FF7667D14F98 /* PatchGenerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PatchGenerationMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PatchGenerationMode.h"; sourceTree = SOURCE_ROOT; };
+		01436333556B7F568BBA08AC /* VerifyChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerifyChunksMode.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/VerifyChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		DBE904B87DDB8EDC91CE2138 /* BuildPatchTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildPatchTool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C34AF72E6FDB4D7125E1FC9 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623F3F3A2494F4A1457B3A3 /* BuildPatchTool.cpp in Sources */,
+				12A4308745A392BFD6AFF643 /* ToolMode.cpp in Sources */,
+				8DA05EDC584B86607AA0E0FD /* AutomationMode.cpp in Sources */,
+				0C0F91222F5601735D97F9A5 /* ChunkDeltaOptimiseMode.cpp in Sources */,
+				9A858D5CD2098D2CB5C1D049 /* CompactifyMode.cpp in Sources */,
+				8D411475989A91F4F99E87A9 /* DiffManifestMode.cpp in Sources */,
+				64A4B09F7895243B597FCF90 /* EnumerationMode.cpp in Sources */,
+				CA4C76026FA92870715011F4 /* MergeManifestMode.cpp in Sources */,
+				38D4520ACCB4E7DC48B5D42B /* PackageChunksMode.cpp in Sources */,
+				5FECA190381125B9ED84C99A /* PatchGenerationMode.cpp in Sources */,
+				7F9FF276F1BAEA99A313AAE0 /* VerifyChunksMode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	9E3DEE5D632FADAAC8853525 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		ED3E885C14445F9866446F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7DC61AD5B8C88063E90575E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B15CE641869F094C4A4A9D;
+			remoteInfo = "BuildPatchTool_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		D91FED4DB4939C391ABE19FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B15CE641869F094C4A4A9D /* BuildPatchTool_Build */;
+			targetProxy = ED3E885C14445F9866446F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		8D92EE4A17E12D28B01F9754 = {
+			isa = PBXGroup;
+			children = (
+				CE977A1624B12CDBF775736D /* Programs */,
+				C7CA6D730BD9D399A3508B92 /* Source */,
+				DABBC390C7F3245721F81445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE977A1624B12CDBF775736D = {
+			isa = PBXGroup;
+			children = (
+				72D0D6CF3EA53C6F4C887EB7 /* BuildPatchTool */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		72D0D6CF3EA53C6F4C887EB7 = {
+			isa = PBXGroup;
+			children = (
+				D228BB69CF7DBC2B60281264 /* Config */,
+			);
+			name = "BuildPatchTool";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/BuildPatchTool";
+			sourceTree = "<absolute>";
+		};
+		D228BB69CF7DBC2B60281264 = {
+			isa = PBXGroup;
+			children = (
+				933E3E0FACCB04C1A06F81B5 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/BuildPatchTool/Config";
+			sourceTree = "<absolute>";
+		};
+		C7CA6D730BD9D399A3508B92 = {
+			isa = PBXGroup;
+			children = (
+				2CA97E08AE47694519C244FC /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		2CA97E08AE47694519C244FC = {
+			isa = PBXGroup;
+			children = (
+				F6C20C79B8470D49BD710774 /* BuildPatchTool */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		F6C20C79B8470D49BD710774 = {
+			isa = PBXGroup;
+			children = (
+				38C86372B5E414829D283D26 /* Private */,
+				CD59E05B4241D4BAA20AD0E5 /* Public */,
+				58A930525655D9CBB9C08A92 /* BuildPatchTool.Automation.cs */,
+				A90442359A327BE7FF969947 /* BuildPatchTool.Build.cs */,
+				10E4841AB4578BB4EF66F8B7 /* BuildPatchTool.Target.cs */,
+			);
+			name = "BuildPatchTool";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool";
+			sourceTree = "<absolute>";
+		};
+		38C86372B5E414829D283D26 = {
+			isa = PBXGroup;
+			children = (
+				FEB47D18BFCC4A0585717D49 /* ToolModes */,
+				ED01A4DA88223D4DC025A852 /* BuildPatchTool.cpp */,
+				F0EC152EBB9EF652509E4799 /* ToolMode.cpp */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private";
+			sourceTree = "<absolute>";
+		};
+		FEB47D18BFCC4A0585717D49 = {
+			isa = PBXGroup;
+			children = (
+				18C80471C4F4CC3D0B61EA9C /* AutomationMode.cpp */,
+				44B6668A2995C84F0B1815F3 /* ChunkDeltaOptimiseMode.cpp */,
+				BA6431249F6CA080CE5E2C0E /* CompactifyMode.cpp */,
+				C9A4A15309CCEF83E61DD0C4 /* DiffManifestMode.cpp */,
+				F418931B30DB501BDC875BFA /* EnumerationMode.cpp */,
+				EAF17B637A4C4F49D5115FF1 /* MergeManifestMode.cpp */,
+				1E21CCB0575F1FA4069F303E /* PackageChunksMode.cpp */,
+				561DA3BC6934AB341D504558 /* PatchGenerationMode.cpp */,
+				1356A437901B3E9958315939 /* VerifyChunksMode.cpp */,
+			);
+			name = "ToolModes";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes";
+			sourceTree = "<absolute>";
+		};
+		CD59E05B4241D4BAA20AD0E5 = {
+			isa = PBXGroup;
+			children = (
+				E4F69034AEC25ECD85E67A04 /* Interfaces */,
+				CAF58AF02701EEC64B1AA55B /* ToolModes */,
+				1FAFC7329930F74373C2A812 /* BuildPatchTool.h */,
+			);
+			name = "Public";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public";
+			sourceTree = "<absolute>";
+		};
+		E4F69034AEC25ECD85E67A04 = {
+			isa = PBXGroup;
+			children = (
+				7F18A5A7F19A39CB450B18E1 /* ToolMode.h */,
+			);
+			name = "Interfaces";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/Interfaces";
+			sourceTree = "<absolute>";
+		};
+		CAF58AF02701EEC64B1AA55B = {
+			isa = PBXGroup;
+			children = (
+				581FFEFA47C35265F439B281 /* AutomationMode.h */,
+				ACD81230F3C1D356D7274ED2 /* ChunkDeltaOptimiseMode.h */,
+				C4EC6FDD5BBD229570F84E6F /* CompactifyMode.h */,
+				594BCBAAD595AC2D3B286B07 /* DiffManifestMode.h */,
+				3FB8B3FCD43AE844AE248310 /* EnumerationMode.h */,
+				618F5E481E9A5B457B346A1D /* MergeManifestMode.h */,
+				F88556CFDF47E0D5D6429B44 /* PackageChunksMode.h */,
+				C733498E12B5FF7667D14F98 /* PatchGenerationMode.h */,
+				01436333556B7F568BBA08AC /* VerifyChunksMode.h */,
+			);
+			name = "ToolModes";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes";
+			sourceTree = "<absolute>";
+		};
+		DABBC390C7F3245721F81445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE904B87DDB8EDC91CE2138 /* BuildPatchTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		62B15CE641869F094C4A4A9D /* BuildPatchTool_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 85E133B27BE37294B05C72CB /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "BuildPatchTool_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		B70DA6FA5850FF107ADEC0B9 /* BuildPatchTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7654438DB0D3D48F6DB7BD8 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */;
+			buildPhases = (
+				9E3DEE5D632FADAAC8853525 /* Embed App Extensions */, 
+				68F06EF4AC71E1957DA8BEE3 /* Shell Script */, 
+			);
+			dependencies = (
+				D91FED4DB4939C391ABE19FA /* PBXTargetDependency */,
+			);
+			name = "BuildPatchTool";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool";
+			productReference = "DBE904B87DDB8EDC91CE2138";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		8FE3BB3F303C691F1C4FF963 /* BuildPatchTool_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87856DFA56544909E66339C /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */;
+			buildPhases = (
+				8C34AF72E6FDB4D7125E1FC9 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "BuildPatchTool_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DC61AD5B8C88063E90575E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					B70DA6FA5850FF107ADEC0B9 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CA5FD90FE12B8035E7D0C902 /* Build configuration list for PBXProject "BuildPatchTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 8D92EE4A17E12D28B01F9754;
+			productRefGroup = DABBC390C7F3245721F81445;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			B70DA6FA5850FF107ADEC0B9 /* BuildPatchTool */,
+			62B15CE641869F094C4A4A9D /* BuildPatchTool_Build */,
+			8FE3BB3F303C691F1C4FF963 /* BuildPatchTool_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		31BA41B26BC0417C9BF9F189 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/NetworkFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StreamingFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/AutomationController/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		7DEF4B132BB6E3A7AF4C23AB /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/NetworkFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StreamingFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/AutomationController/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		BA78C002DAF64932ECFCE8B5 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/NetworkFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/StreamingFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/AutomationController/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		04C7F4F14A6A7D07FF8A0AF5 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		95A0FE11AEFC0AF99B4A034F /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		F39DA7135578DB4F7D70D275 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		8FBF2AA07D8A4BF57F0B2BA9 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		2A75C346009CF6AACF45238D /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		3241D2175162779603208B87 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		EDFB3F0743B9896EFEE4EFE5 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		3E38C9C82783F9A1D79372A2 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		DCF4D0D9FCF0A1424F14D58A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "BuildPatchTool";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5FD90FE12B8035E7D0C902 /* Build configuration list for PBXProject "BuildPatchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA41B26BC0417C9BF9F189 /* "Debug" */,
+				7DEF4B132BB6E3A7AF4C23AB /* "Development" */,
+				BA78C002DAF64932ECFCE8B5 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		85E133B27BE37294B05C72CB /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBF2AA07D8A4BF57F0B2BA9 /* "Debug" */,
+				2A75C346009CF6AACF45238D /* "Development" */,
+				3241D2175162779603208B87 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C7654438DB0D3D48F6DB7BD8 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C7F4F14A6A7D07FF8A0AF5 /* "Debug" */,
+				95A0FE11AEFC0AF99B4A034F /* "Development" */,
+				F39DA7135578DB4F7D70D275 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E87856DFA56544909E66339C /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB3F0743B9896EFEE4EFE5 /* "Debug" */,
+				3E38C9C82783F9A1D79372A2 /* "Development" */,
+				DCF4D0D9FCF0A1424F14D58A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7DC61AD5B8C88063E90575E /* Project object */;
+}

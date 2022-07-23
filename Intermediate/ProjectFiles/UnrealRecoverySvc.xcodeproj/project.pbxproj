@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A510D13DD620BA30319C70 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 62EDF2C074EA137F4CBF5676 /* DefaultEngine.ini */; };
+		1FE8B7AA62BB5CF38E48F662 /* UnrealRecoverySvc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E33828645FE9770B6AE121EE /* UnrealRecoverySvc.cpp */; };
+		377FBC7FB5ABC9968C63DCA2 /* UnrealRecoverySvc.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = C8722B582F3FD4D9EEE54F1B /* UnrealRecoverySvc.Build.cs */; };
+		CB8171AF45794F693734FEAC /* UnrealRecoverySvc.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 33D69F5C8046C69C00678DAC /* UnrealRecoverySvc.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62EDF2C074EA137F4CBF5676 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/UnrealRecoverySvc/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		E33828645FE9770B6AE121EE /* UnrealRecoverySvc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealRecoverySvc.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private/UnrealRecoverySvc.cpp"; sourceTree = SOURCE_ROOT; };
+		C8722B582F3FD4D9EEE54F1B /* UnrealRecoverySvc.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealRecoverySvc.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Build.cs"; sourceTree = SOURCE_ROOT; };
+		33D69F5C8046C69C00678DAC /* UnrealRecoverySvc.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealRecoverySvc.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/UnrealRecoverySvc.Target.cs"; sourceTree = SOURCE_ROOT; };
+		88BA392F802D6AE4A5003876 /* UnrealRecoverySvc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealRecoverySvc; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1D19D626FCECE499BAA6DB = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE8B7AA62BB5CF38E48F662 /* UnrealRecoverySvc.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	59B9AC3AEAB7BB3B7433F702 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		AF7BECDBB920FDB6DC420965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2630F55F3342370FB2BB7885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF57E4829673449D9BEC92A;
+			remoteInfo = "UnrealRecoverySvc_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		384954CB7C09D43A200D50B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF57E4829673449D9BEC92A /* UnrealRecoverySvc_Build */;
+			targetProxy = AF7BECDBB920FDB6DC420965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		B857E87E6378D1C1C971CC72 = {
+			isa = PBXGroup;
+			children = (
+				0D809B7867B95E6D34666526 /* Programs */,
+				7DB957B4952656D9EF9A3E30 /* Source */,
+				76AE7A003DCD11E63B08C8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D809B7867B95E6D34666526 = {
+			isa = PBXGroup;
+			children = (
+				ABBFBEF1F129A2163C8A3B63 /* UnrealRecoverySvc */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		ABBFBEF1F129A2163C8A3B63 = {
+			isa = PBXGroup;
+			children = (
+				5F7E955C5CE978EE60D5B96C /* Config */,
+			);
+			name = "UnrealRecoverySvc";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealRecoverySvc";
+			sourceTree = "<absolute>";
+		};
+		5F7E955C5CE978EE60D5B96C = {
+			isa = PBXGroup;
+			children = (
+				62EDF2C074EA137F4CBF5676 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealRecoverySvc/Config";
+			sourceTree = "<absolute>";
+		};
+		7DB957B4952656D9EF9A3E30 = {
+			isa = PBXGroup;
+			children = (
+				0105303D71AB8483443718E8 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		0105303D71AB8483443718E8 = {
+			isa = PBXGroup;
+			children = (
+				2302104BEE76C6D505527438 /* UnrealRecoverySvc */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		2302104BEE76C6D505527438 = {
+			isa = PBXGroup;
+			children = (
+				D2ED8016336274C43F645B57 /* Private */,
+				C8722B582F3FD4D9EEE54F1B /* UnrealRecoverySvc.Build.cs */,
+				33D69F5C8046C69C00678DAC /* UnrealRecoverySvc.Target.cs */,
+			);
+			name = "UnrealRecoverySvc";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc";
+			sourceTree = "<absolute>";
+		};
+		D2ED8016336274C43F645B57 = {
+			isa = PBXGroup;
+			children = (
+				E33828645FE9770B6AE121EE /* UnrealRecoverySvc.cpp */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private";
+			sourceTree = "<absolute>";
+		};
+		76AE7A003DCD11E63B08C8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88BA392F802D6AE4A5003876 /* UnrealRecoverySvc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FEF57E4829673449D9BEC92A /* UnrealRecoverySvc_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 54380639EF45CDF63FEE42C2 /* Build configuration list for PBXLegacyTarget "UnrealRecoverySvc_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealRecoverySvc_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealRecoverySvc_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D1A2AA71BF52C0FB52FDA155 /* UnrealRecoverySvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572A7078A64014C05AECFCA9 /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc" */;
+			buildPhases = (
+				59B9AC3AEAB7BB3B7433F702 /* Embed App Extensions */, 
+				9FE6A18D31B1FEB08F1B6345 /* Shell Script */, 
+			);
+			dependencies = (
+				384954CB7C09D43A200D50B2 /* PBXTargetDependency */,
+			);
+			name = "UnrealRecoverySvc";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealRecoverySvc";
+			productReference = "88BA392F802D6AE4A5003876";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		D0A4B9F3A36B0DAE4375DDC4 /* UnrealRecoverySvc_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B48D750DC08BCAF00EDB48 /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc_Index" */;
+			buildPhases = (
+				1A1D19D626FCECE499BAA6DB /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealRecoverySvc_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealRecoverySvc_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2630F55F3342370FB2BB7885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					D1A2AA71BF52C0FB52FDA155 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AD41A66DB01AE7DE5B42973A /* Build configuration list for PBXProject "UnrealRecoverySvc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = B857E87E6378D1C1C971CC72;
+			productRefGroup = 76AE7A003DCD11E63B08C8CC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			D1A2AA71BF52C0FB52FDA155 /* UnrealRecoverySvc */,
+			FEF57E4829673449D9BEC92A /* UnrealRecoverySvc_Build */,
+			D0A4B9F3A36B0DAE4375DDC4 /* UnrealRecoverySvc_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5EFB9ACC85E8D9BB079FA784 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/UnrealRecoverySvc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		B57A6401C37D1E46C55A7125 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/UnrealRecoverySvc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		3BE9AED6EDB060A711062AF7 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/UnrealRecoverySvc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		6B98664B5F78AA7C6BA5E697 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/UnrealRecoverySvc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		C8C4633BFF1891748F356970 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealRecoverySvc/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealRecoverySvc/Inc/UnrealRecoverySvc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		21D6FC844C8D58E62617363F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		35F1001152692EBAFA0D685D /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		F13329905A3231DDBFBE7E08 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		3EFAC26B27E482CE83F60830 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		9376ED78BD7827E100752B93 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		5B5FB2E7BBF64C3D5567DCEE /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealRecoverySvc";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		D7CC8BEB1C35003EF4583241 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealRecoverySvc";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		EF567265E5A6DF467522AF33 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealRecoverySvc";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		E1EEE5348FF3E86D6F5DF94C /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealRecoverySvc";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		FC8556502E27ED28E9E86BCA /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealRecoverySvc";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		1CEFB68C5A3BFA003F1C6B5A /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		924A79D8489528C17D905669 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		87295043F78A2F8B1F81E715 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		3F94E7FC7832C7E143B904FD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		8FAC6E56CB85BD0A2A766901 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealRecoverySvc-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD41A66DB01AE7DE5B42973A /* Build configuration list for PBXProject "UnrealRecoverySvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFB9ACC85E8D9BB079FA784 /* "Debug" */,
+				B57A6401C37D1E46C55A7125 /* "DebugGame" */,
+				3BE9AED6EDB060A711062AF7 /* "Development" */,
+				6B98664B5F78AA7C6BA5E697 /* "Shipping" */,
+				C8C4633BFF1891748F356970 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		54380639EF45CDF63FEE42C2 /* Build configuration list for PBXLegacyTarget "UnrealRecoverySvc_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5FB2E7BBF64C3D5567DCEE /* "Debug" */,
+				D7CC8BEB1C35003EF4583241 /* "DebugGame" */,
+				EF567265E5A6DF467522AF33 /* "Development" */,
+				E1EEE5348FF3E86D6F5DF94C /* "Shipping" */,
+				FC8556502E27ED28E9E86BCA /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		572A7078A64014C05AECFCA9 /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D6FC844C8D58E62617363F /* "Debug" */,
+				35F1001152692EBAFA0D685D /* "DebugGame" */,
+				F13329905A3231DDBFBE7E08 /* "Development" */,
+				3EFAC26B27E482CE83F60830 /* "Shipping" */,
+				9376ED78BD7827E100752B93 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A2B48D750DC08BCAF00EDB48 /* Build configuration list for PBXNativeTarget "UnrealRecoverySvc_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEFB68C5A3BFA003F1C6B5A /* "Debug" */,
+				924A79D8489528C17D905669 /* "DebugGame" */,
+				87295043F78A2F8B1F81E715 /* "Development" */,
+				3F94E7FC7832C7E143B904FD /* "Shipping" */,
+				8FAC6E56CB85BD0A2A766901 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2630F55F3342370FB2BB7885 /* Project object */;
+}

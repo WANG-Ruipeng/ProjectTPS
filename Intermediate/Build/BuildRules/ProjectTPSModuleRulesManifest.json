@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/wangruipeng/Documents/Unreal Projects/ProjectTPS/Source/ProjectTPS/ProjectTPS.Build.cs",
+		"/Users/wangruipeng/Documents/Unreal Projects/ProjectTPS/Source/ProjectTPS.Target.cs",
+		"/Users/wangruipeng/Documents/Unreal Projects/ProjectTPS/Source/ProjectTPSEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

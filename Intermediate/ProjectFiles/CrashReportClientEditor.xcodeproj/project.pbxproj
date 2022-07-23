@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F6DDE87770C5A225363F8F /* CrashReportClientEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* CrashReportClientEditor.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F1A6E3CBDFC1C4D72A426E5 /* CrashReportClientEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClientEditor.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClientEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		2E04F199A2429D52B29FBFB3 /* CrashReportClientEditor */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClientEditor; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6989DA92E3C508F50FBC9EE5 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	50A0D774DFF58AEEBB5E1F68 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		DBDAB4F973E5B2A7BDEBCEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15618FF469AB6510B4566D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B67FBC23F0A32449EBCD614;
+			remoteInfo = "CrashReportClientEditor_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		FF1D1AE1A9468A7709C159D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B67FBC23F0A32449EBCD614 /* CrashReportClientEditor_Build */;
+			targetProxy = DBDAB4F973E5B2A7BDEBCEC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		56835AC4383F7777C246B0C2 = {
+			isa = PBXGroup;
+			children = (
+				9F1A6E3CBDFC1C4D72A426E5 /* CrashReportClientEditor.Target.cs */,
+				772FD26F9C7D5793821A7D4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		772FD26F9C7D5793821A7D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E04F199A2429D52B29FBFB3 /* CrashReportClientEditor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6B67FBC23F0A32449EBCD614 /* CrashReportClientEditor_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 6A142C3CC3BE36134E5AB2A4 /* Build configuration list for PBXLegacyTarget "CrashReportClientEditor_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "CrashReportClientEditor_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClientEditor_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C81893BED08548A408CA813B /* CrashReportClientEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F893B2EE1F0DA0217565F3 /* Build configuration list for PBXNativeTarget "CrashReportClientEditor" */;
+			buildPhases = (
+				50A0D774DFF58AEEBB5E1F68 /* Embed App Extensions */, 
+				C989CD08C9BE513B060C5AAE /* Shell Script */, 
+			);
+			dependencies = (
+				FF1D1AE1A9468A7709C159D7 /* PBXTargetDependency */,
+			);
+			name = "CrashReportClientEditor";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClientEditor";
+			productReference = "2E04F199A2429D52B29FBFB3";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		54F1D4C62307243B1B018E0C /* CrashReportClientEditor_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEF68B2B98A21722DDC2E8E /* Build configuration list for PBXNativeTarget "CrashReportClientEditor_Index" */;
+			buildPhases = (
+				6989DA92E3C508F50FBC9EE5 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "CrashReportClientEditor_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClientEditor_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15618FF469AB6510B4566D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					C81893BED08548A408CA813B = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 356C2097989BF969852052D3 /* Build configuration list for PBXProject "CrashReportClientEditor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 56835AC4383F7777C246B0C2;
+			productRefGroup = 772FD26F9C7D5793821A7D4D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			C81893BED08548A408CA813B /* CrashReportClientEditor */,
+			6B67FBC23F0A32449EBCD614 /* CrashReportClientEditor_Build */,
+			54F1D4C62307243B1B018E0C /* CrashReportClientEditor_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		65E494FD3EBAB3BB90ED1FFB /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		09C4AB777B5044F31B3A043E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		13AACD8F1CE5144E99A998EA /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		A5E2B48C8F8E910A6A71C959 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClientEditor-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		8F62502D0EDBB57CD2BA2B01 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClientEditor-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		F03F5A2E4BDEA04B1AAA76A7 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClientEditor";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		F8002B516A63DE4345280FFA /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClientEditor";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		DF905F0599EDEF269D4447A6 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClientEditor";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		12BF98B6DB04796E1F16F2EE /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClientEditor";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		618DAF00AB64D8DB6AD162E7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClientEditor-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		B767C8F5E41BDE2688717149 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClientEditor-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		1F600AB82FF80C0DCEDE04A4 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClientEditor";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356C2097989BF969852052D3 /* Build configuration list for PBXProject "CrashReportClientEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E494FD3EBAB3BB90ED1FFB /* "Debug" */,
+				09C4AB777B5044F31B3A043E /* "Development" */,
+				13AACD8F1CE5144E99A998EA /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		6A142C3CC3BE36134E5AB2A4 /* Build configuration list for PBXLegacyTarget "CrashReportClientEditor_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8002B516A63DE4345280FFA /* "Debug" */,
+				DF905F0599EDEF269D4447A6 /* "Development" */,
+				12BF98B6DB04796E1F16F2EE /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		05F893B2EE1F0DA0217565F3 /* Build configuration list for PBXNativeTarget "CrashReportClientEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E2B48C8F8E910A6A71C959 /* "Debug" */,
+				8F62502D0EDBB57CD2BA2B01 /* "Development" */,
+				F03F5A2E4BDEA04B1AAA76A7 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		EAEF68B2B98A21722DDC2E8E /* Build configuration list for PBXNativeTarget "CrashReportClientEditor_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618DAF00AB64D8DB6AD162E7 /* "Debug" */,
+				B767C8F5E41BDE2688717149 /* "Development" */,
+				1F600AB82FF80C0DCEDE04A4 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15618FF469AB6510B4566D4D /* Project object */;
+}

@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9798B154B349B3EDAB86947C /* UnrealLaunchDaemon-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D5265C4C6ABD57CD3462D215 /* UnrealLaunchDaemon-Info.plist */; };
+		B231295AA2B6022C5BAF5114 /* IOSLaunchDaemonAppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 738F95BBD30FFC387EC8AABC /* IOSLaunchDaemonAppMain.cpp */; };
+		27EC72B0B6472694896392B1 /* IOSLaunchDaemonView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22012FB4BDA9004E7AA70E85 /* IOSLaunchDaemonView.cpp */; };
+		09FB3E38621981EA866C33B6 /* IOSLaunchDaemonView.h in Sources */ = {isa = PBXBuildFile; fileRef = 4351761389BD8B0FFDE498D1 /* IOSLaunchDaemonView.h */; };
+		C3EAD84CC20EEED8561B0BA0 /* LaunchDaemonMessageHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFD9AEBAC451B5021691EF /* LaunchDaemonMessageHandler.cpp */; };
+		3505CCC5100CC534C59C90C8 /* LaunchDaemonMessageHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = 70672A9C97BB26BA1BBCFE9B /* LaunchDaemonMessageHandler.h */; };
+		E3A81370111C12AD59E917BD /* UnrealLaunchDaemon.h in Sources */ = {isa = PBXBuildFile; fileRef = 4229C74A55D6DAB23E113E52 /* UnrealLaunchDaemon.h */; };
+		99B51E46F0D7D4780730E167 /* UnrealLaunchDaemonApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85523A989E36E874F6C596E /* UnrealLaunchDaemonApp.cpp */; };
+		F4DB6444E24B5CD26AC0D65B /* UnrealLaunchDaemonApp.h in Sources */ = {isa = PBXBuildFile; fileRef = FECCBC81149FB611475F5100 /* UnrealLaunchDaemonApp.h */; };
+		913000B4ED346B4052DF279F /* UnrealLaunchDaemon.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = C5CDB814DFF7A75CAC053892 /* UnrealLaunchDaemon.Build.cs */; };
+		9407115901DC035AF149DCD2 /* UnrealLaunchDaemon.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = DB184DBF0BFF02E189071094 /* UnrealLaunchDaemon.Target.cs */; };
+		02F0F8D4ADEAC9954C8E4A50 /* UnrealLaunchDaemon.tps in Sources */ = {isa = PBXBuildFile; fileRef = 3BE55F0EAB5752EEDE154571 /* UnrealLaunchDaemon.tps */; };
+		403015A338FF238CF86DB1FC /* UnrealLaunchDaemon.uproject in Sources */ = {isa = PBXBuildFile; fileRef = 3C969367169252368368D9F9 /* UnrealLaunchDaemon.uproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5265C4C6ABD57CD3462D215 /* UnrealLaunchDaemon-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "UnrealLaunchDaemon-Info.plist"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Build/IOS/UnrealLaunchDaemon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		738F95BBD30FFC387EC8AABC /* IOSLaunchDaemonAppMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSLaunchDaemonAppMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonAppMain.cpp"; sourceTree = SOURCE_ROOT; };
+		22012FB4BDA9004E7AA70E85 /* IOSLaunchDaemonView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSLaunchDaemonView.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.cpp"; sourceTree = SOURCE_ROOT; };
+		4351761389BD8B0FFDE498D1 /* IOSLaunchDaemonView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IOSLaunchDaemonView.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.h"; sourceTree = SOURCE_ROOT; };
+		4ECFD9AEBAC451B5021691EF /* LaunchDaemonMessageHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LaunchDaemonMessageHandler.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.cpp"; sourceTree = SOURCE_ROOT; };
+		70672A9C97BB26BA1BBCFE9B /* LaunchDaemonMessageHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LaunchDaemonMessageHandler.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.h"; sourceTree = SOURCE_ROOT; };
+		4229C74A55D6DAB23E113E52 /* UnrealLaunchDaemon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealLaunchDaemon.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemon.h"; sourceTree = SOURCE_ROOT; };
+		F85523A989E36E874F6C596E /* UnrealLaunchDaemonApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealLaunchDaemonApp.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.cpp"; sourceTree = SOURCE_ROOT; };
+		FECCBC81149FB611475F5100 /* UnrealLaunchDaemonApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealLaunchDaemonApp.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.h"; sourceTree = SOURCE_ROOT; };
+		C5CDB814DFF7A75CAC053892 /* UnrealLaunchDaemon.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Build.cs"; sourceTree = SOURCE_ROOT; };
+		DB184DBF0BFF02E189071094 /* UnrealLaunchDaemon.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.Target.cs"; sourceTree = SOURCE_ROOT; };
+		3BE55F0EAB5752EEDE154571 /* UnrealLaunchDaemon.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.tps"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.tps"; sourceTree = SOURCE_ROOT; };
+		3C969367169252368368D9F9 /* UnrealLaunchDaemon.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLaunchDaemon.uproject"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/UnrealLaunchDaemon.uproject"; sourceTree = SOURCE_ROOT; };
+		9CD6616FB2186761F1AC0DCE /* UnrealLaunchDaemon */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealLaunchDaemon; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2033CD14245B22F534AB20 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B231295AA2B6022C5BAF5114 /* IOSLaunchDaemonAppMain.cpp in Sources */,
+				27EC72B0B6472694896392B1 /* IOSLaunchDaemonView.cpp in Sources */,
+				C3EAD84CC20EEED8561B0BA0 /* LaunchDaemonMessageHandler.cpp in Sources */,
+				99B51E46F0D7D4780730E167 /* UnrealLaunchDaemonApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	98DCA6E596B24C93AD35FACB /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		E0E6BF467CA8142FB91BA6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1B3D6D0BC3D43823A4807D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE5B22A3367EF831B471E93;
+			remoteInfo = "UnrealLaunchDaemon_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		EB3078464084CBD622E8DD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE5B22A3367EF831B471E93 /* UnrealLaunchDaemon_Build */;
+			targetProxy = E0E6BF467CA8142FB91BA6DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		259CA467DC55B2548AB038CD = {
+			isa = PBXGroup;
+			children = (
+				0E781295AD4F2C349405F004 /* Build */,
+				C617AF046A69A0FEE1033A79 /* Private */,
+				C5CDB814DFF7A75CAC053892 /* UnrealLaunchDaemon.Build.cs */,
+				DB184DBF0BFF02E189071094 /* UnrealLaunchDaemon.Target.cs */,
+				3BE55F0EAB5752EEDE154571 /* UnrealLaunchDaemon.tps */,
+				3C969367169252368368D9F9 /* UnrealLaunchDaemon.uproject */,
+				A556779CADA45CAEE2240F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E781295AD4F2C349405F004 = {
+			isa = PBXGroup;
+			children = (
+				D7B2F023077914AA11A5F3DE /* IOS */,
+			);
+			name = "Build";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Build";
+			sourceTree = "<absolute>";
+		};
+		D7B2F023077914AA11A5F3DE = {
+			isa = PBXGroup;
+			children = (
+				D5265C4C6ABD57CD3462D215 /* UnrealLaunchDaemon-Info.plist */,
+			);
+			name = "IOS";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Build/IOS";
+			sourceTree = "<absolute>";
+		};
+		C617AF046A69A0FEE1033A79 = {
+			isa = PBXGroup;
+			children = (
+				8B627AFFBD8EA785D13D7D24 /* IOS */,
+				4ECFD9AEBAC451B5021691EF /* LaunchDaemonMessageHandler.cpp */,
+				70672A9C97BB26BA1BBCFE9B /* LaunchDaemonMessageHandler.h */,
+				4229C74A55D6DAB23E113E52 /* UnrealLaunchDaemon.h */,
+				F85523A989E36E874F6C596E /* UnrealLaunchDaemonApp.cpp */,
+				FECCBC81149FB611475F5100 /* UnrealLaunchDaemonApp.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private";
+			sourceTree = "<absolute>";
+		};
+		8B627AFFBD8EA785D13D7D24 = {
+			isa = PBXGroup;
+			children = (
+				738F95BBD30FFC387EC8AABC /* IOSLaunchDaemonAppMain.cpp */,
+				22012FB4BDA9004E7AA70E85 /* IOSLaunchDaemonView.cpp */,
+				4351761389BD8B0FFDE498D1 /* IOSLaunchDaemonView.h */,
+			);
+			name = "IOS";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS";
+			sourceTree = "<absolute>";
+		};
+		A556779CADA45CAEE2240F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CD6616FB2186761F1AC0DCE /* UnrealLaunchDaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1FE5B22A3367EF831B471E93 /* UnrealLaunchDaemon_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 9D3F46B48B20EFD08A9CAA6A /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealLaunchDaemon_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		024155F8FE982BF3AEFF3D11 /* UnrealLaunchDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF85FFF795C86C25DA050A9 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */;
+			buildPhases = (
+				98DCA6E596B24C93AD35FACB /* Embed App Extensions */, 
+				731DFF74520FBE018D5E47BB /* Shell Script */, 
+			);
+			dependencies = (
+				EB3078464084CBD622E8DD18 /* PBXTargetDependency */,
+			);
+			name = "UnrealLaunchDaemon";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon";
+			productReference = "9CD6616FB2186761F1AC0DCE";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		235C2309807B2634D9F12797 /* UnrealLaunchDaemon_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EAFB522B22C054B7CED173 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */;
+			buildPhases = (
+				1F2033CD14245B22F534AB20 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealLaunchDaemon_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLaunchDaemon_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1B3D6D0BC3D43823A4807D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					024155F8FE982BF3AEFF3D11 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 43E5029F21EAB9AC18AFBEA1 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 259CA467DC55B2548AB038CD;
+			productRefGroup = A556779CADA45CAEE2240F46;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			024155F8FE982BF3AEFF3D11 /* UnrealLaunchDaemon */,
+			1FE5B22A3367EF831B471E93 /* UnrealLaunchDaemon_Build */,
+			235C2309807B2634D9F12797 /* UnrealLaunchDaemon_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		21E43F665515D870AA5703D1 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		F88E2911C55D94B98948406E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		901F5751F1642892D138D3C4 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		99DCBE5BD201637D9E15FEEA /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		05D65B499BB7705277DD17DF /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		FD76172FD77C99EA26685AF7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		45F3FA01C4C83C11B365BDF1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		D0F8704B6B49FD5106128042 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		A980543EEC6415ADEC4764E0 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		7BB78065805D4A4B71F36AFB /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		25E7D0E576A9923A94EBC3B1 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		3E018C9C483EDCF770F4ECE7 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		5206BBA83D924B6EAE220B29 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		44F285ABFC3994A1A05D0E61 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		C868EE5EBC935429903AA626 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLaunchDaemon";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		72E63E975D8A201C1A2E76DB /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		80817536560A272AA5CF526A /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E68B050BCB5A1547AEB1655D /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		D4F09CACBF8E8AD18C1A614B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		DD4A05E8EDBCE9F6D8BC3007 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealLaunchDaemon";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealLaunchDaemon-IOS-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Mac/UnrealLaunchDaemon-IOS-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/IOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/TVOS/UnrealLaunchDaemon-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E5029F21EAB9AC18AFBEA1 /* Build configuration list for PBXProject "UnrealLaunchDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E43F665515D870AA5703D1 /* "Debug" */,
+				F88E2911C55D94B98948406E /* "DebugGame" */,
+				901F5751F1642892D138D3C4 /* "Development" */,
+				99DCBE5BD201637D9E15FEEA /* "Shipping" */,
+				05D65B499BB7705277DD17DF /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		9D3F46B48B20EFD08A9CAA6A /* Build configuration list for PBXLegacyTarget "UnrealLaunchDaemon_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7D0E576A9923A94EBC3B1 /* "Debug" */,
+				3E018C9C483EDCF770F4ECE7 /* "DebugGame" */,
+				5206BBA83D924B6EAE220B29 /* "Development" */,
+				44F285ABFC3994A1A05D0E61 /* "Shipping" */,
+				C868EE5EBC935429903AA626 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		6BF85FFF795C86C25DA050A9 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD76172FD77C99EA26685AF7 /* "Debug" */,
+				45F3FA01C4C83C11B365BDF1 /* "DebugGame" */,
+				D0F8704B6B49FD5106128042 /* "Development" */,
+				A980543EEC6415ADEC4764E0 /* "Shipping" */,
+				7BB78065805D4A4B71F36AFB /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F6EAFB522B22C054B7CED173 /* Build configuration list for PBXNativeTarget "UnrealLaunchDaemon_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E63E975D8A201C1A2E76DB /* "Debug" */,
+				80817536560A272AA5CF526A /* "DebugGame" */,
+				E68B050BCB5A1547AEB1655D /* "Development" */,
+				D4F09CACBF8E8AD18C1A614B /* "Shipping" */,
+				DD4A05E8EDBCE9F6D8BC3007 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1B3D6D0BC3D43823A4807D7 /* Project object */;
+}

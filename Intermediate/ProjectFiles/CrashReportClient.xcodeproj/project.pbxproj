@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8963EEDF2A8DCCC3B5AB7B /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 72D3582D7879F03559E523BB /* DefaultEngine.ini */; };
+		204381EE394CCEFA3C999692 /* CrashReportClient.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = A4DE8B5174D83B17314BBED7 /* CrashReportClient.Build.cs */; };
+		39A799C779365B4E9F469821 /* CrashReportClient.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9 /* CrashReportClient.Target.cs */; };
+		B8117B0E5C726DCF4C215D87 /* CrashReportClientEditor.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 367CC48ABAB2F02BE2C0F253 /* CrashReportClientEditor.Build.cs */; };
+		7F372E78E3E5A8D584A93628 /* CrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C09EC92CC6458380041BF7 /* CrashReportClient.cpp */; };
+		13B15C7E5A93F4F71E278E24 /* CrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 44F4EC677888028C469CB8FA /* CrashReportClient.h */; };
+		1326FE1C7A6FD37B1C376431 /* CrashReportClientApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88297AF1B43E09A9317A8537 /* CrashReportClientApp.cpp */; };
+		D9DE0AF7018FB177F8616B33 /* CrashReportClientDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = 94D87DAF5412080D90BBDE4F /* CrashReportClientDefines.h */; };
+		0E11D807920FC999A1C7429B /* CrashReportClientStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64DB7A8D85EC3927BE465CDB /* CrashReportClientStyle.cpp */; };
+		C15A551F7178A61EFFBBE9EF /* CrashReportClientStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = B6AAE5E998D192CC96E14A78 /* CrashReportClientStyle.h */; };
+		987B87A482B790C7B4FC4638 /* DiagnosticLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAAA272920249CA9F28AD6DB /* DiagnosticLogger.cpp */; };
+		074F8EEDB48F45DF0FDC86F6 /* DiagnosticLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = F0029B472A213AB963AD2EEE /* DiagnosticLogger.h */; };
+		32DB8220EC24B0395B59B516 /* CrashReportClientMainLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E29395E8260A5DE235835C3C /* CrashReportClientMainLinux.cpp */; };
+		031D58721B736C61390162D4 /* CrashReportClientMainMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69D8384836B2BA88E2B0BC3D /* CrashReportClientMainMac.cpp */; };
+		A969AB7145A0860DA4AB9D32 /* MainLoopTiming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28A31325B76728DE2331381E /* MainLoopTiming.cpp */; };
+		88547FD1501C775A20A0434A /* MainLoopTiming.h in Sources */ = {isa = PBXBuildFile; fileRef = E3D3996E5679514565691F87 /* MainLoopTiming.h */; };
+		0D1502FC8450CB78318DE9F1 /* RecoveryService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21B4BD88334311885FC841E3 /* RecoveryService.cpp */; };
+		CDB988A9DFF2B91E35F8C33A /* RecoveryService.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A7BD5D0D4CB1956EAA84DA1 /* RecoveryService.h */; };
+		BCC9112257962744D31F2FCA /* SCrashReportClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C822983ED3CABC29F1826EB8 /* SCrashReportClient.cpp */; };
+		6D41B394AFEBF8256CE6EC15 /* SCrashReportClient.h in Sources */ = {isa = PBXBuildFile; fileRef = E197C69ED07E66FA4B0B07B2 /* SCrashReportClient.h */; };
+		E97ED441AD257DAF7E451CCE /* CrashReportClientMainWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB3D1EE8EC53DCE131C17F4D /* CrashReportClientMainWindows.cpp */; };
+		D115AB82C8D45A53611B899D /* CrashReportClientApp.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AB41483B25523BB697DF8 /* CrashReportClientApp.h */; };
+		94D29B8FD3DA0C27FF867097 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 79FAE6A9EAC96DAFB48049C1 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72D3582D7879F03559E523BB /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/CrashReportClient/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		A4DE8B5174D83B17314BBED7 /* CrashReportClient.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClient.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClient.Build.cs"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* CrashReportClient.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClient.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClient.Target.cs"; sourceTree = SOURCE_ROOT; };
+		367CC48ABAB2F02BE2C0F253 /* CrashReportClientEditor.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClientEditor.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClientEditor.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D1C09EC92CC6458380041BF7 /* CrashReportClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClient.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
+		44F4EC677888028C469CB8FA /* CrashReportClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClient.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.h"; sourceTree = SOURCE_ROOT; };
+		88297AF1B43E09A9317A8537 /* CrashReportClientApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientApp.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientApp.cpp"; sourceTree = SOURCE_ROOT; };
+		94D87DAF5412080D90BBDE4F /* CrashReportClientDefines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientDefines.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientDefines.h"; sourceTree = SOURCE_ROOT; };
+		64DB7A8D85EC3927BE465CDB /* CrashReportClientStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientStyle.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		B6AAE5E998D192CC96E14A78 /* CrashReportClientStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientStyle.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.h"; sourceTree = SOURCE_ROOT; };
+		BAAA272920249CA9F28AD6DB /* DiagnosticLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DiagnosticLogger.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/DiagnosticLogger.cpp"; sourceTree = SOURCE_ROOT; };
+		F0029B472A213AB963AD2EEE /* DiagnosticLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DiagnosticLogger.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/DiagnosticLogger.h"; sourceTree = SOURCE_ROOT; };
+		E29395E8260A5DE235835C3C /* CrashReportClientMainLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainLinux.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Linux/CrashReportClientMainLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		69D8384836B2BA88E2B0BC3D /* CrashReportClientMainMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainMac.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Mac/CrashReportClientMainMac.cpp"; sourceTree = SOURCE_ROOT; };
+		28A31325B76728DE2331381E /* MainLoopTiming.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MainLoopTiming.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.cpp"; sourceTree = SOURCE_ROOT; };
+		E3D3996E5679514565691F87 /* MainLoopTiming.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MainLoopTiming.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.h"; sourceTree = SOURCE_ROOT; };
+		21B4BD88334311885FC841E3 /* RecoveryService.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "RecoveryService.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.cpp"; sourceTree = SOURCE_ROOT; };
+		1A7BD5D0D4CB1956EAA84DA1 /* RecoveryService.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RecoveryService.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.h"; sourceTree = SOURCE_ROOT; };
+		C822983ED3CABC29F1826EB8 /* SCrashReportClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SCrashReportClient.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.cpp"; sourceTree = SOURCE_ROOT; };
+		E197C69ED07E66FA4B0B07B2 /* SCrashReportClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SCrashReportClient.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.h"; sourceTree = SOURCE_ROOT; };
+		CB3D1EE8EC53DCE131C17F4D /* CrashReportClientMainWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CrashReportClientMainWindows.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Windows/CrashReportClientMainWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		9E2AB41483B25523BB697DF8 /* CrashReportClientApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CrashReportClientApp.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Public/CrashReportClientApp.h"; sourceTree = SOURCE_ROOT; };
+		79FAE6A9EAC96DAFB48049C1 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
+		0598F871778E27A5CCF7D69B /* CrashReportClient */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClient; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88ACC3813892AF1B18BE4C1F = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F372E78E3E5A8D584A93628 /* CrashReportClient.cpp in Sources */,
+				1326FE1C7A6FD37B1C376431 /* CrashReportClientApp.cpp in Sources */,
+				0E11D807920FC999A1C7429B /* CrashReportClientStyle.cpp in Sources */,
+				987B87A482B790C7B4FC4638 /* DiagnosticLogger.cpp in Sources */,
+				031D58721B736C61390162D4 /* CrashReportClientMainMac.cpp in Sources */,
+				A969AB7145A0860DA4AB9D32 /* MainLoopTiming.cpp in Sources */,
+				0D1502FC8450CB78318DE9F1 /* RecoveryService.cpp in Sources */,
+				BCC9112257962744D31F2FCA /* SCrashReportClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	5F630596F66975C249CF129E /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		8D4071D31EE2DCAF6389F531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 295011B46DD269159A3B906E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C6429AFE27F9C857DED615;
+			remoteInfo = "CrashReportClient_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		8D281B319F0301FFFA4CD046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C6429AFE27F9C857DED615 /* CrashReportClient_Build */;
+			targetProxy = 8D4071D31EE2DCAF6389F531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		674E730510044426F8DD43D4 = {
+			isa = PBXGroup;
+			children = (
+				9814C409668B69E14040850B /* Programs */,
+				A1CE0AA92E6F48A345A81447 /* Source */,
+				19C527976CBDBC63B1429B03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9814C409668B69E14040850B = {
+			isa = PBXGroup;
+			children = (
+				C3850D171AB19367FDE90871 /* CrashReportClient */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		C3850D171AB19367FDE90871 = {
+			isa = PBXGroup;
+			children = (
+				95302813DA55D97FCFA82EF3 /* Config */,
+			);
+			name = "CrashReportClient";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/CrashReportClient";
+			sourceTree = "<absolute>";
+		};
+		95302813DA55D97FCFA82EF3 = {
+			isa = PBXGroup;
+			children = (
+				72D3582D7879F03559E523BB /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/CrashReportClient/Config";
+			sourceTree = "<absolute>";
+		};
+		A1CE0AA92E6F48A345A81447 = {
+			isa = PBXGroup;
+			children = (
+				DF5B0E00D63EBDAE0C537336 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		DF5B0E00D63EBDAE0C537336 = {
+			isa = PBXGroup;
+			children = (
+				635506EB66053C1B5719754C /* CrashReportClient */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		635506EB66053C1B5719754C = {
+			isa = PBXGroup;
+			children = (
+				A7E9398EA0642BEC1BE0347F /* Private */,
+				5CAC30D73227F1D3A3602643 /* Public */,
+				27EC8022EF6E99857FBC8ABB /* Resources */,
+				A4DE8B5174D83B17314BBED7 /* CrashReportClient.Build.cs */,
+				6EF1EB4E659A8BF798C986A9 /* CrashReportClient.Target.cs */,
+				367CC48ABAB2F02BE2C0F253 /* CrashReportClientEditor.Build.cs */,
+			);
+			name = "CrashReportClient";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient";
+			sourceTree = "<absolute>";
+		};
+		A7E9398EA0642BEC1BE0347F = {
+			isa = PBXGroup;
+			children = (
+				46D8A990EA7FE74E5AD345D8 /* Linux */,
+				685D3D3F6CF9F0C5E6C159EC /* Mac */,
+				052F0DA827861A832187A48D /* Windows */,
+				D1C09EC92CC6458380041BF7 /* CrashReportClient.cpp */,
+				44F4EC677888028C469CB8FA /* CrashReportClient.h */,
+				88297AF1B43E09A9317A8537 /* CrashReportClientApp.cpp */,
+				94D87DAF5412080D90BBDE4F /* CrashReportClientDefines.h */,
+				64DB7A8D85EC3927BE465CDB /* CrashReportClientStyle.cpp */,
+				B6AAE5E998D192CC96E14A78 /* CrashReportClientStyle.h */,
+				BAAA272920249CA9F28AD6DB /* DiagnosticLogger.cpp */,
+				F0029B472A213AB963AD2EEE /* DiagnosticLogger.h */,
+				28A31325B76728DE2331381E /* MainLoopTiming.cpp */,
+				E3D3996E5679514565691F87 /* MainLoopTiming.h */,
+				21B4BD88334311885FC841E3 /* RecoveryService.cpp */,
+				1A7BD5D0D4CB1956EAA84DA1 /* RecoveryService.h */,
+				C822983ED3CABC29F1826EB8 /* SCrashReportClient.cpp */,
+				E197C69ED07E66FA4B0B07B2 /* SCrashReportClient.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private";
+			sourceTree = "<absolute>";
+		};
+		46D8A990EA7FE74E5AD345D8 = {
+			isa = PBXGroup;
+			children = (
+				E29395E8260A5DE235835C3C /* CrashReportClientMainLinux.cpp */,
+			);
+			name = "Linux";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		685D3D3F6CF9F0C5E6C159EC = {
+			isa = PBXGroup;
+			children = (
+				69D8384836B2BA88E2B0BC3D /* CrashReportClientMainMac.cpp */,
+			);
+			name = "Mac";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		052F0DA827861A832187A48D = {
+			isa = PBXGroup;
+			children = (
+				CB3D1EE8EC53DCE131C17F4D /* CrashReportClientMainWindows.cpp */,
+			);
+			name = "Windows";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		5CAC30D73227F1D3A3602643 = {
+			isa = PBXGroup;
+			children = (
+				9E2AB41483B25523BB697DF8 /* CrashReportClientApp.h */,
+			);
+			name = "Public";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Public";
+			sourceTree = "<absolute>";
+		};
+		27EC8022EF6E99857FBC8ABB = {
+			isa = PBXGroup;
+			children = (
+				713E27D4B8C2B7E0B8AFE3BF /* Mac */,
+			);
+			name = "Resources";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Resources";
+			sourceTree = "<absolute>";
+		};
+		713E27D4B8C2B7E0B8AFE3BF = {
+			isa = PBXGroup;
+			children = (
+				79FAE6A9EAC96DAFB48049C1 /* Info.plist */,
+			);
+			name = "Mac";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Resources/Mac";
+			sourceTree = "<absolute>";
+		};
+		19C527976CBDBC63B1429B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0598F871778E27A5CCF7D69B /* CrashReportClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		00C6429AFE27F9C857DED615 /* CrashReportClient_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = DACD64D79418890332EA2B07 /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "CrashReportClient_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClient_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		1594E563C41CF8E29DFF26F3 /* CrashReportClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15282563554BA182B970C7ED /* Build configuration list for PBXNativeTarget "CrashReportClient" */;
+			buildPhases = (
+				5F630596F66975C249CF129E /* Embed App Extensions */, 
+				1913973C50D4A024B2707D63 /* Shell Script */, 
+			);
+			dependencies = (
+				8D281B319F0301FFFA4CD046 /* PBXTargetDependency */,
+			);
+			name = "CrashReportClient";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClient";
+			productReference = "0598F871778E27A5CCF7D69B";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		0A8F876C242B7A956AD5D357 /* CrashReportClient_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F41B03B902CD927C2E397A9 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */;
+			buildPhases = (
+				88ACC3813892AF1B18BE4C1F /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "CrashReportClient_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClient_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		295011B46DD269159A3B906E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					1594E563C41CF8E29DFF26F3 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A08CA42C6440AB04FA0D3852 /* Build configuration list for PBXProject "CrashReportClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 674E730510044426F8DD43D4;
+			productRefGroup = 19C527976CBDBC63B1429B03;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			1594E563C41CF8E29DFF26F3 /* CrashReportClient */,
+			00C6429AFE27F9C857DED615 /* CrashReportClient_Build */,
+			0A8F876C242B7A956AD5D357 /* CrashReportClient_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		41C3EE662E27BC5B78073809 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashReportCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CrashReportCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Analytics",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/AnalyticsET",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/HTTP",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashDebugHelper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/PakFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/RSA",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashReportClient",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		675857D9B6C4C91C5AC96BBC /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashReportCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CrashReportCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Analytics",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/AnalyticsET",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/HTTP",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashDebugHelper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/PakFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/RSA",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashReportClient",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		79D476926B6D582D8A9A941E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashReportCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CrashReportCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Analytics",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/AnalyticsET",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/HTTP",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashDebugHelper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/PakFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/RSA",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/CrashReportClient/Inc/CrashReportClient",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/CrashReportClient/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		B8266D48CCD9B9B89A246824 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClient-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		5C783D509A492316D139CDBD /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClient-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		1FE61D037FFFCEBB9B778007 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClient";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		FA72CB431D286DEFE5A15433 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClient";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		4597A5E2FF57496CEDA0DCC5 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClient";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		10013E99611B196DD109682B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClient";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		7B0F932213B72511DB8E842A /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClient-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		D0933821D738D8B1A3D7C69B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClient-Mac-Development";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		E0B7007F48AF3A35FF1A02F1 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "CrashReportClient";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A08CA42C6440AB04FA0D3852 /* Build configuration list for PBXProject "CrashReportClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C3EE662E27BC5B78073809 /* "Debug" */,
+				675857D9B6C4C91C5AC96BBC /* "Development" */,
+				79D476926B6D582D8A9A941E /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DACD64D79418890332EA2B07 /* Build configuration list for PBXLegacyTarget "CrashReportClient_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA72CB431D286DEFE5A15433 /* "Debug" */,
+				4597A5E2FF57496CEDA0DCC5 /* "Development" */,
+				10013E99611B196DD109682B /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		15282563554BA182B970C7ED /* Build configuration list for PBXNativeTarget "CrashReportClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8266D48CCD9B9B89A246824 /* "Debug" */,
+				5C783D509A492316D139CDBD /* "Development" */,
+				1FE61D037FFFCEBB9B778007 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		9F41B03B902CD927C2E397A9 /* Build configuration list for PBXNativeTarget "CrashReportClient_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0F932213B72511DB8E842A /* "Debug" */,
+				D0933821D738D8B1A3D7C69B /* "Development" */,
+				E0B7007F48AF3A35FF1A02F1 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 295011B46DD269159A3B906E /* Project object */;
+}

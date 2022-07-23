@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE51C3204225DD0A508CD13D /* ChaosVisualDebugger.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = D86168785C5A89B20FAA8CCE /* ChaosVisualDebugger.Build.cs */; };
+		102446793638E1E773194BBB /* ChaosVisualDebugger.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 940AC694D607EE88F16DFF10 /* ChaosVisualDebugger.Target.cs */; };
+		52CC20FB52F90C8983B93503 /* ChaosVisualDebuggerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2265DEE371A4D7572255BF4 /* ChaosVisualDebuggerMain.cpp */; };
+		0306F93130559D54C4F4CE75 /* ChaosVisualDebuggerMain.h in Sources */ = {isa = PBXBuildFile; fileRef = 04E1B7577F48BA1E2C64A536 /* ChaosVisualDebuggerMain.h */; };
+		FC9A7BF45C175C2C712CF84C /* ChaosVisualDebuggerSlateStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFDB582E1CE03FDD57E7EA55 /* ChaosVisualDebuggerSlateStyle.cpp */; };
+		63F6F5296B3CC79E60C33596 /* ChaosVisualDebuggerSlateStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = D9A8F7AC98A104D7E86A57A4 /* ChaosVisualDebuggerSlateStyle.h */; };
+		F08B014B25C8DE14B0259165 /* ChaosVisualDebuggerLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2232C134655AEB3CA5C15473 /* ChaosVisualDebuggerLinux.cpp */; };
+		E99245B6E3136DF89E5039DF /* ChaosVisualDebuggerMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C7998E520E6B417928965 /* ChaosVisualDebuggerMac.cpp */; };
+		DFD0728E7F1BFE2E378E6292 /* ChaosVisualDebuggerWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8227319DB898C6D2F9E1F9E8 /* ChaosVisualDebuggerWindows.cpp */; };
+		E1525685DBA05C5609DFD612 /* ChaosVisualDebuggerWindows.h in Sources */ = {isa = PBXBuildFile; fileRef = A0DE7883510AA8AC1AE615BD /* ChaosVisualDebuggerWindows.h */; };
+		EE49FB7ECBB76BFED689AD2D /* ChaosVisualDebugger.ico in Sources */ = {isa = PBXBuildFile; fileRef = C4795297310B89A2501EFCD9 /* ChaosVisualDebugger.ico */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D86168785C5A89B20FAA8CCE /* ChaosVisualDebugger.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ChaosVisualDebugger.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/ChaosVisualDebugger.Build.cs"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* ChaosVisualDebugger.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ChaosVisualDebugger.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/ChaosVisualDebugger.Target.cs"; sourceTree = SOURCE_ROOT; };
+		D2265DEE371A4D7572255BF4 /* ChaosVisualDebuggerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		04E1B7577F48BA1E2C64A536 /* ChaosVisualDebuggerMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosVisualDebuggerMain.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerMain.h"; sourceTree = SOURCE_ROOT; };
+		FFDB582E1CE03FDD57E7EA55 /* ChaosVisualDebuggerSlateStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerSlateStyle.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerSlateStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		D9A8F7AC98A104D7E86A57A4 /* ChaosVisualDebuggerSlateStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosVisualDebuggerSlateStyle.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/ChaosVisualDebuggerSlateStyle.h"; sourceTree = SOURCE_ROOT; };
+		2232C134655AEB3CA5C15473 /* ChaosVisualDebuggerLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerLinux.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/Linux/ChaosVisualDebuggerLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		3A7C7998E520E6B417928965 /* ChaosVisualDebuggerMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerMac.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/Mac/ChaosVisualDebuggerMac.cpp"; sourceTree = SOURCE_ROOT; };
+		8227319DB898C6D2F9E1F9E8 /* ChaosVisualDebuggerWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChaosVisualDebuggerWindows.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows/ChaosVisualDebuggerWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		A0DE7883510AA8AC1AE615BD /* ChaosVisualDebuggerWindows.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChaosVisualDebuggerWindows.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows/ChaosVisualDebuggerWindows.h"; sourceTree = SOURCE_ROOT; };
+		C4795297310B89A2501EFCD9 /* ChaosVisualDebugger.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ChaosVisualDebugger.ico"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Resources/Windows/ChaosVisualDebugger.ico"; sourceTree = SOURCE_ROOT; };
+		AA2AB49A56BE7C2827F2A470 /* ChaosVisualDebugger */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ChaosVisualDebugger; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E4DB739F334E7347CFCA431 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CC20FB52F90C8983B93503 /* ChaosVisualDebuggerMain.cpp in Sources */,
+				FC9A7BF45C175C2C712CF84C /* ChaosVisualDebuggerSlateStyle.cpp in Sources */,
+				E99245B6E3136DF89E5039DF /* ChaosVisualDebuggerMac.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	05BF1543DDD260168CBB458C /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		8203780262872133C1C1B411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A246EC966AF416CEEE583FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE3D7D9FC697707E560400F;
+			remoteInfo = "ChaosVisualDebugger_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		B6E393A01C099ACA513430F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE3D7D9FC697707E560400F /* ChaosVisualDebugger_Build */;
+			targetProxy = 8203780262872133C1C1B411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		2534AA8157AB07B19CDF5893 = {
+			isa = PBXGroup;
+			children = (
+				2E816A42686DC97C4F672AD1 /* Private */,
+				180B2EE6DA72A436EF16C479 /* Resources */,
+				D86168785C5A89B20FAA8CCE /* ChaosVisualDebugger.Build.cs */,
+				940AC694D607EE88F16DFF10 /* ChaosVisualDebugger.Target.cs */,
+				98052AAEC7A78FCAC43A6166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E816A42686DC97C4F672AD1 = {
+			isa = PBXGroup;
+			children = (
+				473FAAA95FFF0A5D6EF89154 /* Linux */,
+				7EEFBE3FFF430EFFD5F98291 /* Mac */,
+				987EEA76780A34755C9B51BE /* Windows */,
+				D2265DEE371A4D7572255BF4 /* ChaosVisualDebuggerMain.cpp */,
+				04E1B7577F48BA1E2C64A536 /* ChaosVisualDebuggerMain.h */,
+				FFDB582E1CE03FDD57E7EA55 /* ChaosVisualDebuggerSlateStyle.cpp */,
+				D9A8F7AC98A104D7E86A57A4 /* ChaosVisualDebuggerSlateStyle.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private";
+			sourceTree = "<absolute>";
+		};
+		473FAAA95FFF0A5D6EF89154 = {
+			isa = PBXGroup;
+			children = (
+				2232C134655AEB3CA5C15473 /* ChaosVisualDebuggerLinux.cpp */,
+			);
+			name = "Linux";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		7EEFBE3FFF430EFFD5F98291 = {
+			isa = PBXGroup;
+			children = (
+				3A7C7998E520E6B417928965 /* ChaosVisualDebuggerMac.cpp */,
+			);
+			name = "Mac";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		987EEA76780A34755C9B51BE = {
+			isa = PBXGroup;
+			children = (
+				8227319DB898C6D2F9E1F9E8 /* ChaosVisualDebuggerWindows.cpp */,
+				A0DE7883510AA8AC1AE615BD /* ChaosVisualDebuggerWindows.h */,
+			);
+			name = "Windows";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		180B2EE6DA72A436EF16C479 = {
+			isa = PBXGroup;
+			children = (
+				AE8A7D0B592AFB4EBD1910E1 /* Windows */,
+			);
+			name = "Resources";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Resources";
+			sourceTree = "<absolute>";
+		};
+		AE8A7D0B592AFB4EBD1910E1 = {
+			isa = PBXGroup;
+			children = (
+				C4795297310B89A2501EFCD9 /* ChaosVisualDebugger.ico */,
+			);
+			name = "Windows";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Resources/Windows";
+			sourceTree = "<absolute>";
+		};
+		98052AAEC7A78FCAC43A6166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2AB49A56BE7C2827F2A470 /* ChaosVisualDebugger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EEE3D7D9FC697707E560400F /* ChaosVisualDebugger_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 37C18457BA5D8BF52F82F5F1 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "ChaosVisualDebugger_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ChaosVisualDebugger_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		04B83F5B548284F3E39733C8 /* ChaosVisualDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1657C312B0C4E6DEDB904D /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */;
+			buildPhases = (
+				05BF1543DDD260168CBB458C /* Embed App Extensions */, 
+				8502670676DEADEBD2442309 /* Shell Script */, 
+			);
+			dependencies = (
+				B6E393A01C099ACA513430F6 /* PBXTargetDependency */,
+			);
+			name = "ChaosVisualDebugger";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ChaosVisualDebugger";
+			productReference = "AA2AB49A56BE7C2827F2A470";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		55FF7392B807CE905E08137E /* ChaosVisualDebugger_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4737574AAD2B49E9A46394 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */;
+			buildPhases = (
+				5E4DB739F334E7347CFCA431 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "ChaosVisualDebugger_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ChaosVisualDebugger_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A246EC966AF416CEEE583FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					04B83F5B548284F3E39733C8 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F5E44FDE91B0B12EAD05A872 /* Build configuration list for PBXProject "ChaosVisualDebugger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 2534AA8157AB07B19CDF5893;
+			productRefGroup = 98052AAEC7A78FCAC43A6166;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			04B83F5B548284F3E39733C8 /* ChaosVisualDebugger */,
+			EEE3D7D9FC697707E560400F /* ChaosVisualDebugger_Build */,
+			55FF7392B807CE905E08137E /* ChaosVisualDebugger_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F3CEBD67F723179B60F8A808 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		F1BB10876A8101C81ACD9916 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		5C84F472F1EE2D15DE2E5BFA /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		BD0210345F345EA28433E09E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		696BCE44CDE6C56F41FC8735 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ChaosVisualDebugger/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ChaosVisualDebugger/Inc/ChaosVisualDebugger",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		914CECF1DA4BD9A2072AB4F0 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		64794CA799E76C85FCDCDDE1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		83A3C9F3372AA9CFCDB9FFC0 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		72B82D48AB378EB0A14EC013 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		CD289DFFEEABE25D0048C25D /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		CDE1BE9E4FB95FC19B0B4F0F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		2C70FE5EFE26966F6D95AC93 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		91527B75E79682236BD2017A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		AD2A673505854435BB14B7E5 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		74573B4258C0D0CE1EB7CC99 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ChaosVisualDebugger";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		14F81F69A4A92B8D5A5E7429 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		A8D8561A0A87F5475F08042B /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		32247D7E6797B47A7C5C9666 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		854EC336745FF6FF43DE0CAF /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		B6FF67D54F47A389C78E694C /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ChaosVisualDebugger-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E44FDE91B0B12EAD05A872 /* Build configuration list for PBXProject "ChaosVisualDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CEBD67F723179B60F8A808 /* "Debug" */,
+				F1BB10876A8101C81ACD9916 /* "DebugGame" */,
+				5C84F472F1EE2D15DE2E5BFA /* "Development" */,
+				BD0210345F345EA28433E09E /* "Shipping" */,
+				696BCE44CDE6C56F41FC8735 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		37C18457BA5D8BF52F82F5F1 /* Build configuration list for PBXLegacyTarget "ChaosVisualDebugger_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE1BE9E4FB95FC19B0B4F0F /* "Debug" */,
+				2C70FE5EFE26966F6D95AC93 /* "DebugGame" */,
+				91527B75E79682236BD2017A /* "Development" */,
+				AD2A673505854435BB14B7E5 /* "Shipping" */,
+				74573B4258C0D0CE1EB7CC99 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		3C1657C312B0C4E6DEDB904D /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914CECF1DA4BD9A2072AB4F0 /* "Debug" */,
+				64794CA799E76C85FCDCDDE1 /* "DebugGame" */,
+				83A3C9F3372AA9CFCDB9FFC0 /* "Development" */,
+				72B82D48AB378EB0A14EC013 /* "Shipping" */,
+				CD289DFFEEABE25D0048C25D /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		AF4737574AAD2B49E9A46394 /* Build configuration list for PBXNativeTarget "ChaosVisualDebugger_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F81F69A4A92B8D5A5E7429 /* "Debug" */,
+				A8D8561A0A87F5475F08042B /* "DebugGame" */,
+				32247D7E6797B47A7C5C9666 /* "Development" */,
+				854EC336745FF6FF43DE0CAF /* "Shipping" */,
+				B6FF67D54F47A389C78E694C /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A246EC966AF416CEEE583FC /* Project object */;
+}

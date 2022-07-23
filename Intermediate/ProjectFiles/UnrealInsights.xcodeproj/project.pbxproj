@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAABB90CDB55588148EF5144 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6598DB205CA63955700F94BE /* DefaultEngine.ini */; };
+		230DF89607FDC03ED0F65258 /* IOSUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1060B620922975BDE8EB05F /* IOSUnrealInsightsMain.cpp */; };
+		A997E8F9937409D0BBFD1BF9 /* LinuxUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D227FACFF45B36EB84AA80 /* LinuxUnrealInsightsMain.cpp */; };
+		639908BE30C654945D98ED6F /* MacUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14C7AB5BED819CB3EB11D237 /* MacUnrealInsightsMain.cpp */; };
+		040AF879F4A3123DEBC5982F /* UnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8780A1BF0EA731BF21E85 /* UnrealInsightsMain.cpp */; };
+		2864B801820D28123CCC80E8 /* UnrealInsightsMain.h in Sources */ = {isa = PBXBuildFile; fileRef = 8431570D44DDEB951CFA6D28 /* UnrealInsightsMain.h */; };
+		CE56E0EA35E14412EC72518F /* UserInterfaceCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB11BADD9D86F370678F86E9 /* UserInterfaceCommand.cpp */; };
+		98DD2F3E0789692EF78F322C /* UserInterfaceCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DDC5B876EFC11E0C82132 /* UserInterfaceCommand.h */; };
+		FA9C8CEA32797425ED6795F9 /* WindowsUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B9FF5A9869CF8E5B8E607 /* WindowsUnrealInsightsMain.cpp */; };
+		49FF4969E7F69552C7D1C393 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 396961E324C782AC32B1EFA1 /* Info.plist */; };
+		33912D85F37DAB4BB0561AD6 /* UnrealInsights.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5BB529A9104661FBDB205460 /* UnrealInsights.Build.cs */; };
+		2A253746FB42B11C45A071C6 /* UnrealInsights.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8915B59745870EF5BBE1C46F /* UnrealInsights.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6598DB205CA63955700F94BE /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/UnrealInsights/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		B1060B620922975BDE8EB05F /* IOSUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSUnrealInsightsMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/IOS/IOSUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		90D227FACFF45B36EB84AA80 /* LinuxUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LinuxUnrealInsightsMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Linux/LinuxUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		14C7AB5BED819CB3EB11D237 /* MacUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MacUnrealInsightsMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Mac/MacUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		3CE8780A1BF0EA731BF21E85 /* UnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealInsightsMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		8431570D44DDEB951CFA6D28 /* UnrealInsightsMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealInsightsMain.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.h"; sourceTree = SOURCE_ROOT; };
+		EB11BADD9D86F370678F86E9 /* UserInterfaceCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UserInterfaceCommand.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.cpp"; sourceTree = SOURCE_ROOT; };
+		2D3DDC5B876EFC11E0C82132 /* UserInterfaceCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UserInterfaceCommand.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.h"; sourceTree = SOURCE_ROOT; };
+		6C4B9FF5A9869CF8E5B8E607 /* WindowsUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WindowsUnrealInsightsMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Windows/WindowsUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		396961E324C782AC32B1EFA1 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
+		5BB529A9104661FBDB205460 /* UnrealInsights.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealInsights.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/UnrealInsights.Build.cs"; sourceTree = SOURCE_ROOT; };
+		8915B59745870EF5BBE1C46F /* UnrealInsights.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealInsights.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/UnrealInsights.Target.cs"; sourceTree = SOURCE_ROOT; };
+		C4B7701147D1D09FCF7C71D6 /* UnrealInsights */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealInsights; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF0D526C8922A72AFAC01E7 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230DF89607FDC03ED0F65258 /* IOSUnrealInsightsMain.cpp in Sources */,
+				639908BE30C654945D98ED6F /* MacUnrealInsightsMain.cpp in Sources */,
+				040AF879F4A3123DEBC5982F /* UnrealInsightsMain.cpp in Sources */,
+				CE56E0EA35E14412EC72518F /* UserInterfaceCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	04A701ABF8FA95FA7310BA21 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		73E6D1D934A3FE655D03E2FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167B2C2614FD412E27CFD1D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41C190BE02389E6814B440E;
+			remoteInfo = "UnrealInsights_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		77779FB902AB21F767799977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41C190BE02389E6814B440E /* UnrealInsights_Build */;
+			targetProxy = 73E6D1D934A3FE655D03E2FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		242DF9992D7CD6D73A797F2D = {
+			isa = PBXGroup;
+			children = (
+				945FCEA5C1E53E30BB825218 /* Programs */,
+				B7F0AE50C8B57F1EFD780DFA /* Source */,
+				CD81E176B9D7F0BA20B4C687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945FCEA5C1E53E30BB825218 = {
+			isa = PBXGroup;
+			children = (
+				5127194EEC45812D2E842396 /* UnrealInsights */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		5127194EEC45812D2E842396 = {
+			isa = PBXGroup;
+			children = (
+				0B2539F5DD4EDA867D043C27 /* Config */,
+			);
+			name = "UnrealInsights";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealInsights";
+			sourceTree = "<absolute>";
+		};
+		0B2539F5DD4EDA867D043C27 = {
+			isa = PBXGroup;
+			children = (
+				6598DB205CA63955700F94BE /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealInsights/Config";
+			sourceTree = "<absolute>";
+		};
+		B7F0AE50C8B57F1EFD780DFA = {
+			isa = PBXGroup;
+			children = (
+				6F0D0BFE90A331103C37999B /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		6F0D0BFE90A331103C37999B = {
+			isa = PBXGroup;
+			children = (
+				AB49536CA7CB9B4CEAF197FB /* UnrealInsights */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		AB49536CA7CB9B4CEAF197FB = {
+			isa = PBXGroup;
+			children = (
+				9730647904059993183E85CF /* Private */,
+				8E68B6572E07593375969A1A /* Resources */,
+				5BB529A9104661FBDB205460 /* UnrealInsights.Build.cs */,
+				8915B59745870EF5BBE1C46F /* UnrealInsights.Target.cs */,
+			);
+			name = "UnrealInsights";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights";
+			sourceTree = "<absolute>";
+		};
+		9730647904059993183E85CF = {
+			isa = PBXGroup;
+			children = (
+				43DCF6D9D32BEA7F5612A57F /* IOS */,
+				61137631DDC0107E76106660 /* Linux */,
+				3FB80C379E06836CC38328CB /* Mac */,
+				D5C179BF0617A4858BE417F1 /* Windows */,
+				3CE8780A1BF0EA731BF21E85 /* UnrealInsightsMain.cpp */,
+				8431570D44DDEB951CFA6D28 /* UnrealInsightsMain.h */,
+				EB11BADD9D86F370678F86E9 /* UserInterfaceCommand.cpp */,
+				2D3DDC5B876EFC11E0C82132 /* UserInterfaceCommand.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private";
+			sourceTree = "<absolute>";
+		};
+		43DCF6D9D32BEA7F5612A57F = {
+			isa = PBXGroup;
+			children = (
+				B1060B620922975BDE8EB05F /* IOSUnrealInsightsMain.cpp */,
+			);
+			name = "IOS";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/IOS";
+			sourceTree = "<absolute>";
+		};
+		61137631DDC0107E76106660 = {
+			isa = PBXGroup;
+			children = (
+				90D227FACFF45B36EB84AA80 /* LinuxUnrealInsightsMain.cpp */,
+			);
+			name = "Linux";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		3FB80C379E06836CC38328CB = {
+			isa = PBXGroup;
+			children = (
+				14C7AB5BED819CB3EB11D237 /* MacUnrealInsightsMain.cpp */,
+			);
+			name = "Mac";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		D5C179BF0617A4858BE417F1 = {
+			isa = PBXGroup;
+			children = (
+				6C4B9FF5A9869CF8E5B8E607 /* WindowsUnrealInsightsMain.cpp */,
+			);
+			name = "Windows";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		8E68B6572E07593375969A1A = {
+			isa = PBXGroup;
+			children = (
+				1FB3E1508F38BCDEEAAB5C1B /* Mac */,
+			);
+			name = "Resources";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources";
+			sourceTree = "<absolute>";
+		};
+		1FB3E1508F38BCDEEAAB5C1B = {
+			isa = PBXGroup;
+			children = (
+				396961E324C782AC32B1EFA1 /* Info.plist */,
+			);
+			name = "Mac";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac";
+			sourceTree = "<absolute>";
+		};
+		CD81E176B9D7F0BA20B4C687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B7701147D1D09FCF7C71D6 /* UnrealInsights */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D41C190BE02389E6814B440E /* UnrealInsights_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 3C11BB5572A9677395A5F54A /* Build configuration list for PBXLegacyTarget "UnrealInsights_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealInsights_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealInsights_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		11DF41E94E73D61BB7011BF1 /* UnrealInsights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1BC3B8F40EEBF0F8710FC5 /* Build configuration list for PBXNativeTarget "UnrealInsights" */;
+			buildPhases = (
+				04A701ABF8FA95FA7310BA21 /* Embed App Extensions */, 
+				6B238934B2105F706772DC3C /* Shell Script */, 
+			);
+			dependencies = (
+				77779FB902AB21F767799977 /* PBXTargetDependency */,
+			);
+			name = "UnrealInsights";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealInsights";
+			productReference = "C4B7701147D1D09FCF7C71D6";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		3A0FAF95A8F9A7F674FA0518 /* UnrealInsights_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F285397AFB78797362D436 /* Build configuration list for PBXNativeTarget "UnrealInsights_Index" */;
+			buildPhases = (
+				BDF0D526C8922A72AFAC01E7 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealInsights_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealInsights_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167B2C2614FD412E27CFD1D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					11DF41E94E73D61BB7011BF1 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 73F33E87A34D99420BA3CB80 /* Build configuration list for PBXProject "UnrealInsights" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 242DF9992D7CD6D73A797F2D;
+			productRefGroup = CD81E176B9D7F0BA20B4C687;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			11DF41E94E73D61BB7011BF1 /* UnrealInsights */,
+			D41C190BE02389E6814B440E /* UnrealInsights_Build */,
+			3A0FAF95A8F9A7F674FA0518 /* UnrealInsights_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A6B00FA84E0D7E2080FA7211 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		4E39529B5E2F06F2F6699F58 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		C5B0F5D0324D2CD2FD217BB1 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		34A40B3F931F2304FF5D2487 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		D6D3DFB865D5C1B84CB98F1D /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		D545C2261ECB13AC36B4BAA5 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		4DDFD4F07BE04511407B3B31 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		1669DEAC750EC0FA8FC1B197 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		FAFEA7423DAF1DAF927B5752 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		4B11596A2EF962FB04209299 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		09F6BF9E4C907F92CBC40447 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		1FAD199C1349F49197525013 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		ACAA522D2ABAE3CC9466D762 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		AF75D311AA942F2A25FEF986 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		76A76BBF176153D825AB3BD7 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		EAEDAB669299A070B1775E6D /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		3EE3339BBE1250804D5319B2 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		54235E4A267D161D67828554 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		AFA4387543D263F6FFD65028 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		B577C54F3C403AF6151A2932 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealInsights-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73F33E87A34D99420BA3CB80 /* Build configuration list for PBXProject "UnrealInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B00FA84E0D7E2080FA7211 /* "Debug" */,
+				4E39529B5E2F06F2F6699F58 /* "DebugGame" */,
+				C5B0F5D0324D2CD2FD217BB1 /* "Development" */,
+				34A40B3F931F2304FF5D2487 /* "Shipping" */,
+				D6D3DFB865D5C1B84CB98F1D /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		3C11BB5572A9677395A5F54A /* Build configuration list for PBXLegacyTarget "UnrealInsights_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F6BF9E4C907F92CBC40447 /* "Debug" */,
+				1FAD199C1349F49197525013 /* "DebugGame" */,
+				ACAA522D2ABAE3CC9466D762 /* "Development" */,
+				AF75D311AA942F2A25FEF986 /* "Shipping" */,
+				76A76BBF176153D825AB3BD7 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		5F1BC3B8F40EEBF0F8710FC5 /* Build configuration list for PBXNativeTarget "UnrealInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D545C2261ECB13AC36B4BAA5 /* "Debug" */,
+				4DDFD4F07BE04511407B3B31 /* "DebugGame" */,
+				1669DEAC750EC0FA8FC1B197 /* "Development" */,
+				FAFEA7423DAF1DAF927B5752 /* "Shipping" */,
+				4B11596A2EF962FB04209299 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		89F285397AFB78797362D436 /* Build configuration list for PBXNativeTarget "UnrealInsights_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDAB669299A070B1775E6D /* "Debug" */,
+				3EE3339BBE1250804D5319B2 /* "DebugGame" */,
+				54235E4A267D161D67828554 /* "Development" */,
+				AFA4387543D263F6FFD65028 /* "Shipping" */,
+				B577C54F3C403AF6151A2932 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167B2C2614FD412E27CFD1D0 /* Project object */;
+}

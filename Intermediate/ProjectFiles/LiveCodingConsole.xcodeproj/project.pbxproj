@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0487BD5C75B427FDEEDA7BB /* LiveCodingConsole.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 09EE3170E2A72AB5CE79716B /* LiveCodingConsole.Build.cs */; };
+		98B4EF2ED976503CEFF2A6D9 /* LiveCodingConsole.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3D89FA0375C80B1C1825B972 /* LiveCodingConsole.Target.cs */; };
+		33ECC5BD1CFE8825626C581A /* LiveCodingConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC222B2AB4D755AABA099B /* LiveCodingConsole.cpp */; };
+		8B1A2D55B9E20367D610A1DB /* LiveCodingConsole.h in Sources */ = {isa = PBXBuildFile; fileRef = 968463DF6582589C9616D235 /* LiveCodingConsole.h */; };
+		84FF8B19A11BC078E22A3101 /* LiveCodingConsoleStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0326C7F69F0448D0B4795A5 /* LiveCodingConsoleStyle.cpp */; };
+		51F8F028626C057447F8D1B9 /* LiveCodingConsoleStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 57E9C5BB4F28F86C53610E32 /* LiveCodingConsoleStyle.h */; };
+		16D933A5D2452A3C6AE6C8A9 /* LiveCodingManifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A98167524BCBAD861B2277F /* LiveCodingManifest.cpp */; };
+		2A893EE24F2852EFE9BD1288 /* LiveCodingManifest.h in Sources */ = {isa = PBXBuildFile; fileRef = 3960A202CE944F71211C90B6 /* LiveCodingManifest.h */; };
+		11824796A636D163B1B47A49 /* SLogWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0647ED4194D8BF6D868E3CC4 /* SLogWidget.cpp */; };
+		1AB70ACD62B65E0DF887D0CC /* SLogWidget.h in Sources */ = {isa = PBXBuildFile; fileRef = E1BB48B2EBAED684E658FB86 /* SLogWidget.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09EE3170E2A72AB5CE79716B /* LiveCodingConsole.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LiveCodingConsole.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Build.cs"; sourceTree = SOURCE_ROOT; };
+		3D89FA0375C80B1C1825B972 /* LiveCodingConsole.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LiveCodingConsole.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Target.cs"; sourceTree = SOURCE_ROOT; };
+		9DAC222B2AB4D755AABA099B /* LiveCodingConsole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsole.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.cpp"; sourceTree = SOURCE_ROOT; };
+		968463DF6582589C9616D235 /* LiveCodingConsole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsole.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.h"; sourceTree = SOURCE_ROOT; };
+		D0326C7F69F0448D0B4795A5 /* LiveCodingConsoleStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsoleStyle.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		57E9C5BB4F28F86C53610E32 /* LiveCodingConsoleStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsoleStyle.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.h"; sourceTree = SOURCE_ROOT; };
+		2A98167524BCBAD861B2277F /* LiveCodingManifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingManifest.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.cpp"; sourceTree = SOURCE_ROOT; };
+		3960A202CE944F71211C90B6 /* LiveCodingManifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingManifest.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.h"; sourceTree = SOURCE_ROOT; };
+		0647ED4194D8BF6D868E3CC4 /* SLogWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SLogWidget.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.cpp"; sourceTree = SOURCE_ROOT; };
+		E1BB48B2EBAED684E658FB86 /* SLogWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SLogWidget.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.h"; sourceTree = SOURCE_ROOT; };
+		C57B20DF1BA8ACD55D79EADE /* LiveCodingConsole */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LiveCodingConsole; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1397318A903BB967C3AB0BA3 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECC5BD1CFE8825626C581A /* LiveCodingConsole.cpp in Sources */,
+				84FF8B19A11BC078E22A3101 /* LiveCodingConsoleStyle.cpp in Sources */,
+				16D933A5D2452A3C6AE6C8A9 /* LiveCodingManifest.cpp in Sources */,
+				11824796A636D163B1B47A49 /* SLogWidget.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	9CBA37FB00EFC499675CFD45 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		4AB60A367AD1F45793E35E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E04511D67CF276848E8CAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF066B172745FB157055E1AE;
+			remoteInfo = "LiveCodingConsole_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		FF15EC82FD6D0C889A8BB774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF066B172745FB157055E1AE /* LiveCodingConsole_Build */;
+			targetProxy = 4AB60A367AD1F45793E35E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		11C4336C314DE8DA363EA3DA = {
+			isa = PBXGroup;
+			children = (
+				D75916008065525E74BA9705 /* Private */,
+				09EE3170E2A72AB5CE79716B /* LiveCodingConsole.Build.cs */,
+				3D89FA0375C80B1C1825B972 /* LiveCodingConsole.Target.cs */,
+				90F969FC040E2A7C133575DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D75916008065525E74BA9705 = {
+			isa = PBXGroup;
+			children = (
+				9DAC222B2AB4D755AABA099B /* LiveCodingConsole.cpp */,
+				968463DF6582589C9616D235 /* LiveCodingConsole.h */,
+				D0326C7F69F0448D0B4795A5 /* LiveCodingConsoleStyle.cpp */,
+				57E9C5BB4F28F86C53610E32 /* LiveCodingConsoleStyle.h */,
+				2A98167524BCBAD861B2277F /* LiveCodingManifest.cpp */,
+				3960A202CE944F71211C90B6 /* LiveCodingManifest.h */,
+				0647ED4194D8BF6D868E3CC4 /* SLogWidget.cpp */,
+				E1BB48B2EBAED684E658FB86 /* SLogWidget.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private";
+			sourceTree = "<absolute>";
+		};
+		90F969FC040E2A7C133575DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57B20DF1BA8ACD55D79EADE /* LiveCodingConsole */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BF066B172745FB157055E1AE /* LiveCodingConsole_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = E7EC5AA78340111BB656BD82 /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "LiveCodingConsole_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LiveCodingConsole_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4CF51EE9F3AB89698434CE96 /* LiveCodingConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A028C92B64F222D4787798A5 /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */;
+			buildPhases = (
+				9CBA37FB00EFC499675CFD45 /* Embed App Extensions */, 
+				A6E5B767BBC493DC4F555999 /* Shell Script */, 
+			);
+			dependencies = (
+				FF15EC82FD6D0C889A8BB774 /* PBXTargetDependency */,
+			);
+			name = "LiveCodingConsole";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LiveCodingConsole";
+			productReference = "C57B20DF1BA8ACD55D79EADE";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		4C2D6DF1DEE216D1CB2B7673 /* LiveCodingConsole_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DD2F4DE849256F9A72F72F /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */;
+			buildPhases = (
+				1397318A903BB967C3AB0BA3 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "LiveCodingConsole_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LiveCodingConsole_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E04511D67CF276848E8CAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					4CF51EE9F3AB89698434CE96 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D80A368D3E0FE2BC75E641A6 /* Build configuration list for PBXProject "LiveCodingConsole" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 11C4336C314DE8DA363EA3DA;
+			productRefGroup = 90F969FC040E2A7C133575DD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			4CF51EE9F3AB89698434CE96 /* LiveCodingConsole */,
+			BF066B172745FB157055E1AE /* LiveCodingConsole_Build */,
+			4C2D6DF1DEE216D1CB2B7673 /* LiveCodingConsole_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1C5D49FA853B16E4EDC66049 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		48706B74DEA2FF31799F7733 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		4C986C6C86583A70F2C4AD94 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		0FB68CEF6E2FCC289DD9BA5D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		8339906AEB9ED76DDBC91963 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.3071.1611.g4a19305_macosx64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSourceCodeAccess",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		D62F7B2370DB76B79AEBE4AA /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		8E17CCBE7219E73851D87DA7 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		317D9D737A62726E6123FB93 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		BD96C27C6EC8E7EE48A2DBC2 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		A7B1B9A278DCC04301CB9208 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		8351ACFE182F5346619DDEA3 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		C64A718193052414C020B6A8 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		B1299AA4AD7655E5AD4235FB /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		D50A871B6EFB60DE9C7A94F7 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		5069783B441CC4A460379835 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		A6C9142C451857DF856E918B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		C3DF67BE9EAD2A0652E19D2E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		98B88D68E645B5FF32D38D20 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		EA66777E760D5DBFFD30AA50 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		6AF6F2FDA2261C204C13D6C4 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "LiveCodingConsole-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80A368D3E0FE2BC75E641A6 /* Build configuration list for PBXProject "LiveCodingConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5D49FA853B16E4EDC66049 /* "Debug" */,
+				48706B74DEA2FF31799F7733 /* "DebugGame" */,
+				4C986C6C86583A70F2C4AD94 /* "Development" */,
+				0FB68CEF6E2FCC289DD9BA5D /* "Shipping" */,
+				8339906AEB9ED76DDBC91963 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E7EC5AA78340111BB656BD82 /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8351ACFE182F5346619DDEA3 /* "Debug" */,
+				C64A718193052414C020B6A8 /* "DebugGame" */,
+				B1299AA4AD7655E5AD4235FB /* "Development" */,
+				D50A871B6EFB60DE9C7A94F7 /* "Shipping" */,
+				5069783B441CC4A460379835 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A028C92B64F222D4787798A5 /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62F7B2370DB76B79AEBE4AA /* "Debug" */,
+				8E17CCBE7219E73851D87DA7 /* "DebugGame" */,
+				317D9D737A62726E6123FB93 /* "Development" */,
+				BD96C27C6EC8E7EE48A2DBC2 /* "Shipping" */,
+				A7B1B9A278DCC04301CB9208 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		65DD2F4DE849256F9A72F72F /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C9142C451857DF856E918B /* "Debug" */,
+				C3DF67BE9EAD2A0652E19D2E /* "DebugGame" */,
+				98B88D68E645B5FF32D38D20 /* "Development" */,
+				EA66777E760D5DBFFD30AA50 /* "Shipping" */,
+				6AF6F2FDA2261C204C13D6C4 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E04511D67CF276848E8CAFA /* Project object */;
+}

@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{139D2B31-D74E-F78A-BA8D-619F476D37A2}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ProjectTPS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

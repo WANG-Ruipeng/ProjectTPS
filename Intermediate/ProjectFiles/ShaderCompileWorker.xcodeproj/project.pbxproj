@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74F0BCA6F93DB7A88E0A8071 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC738B96ED13DE93C29CD9 /* DefaultEngine.ini */; };
+		73D649267F4C5C3A65A87AEE /* MacEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7D385FE03ED6852E7EDAB /* MacEngine.ini */; };
+		F32CAA109551214754885603 /* ShaderCompileWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D61EAFE94F5D757B8079A28 /* ShaderCompileWorker.cpp */; };
+		A0DED0EDA13FDBB75A3667FB /* XGEControlWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A53C9FC2FBCCE180D8476 /* XGEControlWorker.cpp */; };
+		0C61CC5A27179BE91A1E7611 /* ShaderCompileWorker.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 566E1191D8B3FEFDB8540796 /* ShaderCompileWorker.Build.cs */; };
+		CE1D855892C0BA59E8CB796C /* ShaderCompileWorker.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = D002302A7C1F42BFDF650997 /* ShaderCompileWorker.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FCC738B96ED13DE93C29CD9 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		6EE7D385FE03ED6852E7EDAB /* MacEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MacEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/Mac/MacEngine.ini"; sourceTree = SOURCE_ROOT; };
+		0D61EAFE94F5D757B8079A28 /* ShaderCompileWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShaderCompileWorker.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private/ShaderCompileWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		6C8A53C9FC2FBCCE180D8476 /* XGEControlWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "XGEControlWorker.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private/XGEControlWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		566E1191D8B3FEFDB8540796 /* ShaderCompileWorker.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ShaderCompileWorker.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Build.cs"; sourceTree = SOURCE_ROOT; };
+		D002302A7C1F42BFDF650997 /* ShaderCompileWorker.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ShaderCompileWorker.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Target.cs"; sourceTree = SOURCE_ROOT; };
+		210342383D9C4767CE60CA71 /* ShaderCompileWorker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ShaderCompileWorker; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076E163B1AEA4003D96241E3 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32CAA109551214754885603 /* ShaderCompileWorker.cpp in Sources */,
+				A0DED0EDA13FDBB75A3667FB /* XGEControlWorker.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	FE8C12498068D4AE02714C86 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		50DD578ECAA7EE8F4DA19EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A99F50F890967BCB5953EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA79D96320FBF9CCA2F55C1D;
+			remoteInfo = "ShaderCompileWorker_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		DB7937CF83516D5E2A4962AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA79D96320FBF9CCA2F55C1D /* ShaderCompileWorker_Build */;
+			targetProxy = 50DD578ECAA7EE8F4DA19EB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		0F1591096881D9EB162C6758 = {
+			isa = PBXGroup;
+			children = (
+				91E6EEFCC653F274AB548D9D /* Programs */,
+				B5366FE272EC9C6DC0981C4A /* Source */,
+				5A8FF7824F1886733783763D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E6EEFCC653F274AB548D9D = {
+			isa = PBXGroup;
+			children = (
+				F967EFB19AA7E6D8F8242556 /* ShaderCompileWorker */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		F967EFB19AA7E6D8F8242556 = {
+			isa = PBXGroup;
+			children = (
+				DF7C21D48B5ACF3E315CFE32 /* Config */,
+			);
+			name = "ShaderCompileWorker";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/ShaderCompileWorker";
+			sourceTree = "<absolute>";
+		};
+		DF7C21D48B5ACF3E315CFE32 = {
+			isa = PBXGroup;
+			children = (
+				602AADB942217E27AA9F5D86 /* Mac */,
+				3FCC738B96ED13DE93C29CD9 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config";
+			sourceTree = "<absolute>";
+		};
+		602AADB942217E27AA9F5D86 = {
+			isa = PBXGroup;
+			children = (
+				6EE7D385FE03ED6852E7EDAB /* MacEngine.ini */,
+			);
+			name = "Mac";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/Mac";
+			sourceTree = "<absolute>";
+		};
+		B5366FE272EC9C6DC0981C4A = {
+			isa = PBXGroup;
+			children = (
+				321EE850854E6B9C69BD516F /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		321EE850854E6B9C69BD516F = {
+			isa = PBXGroup;
+			children = (
+				FA2D96D7A5FDAB3F1F9A1E54 /* ShaderCompileWorker */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		FA2D96D7A5FDAB3F1F9A1E54 = {
+			isa = PBXGroup;
+			children = (
+				EBECCC44C09171C80D638723 /* Private */,
+				566E1191D8B3FEFDB8540796 /* ShaderCompileWorker.Build.cs */,
+				D002302A7C1F42BFDF650997 /* ShaderCompileWorker.Target.cs */,
+			);
+			name = "ShaderCompileWorker";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker";
+			sourceTree = "<absolute>";
+		};
+		EBECCC44C09171C80D638723 = {
+			isa = PBXGroup;
+			children = (
+				0D61EAFE94F5D757B8079A28 /* ShaderCompileWorker.cpp */,
+				6C8A53C9FC2FBCCE180D8476 /* XGEControlWorker.cpp */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private";
+			sourceTree = "<absolute>";
+		};
+		5A8FF7824F1886733783763D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210342383D9C4767CE60CA71 /* ShaderCompileWorker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FA79D96320FBF9CCA2F55C1D /* ShaderCompileWorker_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 1A48759DC87D673ADB7EAD80 /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		1EDB14A6EB31485DB58D5A24 /* ShaderCompileWorker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1604A3ADFA72D63F44B60DB4 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */;
+			buildPhases = (
+				FE8C12498068D4AE02714C86 /* Embed App Extensions */, 
+				7387E49C9D5C048B9F5402F9 /* Shell Script */, 
+			);
+			dependencies = (
+				DB7937CF83516D5E2A4962AE /* PBXTargetDependency */,
+			);
+			name = "ShaderCompileWorker";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker";
+			productReference = "210342383D9C4767CE60CA71";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		0F34218E02FADFF012E69351 /* ShaderCompileWorker_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8B6E51A8D1162CA7241EF4 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */;
+			buildPhases = (
+				076E163B1AEA4003D96241E3 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A99F50F890967BCB5953EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					1EDB14A6EB31485DB58D5A24 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DA6ACAA7156B0A34B423D03C /* Build configuration list for PBXProject "ShaderCompileWorker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 0F1591096881D9EB162C6758;
+			productRefGroup = 5A8FF7824F1886733783763D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			1EDB14A6EB31485DB58D5A24 /* ShaderCompileWorker */,
+			FA79D96320FBF9CCA2F55C1D /* ShaderCompileWorker_Build */,
+			0F34218E02FADFF012E69351 /* ShaderCompileWorker_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		6A9DD02CEC647FF84D1483C3 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		6935DCD7196BD8DBD63D2548 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		BAA28E2AE8A90358FED7D07D /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		7F9DAB423EA4FF48E42AE2CE /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		6808AD5893453DAF095FFF67 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/LauncherPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Portal/LauncherPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		053CF3CFAEC83A96218FC792 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		FF029A97D0D938EC5D113705 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		C70A846DAF403AFAEF72BD63 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		FDA9522154438012F8D0944B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		AACC002962AE0B87CEEBEF14 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		06A3657C5DB643AA8A18DEE2 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		069CA4CD56688EE50D041328 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		4819AC5A05DC828CFDB512B4 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		43D6F93348BBC734C276DA67 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		F5275D2E00E4CA146FA2CB3F /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		98A8C19EF154395F04209661 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		D96C901E40030B5A83799FEF /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		D963FD6400BB29029C135735 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		31404E58B5CACFAF812E6657 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		0D6FA07D382B5DD241E6ADE9 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "ShaderCompileWorker-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6ACAA7156B0A34B423D03C /* Build configuration list for PBXProject "ShaderCompileWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9DD02CEC647FF84D1483C3 /* "Debug" */,
+				6935DCD7196BD8DBD63D2548 /* "DebugGame" */,
+				BAA28E2AE8A90358FED7D07D /* "Development" */,
+				7F9DAB423EA4FF48E42AE2CE /* "Shipping" */,
+				6808AD5893453DAF095FFF67 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		1A48759DC87D673ADB7EAD80 /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A3657C5DB643AA8A18DEE2 /* "Debug" */,
+				069CA4CD56688EE50D041328 /* "DebugGame" */,
+				4819AC5A05DC828CFDB512B4 /* "Development" */,
+				43D6F93348BBC734C276DA67 /* "Shipping" */,
+				F5275D2E00E4CA146FA2CB3F /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		1604A3ADFA72D63F44B60DB4 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053CF3CFAEC83A96218FC792 /* "Debug" */,
+				FF029A97D0D938EC5D113705 /* "DebugGame" */,
+				C70A846DAF403AFAEF72BD63 /* "Development" */,
+				FDA9522154438012F8D0944B /* "Shipping" */,
+				AACC002962AE0B87CEEBEF14 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		CD8B6E51A8D1162CA7241EF4 /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A8C19EF154395F04209661 /* "Debug" */,
+				D96C901E40030B5A83799FEF /* "DebugGame" */,
+				D963FD6400BB29029C135735 /* "Development" */,
+				31404E58B5CACFAF812E6657 /* "Shipping" */,
+				0D6FA07D382B5DD241E6ADE9 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A99F50F890967BCB5953EB /* Project object */;
+}

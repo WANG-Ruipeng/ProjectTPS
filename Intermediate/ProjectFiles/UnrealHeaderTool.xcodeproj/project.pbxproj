@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A8DDF8FD534868BE99E2019 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = ADF068207FC89A8BB4B0916D /* DefaultEngine.ini */; };
+		B2BC3BD6E3F8ED258FE58E21 /* BaseParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5CF62A44064EB9FD076FF5B /* BaseParser.cpp */; };
+		F0B6985378DBEAF49EA52EC4 /* BaseParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 78C4F6C4EC29E5C7D9C53D7D /* BaseParser.h */; };
+		FA72A3DA6D6FB43CBCDFE52D /* ClassDeclarationMetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6099ADB3FB998320A09D2C7C /* ClassDeclarationMetaData.cpp */; };
+		6D26B3A69037812A781A5906 /* ClassDeclarationMetaData.h in Sources */ = {isa = PBXBuildFile; fileRef = 370F872FF0F10899DFC96452 /* ClassDeclarationMetaData.h */; };
+		45833B24151E12D6B6DF2EEF /* Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC2DC6B38AC8835BE44D181B /* Classes.cpp */; };
+		D2580742E66B4AD0DF4E6912 /* Classes.h in Sources */ = {isa = PBXBuildFile; fileRef = 57788EA34E53A88C13F86F10 /* Classes.h */; };
+		7C31CB40421CDC5C46276C46 /* ClassMaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB0EAB845DBAB4453FA67BEC /* ClassMaps.cpp */; };
+		115330AF95939CA3C260295E /* ClassMaps.h in Sources */ = {isa = PBXBuildFile; fileRef = 6B41E75B3DFDC010A24173E1 /* ClassMaps.h */; };
+		370D85D9BD18FCF86A1F51BC /* CodeGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16D0F04B955E0F9DC4B45B12 /* CodeGenerator.cpp */; };
+		3AE00C91A48B08DAE9F70AD8 /* FileLineException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E57012C65270A73726D18C7D /* FileLineException.cpp */; };
+		635CF7B4E8D14B83B1729EDC /* FileLineException.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A53DF1677D31FC5176524 /* FileLineException.h */; };
+		4B484B530C23EC68548E2E47 /* GeneratedCodeVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 9454F117AC872772D235BAE7 /* GeneratedCodeVersion.h */; };
+		1CC820AEFE6DB84BF7D3699F /* HeaderParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86F7768D8636887D3C0C4AC2 /* HeaderParser.cpp */; };
+		85BB733DEFF352158E643744 /* HeaderParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 023D69E6D6E350C1EA5291B4 /* HeaderParser.h */; };
+		1199EC9BAC3DAA107D5E2843 /* HeaderProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A5B0381531121C0318A49 /* HeaderProvider.cpp */; };
+		CCA2A659BB89D73329BE2C55 /* HeaderProvider.h in Sources */ = {isa = PBXBuildFile; fileRef = 07B66850B926C6A41426EC5B /* HeaderProvider.h */; };
+		874C3F974070F3DF0FA2CF0A /* IScriptGeneratorPluginInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 975155F486F5193B4E05FCCA /* IScriptGeneratorPluginInterface.cpp */; };
+		EAC168996BE534A5B54BD26E /* Manifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4940F3B9CB4C4664E75DB967 /* Manifest.cpp */; };
+		D1D21E1F0DB10C815074AD7F /* Manifest.h in Sources */ = {isa = PBXBuildFile; fileRef = 075A74296D29554C7FE7AA46 /* Manifest.h */; };
+		015F7002BF98E38C0800C898 /* NativeClassExporter.h in Sources */ = {isa = PBXBuildFile; fileRef = C71597043E501ED49273B271 /* NativeClassExporter.h */; };
+		D81CF6BD086DE7EA27D81DAD /* ParserClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 410AC1B79020770692DB6258 /* ParserClass.cpp */; };
+		91510D2EC8D6B38DADFE29A2 /* ParserClass.h in Sources */ = {isa = PBXBuildFile; fileRef = A126839A19DD70EEF8E9C233 /* ParserClass.h */; };
+		8F664371FCABDFFCBA9E2BB7 /* ParserHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB92151248F0042E11F156A /* ParserHelper.cpp */; };
+		9DDCEDB46B7360A88EDA9F62 /* ParserHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 924191011F2DE803FBCC3B60 /* ParserHelper.h */; };
+		BB1FCA68E980526F50D9D420 /* Scope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD2A90463E83288419BFBFE3 /* Scope.cpp */; };
+		FEFE22B336116ED0A08DF84C /* Scope.h in Sources */ = {isa = PBXBuildFile; fileRef = A9F7BE0E882F11B86C7143F5 /* Scope.h */; };
+		9CA1C578A4B746FC5FE66AEA /* SimplifiedParsingClassInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E393E6B047F3032449D46 /* SimplifiedParsingClassInfo.h */; };
+		6423AADE1DAE8501F44079D1 /* CheckedMetadataSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = AE8817E0014D83D4FD5D4638 /* CheckedMetadataSpecifiers.def */; };
+		B1B458A7FD72143A4ACCA08F /* CheckedMetadataSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C6919095325CE387747E9C9 /* CheckedMetadataSpecifiers.h */; };
+		89AD3AEBF835EF07DC712D69 /* ClassMetadataSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 55DE03822C3F86E1E787C497 /* ClassMetadataSpecifiers.def */; };
+		337A81D88E0DC06ACA8F1D4F /* ClassMetadataSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 38284115DC99B2AA3CB0B374 /* ClassMetadataSpecifiers.h */; };
+		214C0C37C007E202E9A3B87D /* EnumSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = B41678CFB1C39EC6C0B34A04 /* EnumSpecifiers.def */; };
+		FD71054DD5195A82C60CB742 /* EnumSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 0188A9C2AC1B66946FC460C5 /* EnumSpecifiers.h */; };
+		21E3F97911EDB46D02083A4E /* FunctionSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 02942CD04835B7A75F35CE28 /* FunctionSpecifiers.def */; };
+		19DB19A54DB59439103F2CF2 /* FunctionSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 20E170D8584940F94E5AC018 /* FunctionSpecifiers.h */; };
+		EE954C3A0CB966EB15D05F36 /* InterfaceSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = D40E204D73003DC2683AAF67 /* InterfaceSpecifiers.def */; };
+		C4DF4E15F5D4DABF1B01B6B7 /* InterfaceSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 685A2D57D940DD4F813A044A /* InterfaceSpecifiers.h */; };
+		29F2854E1CFDAFB4E5E5752D /* SpecifierArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A50F540F6A01BD35768E419 /* SpecifierArrays.cpp */; };
+		D2E6E9275D5FE589DA04EC02 /* StructSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BA21D5102D283E400EC88 /* StructSpecifiers.def */; };
+		4A9C59E11F31F2C00E6C7B36 /* StructSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 14875685FFEB526564F2F06A /* StructSpecifiers.h */; };
+		FEFD8155966134D2F961DCC0 /* VariableSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 06036AA9122BF4E20F6B08C9 /* VariableSpecifiers.def */; };
+		AC4C83F9AD862358ACEFE321 /* VariableSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = AF9D2AAD37A93CB3AA957FFC /* VariableSpecifiers.h */; };
+		C41AFBE9AD06768DBA2C1695 /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CF52BE946FBECC28DD3AFE9 /* StringUtils.cpp */; };
+		F6D24D68F113C358047FB38A /* StringUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = BB5D4E5970DD303188A3F275 /* StringUtils.h */; };
+		D895E93658DAB9F16A11F2DB /* UnderlyingEnumType.h in Sources */ = {isa = PBXBuildFile; fileRef = B80D9BA669BE91CC42A12EE9 /* UnderlyingEnumType.h */; };
+		AD9252AFA37E6152DFD88F5B /* UnrealHeaderTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 298DFF29C5C220A96A73A062 /* UnrealHeaderTool.h */; };
+		4189C7CA12253337670089C6 /* UnrealHeaderToolGlobals.h in Sources */ = {isa = PBXBuildFile; fileRef = 88094EEBB09FFBE07E3F7DDC /* UnrealHeaderToolGlobals.h */; };
+		BE68077F81847E39F2EF6E19 /* UnrealHeaderToolMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79640B9A557F4290339A0BC /* UnrealHeaderToolMain.cpp */; };
+		7434F9CA77BFE4020CEA0BAA /* UnrealHeaderToolStats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EB3B6E3824FD4999B343419 /* UnrealHeaderToolStats.cpp */; };
+		5F423B264B54D885C74A0A4C /* UnrealHeaderToolStats.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3C1320B6C0DCC8B959AF1 /* UnrealHeaderToolStats.h */; };
+		A110A6B46507204000DF6B35 /* UnrealSourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BDB6B71285E3D4A96958CE /* UnrealSourceFile.cpp */; };
+		8DA18D2F27688EC9A749843B /* UnrealSourceFile.h in Sources */ = {isa = PBXBuildFile; fileRef = AD2420BF29CA4CAA488CAD4D /* UnrealSourceFile.h */; };
+		B555B905B2C64837B7D826C3 /* UnrealTypeDefinitionInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 79F1199751A18E3B397B0AED /* UnrealTypeDefinitionInfo.h */; };
+		81A95339FE0D5A92F5B7A849 /* IScriptGeneratorPluginInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = DD3B24723D8414172048F975 /* IScriptGeneratorPluginInterface.h */; };
+		0047AA662F551E16CC877704 /* UHTDebugging.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 33EA599E94512CF7F4E0CFFC /* UHTDebugging.manifest */; };
+		84C975258168DB38AFDD38B6 /* DocumentationObjects.h in Sources */ = {isa = PBXBuildFile; fileRef = 62F3629F99927D56C31F3F53 /* DocumentationObjects.h */; };
+		2A7682CF1C02811F77AEE165 /* EnumOnlyHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = E0F89464AB3F5555B1A23BA0 /* EnumOnlyHeader.h */; };
+		EE8C5E61637939648A21FB0B /* RigVMStructHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = E50C1CAD5C183FB412FDBFA0 /* RigVMStructHeader.h */; };
+		FD18AA84CAE9A1883AE1E08F /* StructOnlyHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = A31FBCFD757DDABEFD897E9F /* StructOnlyHeader.h */; };
+		22A8F99863868EF0CDBE644A /* TestDeprecatedObject.h in Sources */ = {isa = PBXBuildFile; fileRef = CFB49AA18073D0032C8D093C /* TestDeprecatedObject.h */; };
+		5C413F942300A2749A0A6222 /* TestInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = F00824B353EFC1E5BB712EC0 /* TestInterface.h */; };
+		E2393E8AB87A73949EBC3C21 /* TestInterfaceObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 47F9CDCC1BEFB0C45277B177 /* TestInterfaceObject.h */; };
+		4E1CB03CCB2481EA137EB1E9 /* TestObject.h in Sources */ = {isa = PBXBuildFile; fileRef = C217BC1F97CD8433CC026C59 /* TestObject.h */; };
+		21F5C9CCC0696D6B88C63C9B /* TestObjectSerializers.h in Sources */ = {isa = PBXBuildFile; fileRef = CA36C8793B520EC847E40903 /* TestObjectSerializers.h */; };
+		4DAD2AE180B39BDABCD94F74 /* UnrealHeaderTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = AD68E7034D5C16E43F580E85 /* UnrealHeaderTool.Build.cs */; };
+		2E217082DF4B59D3D5DBCB7C /* UnrealHeaderTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6098A6B9231A52AC3635F59D /* UnrealHeaderTool.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADF068207FC89A8BB4B0916D /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/UnrealHeaderTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		C5CF62A44064EB9FD076FF5B /* BaseParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BaseParser.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.cpp"; sourceTree = SOURCE_ROOT; };
+		78C4F6C4EC29E5C7D9C53D7D /* BaseParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BaseParser.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.h"; sourceTree = SOURCE_ROOT; };
+		6099ADB3FB998320A09D2C7C /* ClassDeclarationMetaData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ClassDeclarationMetaData.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassDeclarationMetaData.cpp"; sourceTree = SOURCE_ROOT; };
+		370F872FF0F10899DFC96452 /* ClassDeclarationMetaData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClassDeclarationMetaData.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassDeclarationMetaData.h"; sourceTree = SOURCE_ROOT; };
+		EC2DC6B38AC8835BE44D181B /* Classes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Classes.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Classes.cpp"; sourceTree = SOURCE_ROOT; };
+		57788EA34E53A88C13F86F10 /* Classes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Classes.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Classes.h"; sourceTree = SOURCE_ROOT; };
+		BB0EAB845DBAB4453FA67BEC /* ClassMaps.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ClassMaps.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.cpp"; sourceTree = SOURCE_ROOT; };
+		6B41E75B3DFDC010A24173E1 /* ClassMaps.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClassMaps.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.h"; sourceTree = SOURCE_ROOT; };
+		16D0F04B955E0F9DC4B45B12 /* CodeGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CodeGenerator.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/CodeGenerator.cpp"; sourceTree = SOURCE_ROOT; };
+		E57012C65270A73726D18C7D /* FileLineException.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "FileLineException.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/FileLineException.cpp"; sourceTree = SOURCE_ROOT; };
+		0B6A53DF1677D31FC5176524 /* FileLineException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FileLineException.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/FileLineException.h"; sourceTree = SOURCE_ROOT; };
+		9454F117AC872772D235BAE7 /* GeneratedCodeVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GeneratedCodeVersion.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/GeneratedCodeVersion.h"; sourceTree = SOURCE_ROOT; };
+		86F7768D8636887D3C0C4AC2 /* HeaderParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HeaderParser.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.cpp"; sourceTree = SOURCE_ROOT; };
+		023D69E6D6E350C1EA5291B4 /* HeaderParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HeaderParser.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.h"; sourceTree = SOURCE_ROOT; };
+		FA7A5B0381531121C0318A49 /* HeaderProvider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HeaderProvider.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.cpp"; sourceTree = SOURCE_ROOT; };
+		07B66850B926C6A41426EC5B /* HeaderProvider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HeaderProvider.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.h"; sourceTree = SOURCE_ROOT; };
+		975155F486F5193B4E05FCCA /* IScriptGeneratorPluginInterface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IScriptGeneratorPluginInterface.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/IScriptGeneratorPluginInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		4940F3B9CB4C4664E75DB967 /* Manifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Manifest.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.cpp"; sourceTree = SOURCE_ROOT; };
+		075A74296D29554C7FE7AA46 /* Manifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Manifest.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.h"; sourceTree = SOURCE_ROOT; };
+		C71597043E501ED49273B271 /* NativeClassExporter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NativeClassExporter.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/NativeClassExporter.h"; sourceTree = SOURCE_ROOT; };
+		410AC1B79020770692DB6258 /* ParserClass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ParserClass.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserClass.cpp"; sourceTree = SOURCE_ROOT; };
+		A126839A19DD70EEF8E9C233 /* ParserClass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ParserClass.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserClass.h"; sourceTree = SOURCE_ROOT; };
+		5FB92151248F0042E11F156A /* ParserHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ParserHelper.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.cpp"; sourceTree = SOURCE_ROOT; };
+		924191011F2DE803FBCC3B60 /* ParserHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ParserHelper.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.h"; sourceTree = SOURCE_ROOT; };
+		BD2A90463E83288419BFBFE3 /* Scope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Scope.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.cpp"; sourceTree = SOURCE_ROOT; };
+		A9F7BE0E882F11B86C7143F5 /* Scope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Scope.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.h"; sourceTree = SOURCE_ROOT; };
+		5E9E393E6B047F3032449D46 /* SimplifiedParsingClassInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SimplifiedParsingClassInfo.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/SimplifiedParsingClassInfo.h"; sourceTree = SOURCE_ROOT; };
+		AE8817E0014D83D4FD5D4638 /* CheckedMetadataSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CheckedMetadataSpecifiers.def"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		1C6919095325CE387747E9C9 /* CheckedMetadataSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CheckedMetadataSpecifiers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		55DE03822C3F86E1E787C497 /* ClassMetadataSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ClassMetadataSpecifiers.def"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/ClassMetadataSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		38284115DC99B2AA3CB0B374 /* ClassMetadataSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClassMetadataSpecifiers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/ClassMetadataSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		B41678CFB1C39EC6C0B34A04 /* EnumSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EnumSpecifiers.def"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/EnumSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		0188A9C2AC1B66946FC460C5 /* EnumSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumSpecifiers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/EnumSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		02942CD04835B7A75F35CE28 /* FunctionSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FunctionSpecifiers.def"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		20E170D8584940F94E5AC018 /* FunctionSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FunctionSpecifiers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		D40E204D73003DC2683AAF67 /* InterfaceSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "InterfaceSpecifiers.def"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		685A2D57D940DD4F813A044A /* InterfaceSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InterfaceSpecifiers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		6A50F540F6A01BD35768E419 /* SpecifierArrays.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpecifierArrays.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/SpecifierArrays.cpp"; sourceTree = SOURCE_ROOT; };
+		4F8BA21D5102D283E400EC88 /* StructSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "StructSpecifiers.def"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		14875685FFEB526564F2F06A /* StructSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StructSpecifiers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		06036AA9122BF4E20F6B08C9 /* VariableSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "VariableSpecifiers.def"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		AF9D2AAD37A93CB3AA957FFC /* VariableSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VariableSpecifiers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		4CF52BE946FBECC28DD3AFE9 /* StringUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "StringUtils.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.cpp"; sourceTree = SOURCE_ROOT; };
+		BB5D4E5970DD303188A3F275 /* StringUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StringUtils.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.h"; sourceTree = SOURCE_ROOT; };
+		B80D9BA669BE91CC42A12EE9 /* UnderlyingEnumType.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnderlyingEnumType.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnderlyingEnumType.h"; sourceTree = SOURCE_ROOT; };
+		298DFF29C5C220A96A73A062 /* UnrealHeaderTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderTool.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderTool.h"; sourceTree = SOURCE_ROOT; };
+		88094EEBB09FFBE07E3F7DDC /* UnrealHeaderToolGlobals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderToolGlobals.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolGlobals.h"; sourceTree = SOURCE_ROOT; };
+		B79640B9A557F4290339A0BC /* UnrealHeaderToolMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealHeaderToolMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolMain.cpp"; sourceTree = SOURCE_ROOT; };
+		1EB3B6E3824FD4999B343419 /* UnrealHeaderToolStats.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealHeaderToolStats.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.cpp"; sourceTree = SOURCE_ROOT; };
+		8AB3C1320B6C0DCC8B959AF1 /* UnrealHeaderToolStats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderToolStats.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.h"; sourceTree = SOURCE_ROOT; };
+		84BDB6B71285E3D4A96958CE /* UnrealSourceFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealSourceFile.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.cpp"; sourceTree = SOURCE_ROOT; };
+		AD2420BF29CA4CAA488CAD4D /* UnrealSourceFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealSourceFile.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.h"; sourceTree = SOURCE_ROOT; };
+		79F1199751A18E3B397B0AED /* UnrealTypeDefinitionInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealTypeDefinitionInfo.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealTypeDefinitionInfo.h"; sourceTree = SOURCE_ROOT; };
+		DD3B24723D8414172048F975 /* IScriptGeneratorPluginInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IScriptGeneratorPluginInterface.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public/IScriptGeneratorPluginInterface.h"; sourceTree = SOURCE_ROOT; };
+		33EA599E94512CF7F4E0CFFC /* UHTDebugging.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UHTDebugging.manifest"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging.manifest"; sourceTree = SOURCE_ROOT; };
+		62F3629F99927D56C31F3F53 /* DocumentationObjects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DocumentationObjects.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/DocumentationObjects.h"; sourceTree = SOURCE_ROOT; };
+		E0F89464AB3F5555B1A23BA0 /* EnumOnlyHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumOnlyHeader.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/EnumOnlyHeader.h"; sourceTree = SOURCE_ROOT; };
+		E50C1CAD5C183FB412FDBFA0 /* RigVMStructHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RigVMStructHeader.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/RigVMStructHeader.h"; sourceTree = SOURCE_ROOT; };
+		A31FBCFD757DDABEFD897E9F /* StructOnlyHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StructOnlyHeader.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/StructOnlyHeader.h"; sourceTree = SOURCE_ROOT; };
+		CFB49AA18073D0032C8D093C /* TestDeprecatedObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestDeprecatedObject.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestDeprecatedObject.h"; sourceTree = SOURCE_ROOT; };
+		F00824B353EFC1E5BB712EC0 /* TestInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestInterface.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterface.h"; sourceTree = SOURCE_ROOT; };
+		47F9CDCC1BEFB0C45277B177 /* TestInterfaceObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestInterfaceObject.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterfaceObject.h"; sourceTree = SOURCE_ROOT; };
+		C217BC1F97CD8433CC026C59 /* TestObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestObject.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObject.h"; sourceTree = SOURCE_ROOT; };
+		CA36C8793B520EC847E40903 /* TestObjectSerializers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestObjectSerializers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObjectSerializers.h"; sourceTree = SOURCE_ROOT; };
+		AD68E7034D5C16E43F580E85 /* UnrealHeaderTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealHeaderTool.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		6098A6B9231A52AC3635F59D /* UnrealHeaderTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealHeaderTool.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Target.cs"; sourceTree = SOURCE_ROOT; };
+		8B25845F580A387878C8D5E2 /* UnrealHeaderTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealHeaderTool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD1EA7D8DDFFEC40337D1D24 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BC3BD6E3F8ED258FE58E21 /* BaseParser.cpp in Sources */,
+				FA72A3DA6D6FB43CBCDFE52D /* ClassDeclarationMetaData.cpp in Sources */,
+				45833B24151E12D6B6DF2EEF /* Classes.cpp in Sources */,
+				7C31CB40421CDC5C46276C46 /* ClassMaps.cpp in Sources */,
+				370D85D9BD18FCF86A1F51BC /* CodeGenerator.cpp in Sources */,
+				3AE00C91A48B08DAE9F70AD8 /* FileLineException.cpp in Sources */,
+				1CC820AEFE6DB84BF7D3699F /* HeaderParser.cpp in Sources */,
+				1199EC9BAC3DAA107D5E2843 /* HeaderProvider.cpp in Sources */,
+				874C3F974070F3DF0FA2CF0A /* IScriptGeneratorPluginInterface.cpp in Sources */,
+				EAC168996BE534A5B54BD26E /* Manifest.cpp in Sources */,
+				D81CF6BD086DE7EA27D81DAD /* ParserClass.cpp in Sources */,
+				8F664371FCABDFFCBA9E2BB7 /* ParserHelper.cpp in Sources */,
+				BB1FCA68E980526F50D9D420 /* Scope.cpp in Sources */,
+				29F2854E1CFDAFB4E5E5752D /* SpecifierArrays.cpp in Sources */,
+				C41AFBE9AD06768DBA2C1695 /* StringUtils.cpp in Sources */,
+				BE68077F81847E39F2EF6E19 /* UnrealHeaderToolMain.cpp in Sources */,
+				7434F9CA77BFE4020CEA0BAA /* UnrealHeaderToolStats.cpp in Sources */,
+				A110A6B46507204000DF6B35 /* UnrealSourceFile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	07B3FD92E9ACA9B54226F16B /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		B81EDD3415B6DA7D2DBEDC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93806D5820530B611A17F0C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F14DBF9880875D973B1EF8;
+			remoteInfo = "UnrealHeaderTool_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		40B354625A542FDEF613820C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F14DBF9880875D973B1EF8 /* UnrealHeaderTool_Build */;
+			targetProxy = B81EDD3415B6DA7D2DBEDC44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		3BFB4B5863882E431E45595A = {
+			isa = PBXGroup;
+			children = (
+				4AC020AFF5CE301C29807998 /* Programs */,
+				C6A2E954AF1C04A41FFB7B9E /* Source */,
+				9C3BCFF6EF6209512A1CB29A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC020AFF5CE301C29807998 = {
+			isa = PBXGroup;
+			children = (
+				114B85687F13A21AD985DC74 /* UnrealHeaderTool */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		114B85687F13A21AD985DC74 = {
+			isa = PBXGroup;
+			children = (
+				7AD0A6BAFADC03CFDB0166A9 /* Config */,
+			);
+			name = "UnrealHeaderTool";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealHeaderTool";
+			sourceTree = "<absolute>";
+		};
+		7AD0A6BAFADC03CFDB0166A9 = {
+			isa = PBXGroup;
+			children = (
+				ADF068207FC89A8BB4B0916D /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealHeaderTool/Config";
+			sourceTree = "<absolute>";
+		};
+		C6A2E954AF1C04A41FFB7B9E = {
+			isa = PBXGroup;
+			children = (
+				91E34F3B8D95E6C4E3AC3424 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		91E34F3B8D95E6C4E3AC3424 = {
+			isa = PBXGroup;
+			children = (
+				2776214C7DA9BD0FE4DCA1DD /* UnrealHeaderTool */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		2776214C7DA9BD0FE4DCA1DD = {
+			isa = PBXGroup;
+			children = (
+				2A4D6BBC8138557F55082917 /* Private */,
+				FAB726763D6BB9B541711040 /* Public */,
+				2A2942AB56B5CF1F4D0ABEB5 /* Resources */,
+				AD68E7034D5C16E43F580E85 /* UnrealHeaderTool.Build.cs */,
+				6098A6B9231A52AC3635F59D /* UnrealHeaderTool.Target.cs */,
+			);
+			name = "UnrealHeaderTool";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool";
+			sourceTree = "<absolute>";
+		};
+		2A4D6BBC8138557F55082917 = {
+			isa = PBXGroup;
+			children = (
+				8DC842451BA2C61A6DC42D38 /* Specifiers */,
+				C5CF62A44064EB9FD076FF5B /* BaseParser.cpp */,
+				78C4F6C4EC29E5C7D9C53D7D /* BaseParser.h */,
+				6099ADB3FB998320A09D2C7C /* ClassDeclarationMetaData.cpp */,
+				370F872FF0F10899DFC96452 /* ClassDeclarationMetaData.h */,
+				EC2DC6B38AC8835BE44D181B /* Classes.cpp */,
+				57788EA34E53A88C13F86F10 /* Classes.h */,
+				BB0EAB845DBAB4453FA67BEC /* ClassMaps.cpp */,
+				6B41E75B3DFDC010A24173E1 /* ClassMaps.h */,
+				16D0F04B955E0F9DC4B45B12 /* CodeGenerator.cpp */,
+				E57012C65270A73726D18C7D /* FileLineException.cpp */,
+				0B6A53DF1677D31FC5176524 /* FileLineException.h */,
+				9454F117AC872772D235BAE7 /* GeneratedCodeVersion.h */,
+				86F7768D8636887D3C0C4AC2 /* HeaderParser.cpp */,
+				023D69E6D6E350C1EA5291B4 /* HeaderParser.h */,
+				FA7A5B0381531121C0318A49 /* HeaderProvider.cpp */,
+				07B66850B926C6A41426EC5B /* HeaderProvider.h */,
+				975155F486F5193B4E05FCCA /* IScriptGeneratorPluginInterface.cpp */,
+				4940F3B9CB4C4664E75DB967 /* Manifest.cpp */,
+				075A74296D29554C7FE7AA46 /* Manifest.h */,
+				C71597043E501ED49273B271 /* NativeClassExporter.h */,
+				410AC1B79020770692DB6258 /* ParserClass.cpp */,
+				A126839A19DD70EEF8E9C233 /* ParserClass.h */,
+				5FB92151248F0042E11F156A /* ParserHelper.cpp */,
+				924191011F2DE803FBCC3B60 /* ParserHelper.h */,
+				BD2A90463E83288419BFBFE3 /* Scope.cpp */,
+				A9F7BE0E882F11B86C7143F5 /* Scope.h */,
+				5E9E393E6B047F3032449D46 /* SimplifiedParsingClassInfo.h */,
+				4CF52BE946FBECC28DD3AFE9 /* StringUtils.cpp */,
+				BB5D4E5970DD303188A3F275 /* StringUtils.h */,
+				B80D9BA669BE91CC42A12EE9 /* UnderlyingEnumType.h */,
+				298DFF29C5C220A96A73A062 /* UnrealHeaderTool.h */,
+				88094EEBB09FFBE07E3F7DDC /* UnrealHeaderToolGlobals.h */,
+				B79640B9A557F4290339A0BC /* UnrealHeaderToolMain.cpp */,
+				1EB3B6E3824FD4999B343419 /* UnrealHeaderToolStats.cpp */,
+				8AB3C1320B6C0DCC8B959AF1 /* UnrealHeaderToolStats.h */,
+				84BDB6B71285E3D4A96958CE /* UnrealSourceFile.cpp */,
+				AD2420BF29CA4CAA488CAD4D /* UnrealSourceFile.h */,
+				79F1199751A18E3B397B0AED /* UnrealTypeDefinitionInfo.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private";
+			sourceTree = "<absolute>";
+		};
+		8DC842451BA2C61A6DC42D38 = {
+			isa = PBXGroup;
+			children = (
+				AE8817E0014D83D4FD5D4638 /* CheckedMetadataSpecifiers.def */,
+				1C6919095325CE387747E9C9 /* CheckedMetadataSpecifiers.h */,
+				55DE03822C3F86E1E787C497 /* ClassMetadataSpecifiers.def */,
+				38284115DC99B2AA3CB0B374 /* ClassMetadataSpecifiers.h */,
+				B41678CFB1C39EC6C0B34A04 /* EnumSpecifiers.def */,
+				0188A9C2AC1B66946FC460C5 /* EnumSpecifiers.h */,
+				02942CD04835B7A75F35CE28 /* FunctionSpecifiers.def */,
+				20E170D8584940F94E5AC018 /* FunctionSpecifiers.h */,
+				D40E204D73003DC2683AAF67 /* InterfaceSpecifiers.def */,
+				685A2D57D940DD4F813A044A /* InterfaceSpecifiers.h */,
+				6A50F540F6A01BD35768E419 /* SpecifierArrays.cpp */,
+				4F8BA21D5102D283E400EC88 /* StructSpecifiers.def */,
+				14875685FFEB526564F2F06A /* StructSpecifiers.h */,
+				06036AA9122BF4E20F6B08C9 /* VariableSpecifiers.def */,
+				AF9D2AAD37A93CB3AA957FFC /* VariableSpecifiers.h */,
+			);
+			name = "Specifiers";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers";
+			sourceTree = "<absolute>";
+		};
+		FAB726763D6BB9B541711040 = {
+			isa = PBXGroup;
+			children = (
+				DD3B24723D8414172048F975 /* IScriptGeneratorPluginInterface.h */,
+			);
+			name = "Public";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public";
+			sourceTree = "<absolute>";
+		};
+		2A2942AB56B5CF1F4D0ABEB5 = {
+			isa = PBXGroup;
+			children = (
+				6678F44215876F651F32C2C9 /* UHTDebugging */,
+				33EA599E94512CF7F4E0CFFC /* UHTDebugging.manifest */,
+			);
+			name = "Resources";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources";
+			sourceTree = "<absolute>";
+		};
+		6678F44215876F651F32C2C9 = {
+			isa = PBXGroup;
+			children = (
+				62F3629F99927D56C31F3F53 /* DocumentationObjects.h */,
+				E0F89464AB3F5555B1A23BA0 /* EnumOnlyHeader.h */,
+				E50C1CAD5C183FB412FDBFA0 /* RigVMStructHeader.h */,
+				A31FBCFD757DDABEFD897E9F /* StructOnlyHeader.h */,
+				CFB49AA18073D0032C8D093C /* TestDeprecatedObject.h */,
+				F00824B353EFC1E5BB712EC0 /* TestInterface.h */,
+				47F9CDCC1BEFB0C45277B177 /* TestInterfaceObject.h */,
+				C217BC1F97CD8433CC026C59 /* TestObject.h */,
+				CA36C8793B520EC847E40903 /* TestObjectSerializers.h */,
+			);
+			name = "UHTDebugging";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging";
+			sourceTree = "<absolute>";
+		};
+		9C3BCFF6EF6209512A1CB29A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B25845F580A387878C8D5E2 /* UnrealHeaderTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		70F14DBF9880875D973B1EF8 /* UnrealHeaderTool_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = AD1877B70B1FA881D70FD735 /* Build configuration list for PBXLegacyTarget "UnrealHeaderTool_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealHeaderTool_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		5E149D1596C454A713C85E7E /* UnrealHeaderTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701A48D7178A4C8C6EE59CD5 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool" */;
+			buildPhases = (
+				07B3FD92E9ACA9B54226F16B /* Embed App Extensions */, 
+				5EB8C2F149FBC51E48B05A44 /* Shell Script */, 
+			);
+			dependencies = (
+				40B354625A542FDEF613820C /* PBXTargetDependency */,
+			);
+			name = "UnrealHeaderTool";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool";
+			productReference = "8B25845F580A387878C8D5E2";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		CFD085ECDB0A94F049FBC323 /* UnrealHeaderTool_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691BE4AC367FAC4F068CB140 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool_Index" */;
+			buildPhases = (
+				FD1EA7D8DDFFEC40337D1D24 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealHeaderTool_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93806D5820530B611A17F0C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					5E149D1596C454A713C85E7E = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FA9B818DA72EAEB254534DF0 /* Build configuration list for PBXProject "UnrealHeaderTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 3BFB4B5863882E431E45595A;
+			productRefGroup = 9C3BCFF6EF6209512A1CB29A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			5E149D1596C454A713C85E7E /* UnrealHeaderTool */,
+			70F14DBF9880875D973B1EF8 /* UnrealHeaderTool_Build */,
+			CFD085ECDB0A94F049FBC323 /* UnrealHeaderTool_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E056661F5819271F1EABEE3C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		9246AB4C578316A4DC41E25E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		6A2DE433A1E10EBC0FC2AC27 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		58A01D7C0E06C6735FA49C93 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		4B850ED8DB461E646D5C66AB /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		6476687E72FC58D72D3C7924 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		22EF6720CF96E3ABC4D637E8 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		ABBAB515E72BF0FF49F6CD3F /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		D8589CDC810BFCE3C8F332C1 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		1C65DF2148DEAFB6FA1EC7BC /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		3CFAF638B8FEDB5758B9B292 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		9F30D75CEEC659B76D23A571 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		970E09B61F3241A12AC7F2C1 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		1563E961943E5BBEE3215D7E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		78D8E24A92F43793AE2C150E /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		46895C28FFD14DB3CA858CD2 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		528FFFD5A20EB605A7FE0510 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E226158C15E8618FE3D82AE7 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		15C59223017E613D8982B4BD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		3083E29D02F811B85FE7079B /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9B818DA72EAEB254534DF0 /* Build configuration list for PBXProject "UnrealHeaderTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E056661F5819271F1EABEE3C /* "Debug" */,
+				9246AB4C578316A4DC41E25E /* "DebugGame" */,
+				6A2DE433A1E10EBC0FC2AC27 /* "Development" */,
+				58A01D7C0E06C6735FA49C93 /* "Shipping" */,
+				4B850ED8DB461E646D5C66AB /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		AD1877B70B1FA881D70FD735 /* Build configuration list for PBXLegacyTarget "UnrealHeaderTool_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFAF638B8FEDB5758B9B292 /* "Debug" */,
+				9F30D75CEEC659B76D23A571 /* "DebugGame" */,
+				970E09B61F3241A12AC7F2C1 /* "Development" */,
+				1563E961943E5BBEE3215D7E /* "Shipping" */,
+				78D8E24A92F43793AE2C150E /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		701A48D7178A4C8C6EE59CD5 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6476687E72FC58D72D3C7924 /* "Debug" */,
+				22EF6720CF96E3ABC4D637E8 /* "DebugGame" */,
+				ABBAB515E72BF0FF49F6CD3F /* "Development" */,
+				D8589CDC810BFCE3C8F332C1 /* "Shipping" */,
+				1C65DF2148DEAFB6FA1EC7BC /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		691BE4AC367FAC4F068CB140 /* Build configuration list for PBXNativeTarget "UnrealHeaderTool_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46895C28FFD14DB3CA858CD2 /* "Debug" */,
+				528FFFD5A20EB605A7FE0510 /* "DebugGame" */,
+				E226158C15E8618FE3D82AE7 /* "Development" */,
+				15C59223017E613D8982B4BD /* "Shipping" */,
+				3083E29D02F811B85FE7079B /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93806D5820530B611A17F0C8 /* Project object */;
+}

@@ -1,0 +1,1212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEEB1889EA91FA69FC71B52A /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AB093459FD1BE9E24BAE7 /* DefaultEngine.ini */; };
+		24B8D31D3539D59710A78740 /* CPUSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB30DDED7F80DDB5C82FB31A /* CPUSolver.cpp */; };
+		8A8BDAEE7F5419D6EACB40BB /* CPUSolver.h in Sources */ = {isa = PBXBuildFile; fileRef = 06340C7DAE09228882FC0BA2 /* CPUSolver.h */; };
+		65441C082E0776F505B893AA /* 3DVisualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EE718BC8EB15620F021E74B /* 3DVisualizer.cpp */; };
+		735F06BE0D2B988D7F38883A /* 3DVisualizer.h in Sources */ = {isa = PBXBuildFile; fileRef = 3811A7E3544BB64DA1621EC7 /* 3DVisualizer.h */; };
+		F165F9D0A6EBB1445DD095CF /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B8E8D920052B265EDD847D /* Exporter.cpp */; };
+		0A72CBA56A99AA10403ECDA7 /* Exporter.h in Sources */ = {isa = PBXBuildFile; fileRef = 31C7E6948644DD677CD8E29C /* Exporter.h */; };
+		62DC2D9B36F86914E17CC634 /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F0CD9C426848EC2EA40A758 /* Importer.cpp */; };
+		1F97A019FF1C01328F2F428D /* Importer.h in Sources */ = {isa = PBXBuildFile; fileRef = 6C0EDA48D4B9C5B501B27479 /* Importer.h */; };
+		6A1940F74920B12234D47C9F /* LightmassScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 574F14C57B94A4F0CA4B5817 /* LightmassScene.cpp */; };
+		AA45ED317BF2576C2226AFE6 /* LightmassScene.h in Sources */ = {isa = PBXBuildFile; fileRef = DC09E86F7D205897923AF085 /* LightmassScene.h */; };
+		A500396D0E84AE1EC1284D03 /* LightmassSwarm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3280A6427D0F7D31A02DE872 /* LightmassSwarm.cpp */; };
+		AB3472AAF3C0856F54688B7B /* LightmassSwarm.h in Sources */ = {isa = PBXBuildFile; fileRef = B9E95D9E779025B3BBE43CFC /* LightmassSwarm.h */; };
+		79161A82BCBFE57717C7C1DA /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11042B00A3DDAECAF52B8893 /* Material.cpp */; };
+		B1DEB90F0835B6C6F77630DC /* Material.h in Sources */ = {isa = PBXBuildFile; fileRef = A502B395831463F128838D73 /* Material.h */; };
+		652410DD3671074E8D87D0DE /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D56EE210FBE29BD34F5AA0 /* Mesh.cpp */; };
+		2A1947E0C7976B2E5146AAE3 /* Mesh.h in Sources */ = {isa = PBXBuildFile; fileRef = 24D890856EE24E1E31D58EAD /* Mesh.h */; };
+		A581E12CA1F29F16CA70B31C /* UnitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A2786F61CA28CC02B8ABD37 /* UnitTest.cpp */; };
+		6A5C2CF1003C6E558A9A3A46 /* UnitTest.h in Sources */ = {isa = PBXBuildFile; fileRef = B63E8C5FA69419B425735B47 /* UnitTest.h */; };
+		5B57028F48CE811AC3A9C244 /* UnrealLightmass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5AE158E015D928FEC4040DD /* UnrealLightmass.cpp */; };
+		162C1997710911F601E595A8 /* UnrealLightmass.h in Sources */ = {isa = PBXBuildFile; fileRef = 39DF0DBB181F820C7C4899F7 /* UnrealLightmass.h */; };
+		7E8BB2C8E1CB5A1A1724781B /* AdaptiveVolumetricLightmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4EAA9B997CB43E0196C5422 /* AdaptiveVolumetricLightmap.cpp */; };
+		50D677CCBE3361CE922218E5 /* BSP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 564915358A7A911566F1062D /* BSP.cpp */; };
+		76C875B004B9DE113790780B /* BSP.h in Sources */ = {isa = PBXBuildFile; fileRef = 548E5CE3C2AA8992D1C4634E /* BSP.h */; };
+		B60D569EDB3EBB5ECF4956F5 /* BuildOptions.h in Sources */ = {isa = PBXBuildFile; fileRef = BEB1C9D94306AEC6D009E1FB /* BuildOptions.h */; };
+		1EAD52BB68745CB26526FAF7 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634036F8D4193B0B37672511 /* Collision.cpp */; };
+		E1AF4FCA159C7DAC2C5A7F2D /* Collision.h in Sources */ = {isa = PBXBuildFile; fileRef = EB00F65BEDA48F97B6D17603 /* Collision.h */; };
+		D0B5F1B7CDD6C4B78841DAB8 /* Embree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25919CC8A84ECB08C0080CD4 /* Embree.cpp */; };
+		22E01D93D78D5A0F394BFA60 /* Embree.h in Sources */ = {isa = PBXBuildFile; fileRef = ABC6DE5596C8A5AA253E365B /* Embree.h */; };
+		08C6EF68066D43C7A81C94ED /* FinalGather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B830DFFBE6CA7FD9963B1DE2 /* FinalGather.cpp */; };
+		6F7572F76262AEE4AAC28B10 /* FluidSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DF209CB0832B78E32F19D65 /* FluidSurface.cpp */; };
+		E9AAC35BBF5CC4CCA90DF890 /* FluidSurface.h in Sources */ = {isa = PBXBuildFile; fileRef = FA4B65466EB042F6A5CE5DF4 /* FluidSurface.h */; };
+		C0B3D064848EAF7ED80D0EB8 /* GatheredLightingSample.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E53254EFDBF6790F978D0BD /* GatheredLightingSample.h */; };
+		CD712082AEA7BF1A4CCE9A0B /* Landscape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C60471A5D79B8ED3DACA71B /* Landscape.cpp */; };
+		8BF4F9E667CCFB48E2139713 /* Landscape.h in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DCF304DF36CD0B819C29C /* Landscape.h */; };
+		774D337FC0E38021C905F6BA /* Lighting.h in Sources */ = {isa = PBXBuildFile; fileRef = AED9B37FD2522978C934AB2F /* Lighting.h */; };
+		A9879F493FD66272325C6F1A /* LightingCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 997B87FE9375496936158274 /* LightingCache.cpp */; };
+		40ECFD65EF49D242A103D538 /* LightingCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 4336E1F2A28488516A99E656 /* LightingCache.h */; };
+		CA2AE553EA42F894052B0953 /* LightingMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FD82E8892C7895A64FBB5C /* LightingMesh.cpp */; };
+		9457C7B28C310AA605A69AC5 /* LightingMesh.h in Sources */ = {isa = PBXBuildFile; fileRef = 637F575E0B4133182D8D19A5 /* LightingMesh.h */; };
+		029FC73D2050B07B6F89BF93 /* LightingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B4607D421624D3262BC850A /* LightingSystem.cpp */; };
+		D4198A651BA22E063D21AFED /* LightingSystem.h in Sources */ = {isa = PBXBuildFile; fileRef = 69CC86B5F61F56DABFC3E3C4 /* LightingSystem.h */; };
+		395FF7CB40E7424519BD6806 /* LightingSystem.inl in Sources */ = {isa = PBXBuildFile; fileRef = C64B5FCC5AB85659961A6A54 /* LightingSystem.inl */; };
+		DB983C4366AB4A1036C52BBC /* LightmapData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB63C656DE69D3AB6480EEAA /* LightmapData.cpp */; };
+		BF8A7F076D892D1EF4A3EFA7 /* LightmapData.h in Sources */ = {isa = PBXBuildFile; fileRef = ABFFDF6E7257D0001FA320F6 /* LightmapData.h */; };
+		F1FF7A2D47BFEF5BA99184DB /* Mappings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B42A3AC980DC808741FABDF /* Mappings.cpp */; };
+		8A64390DAFEE8B1C6989166D /* Mappings.h in Sources */ = {isa = PBXBuildFile; fileRef = 0F00D735B393FD1A7B03422F /* Mappings.h */; };
+		B4236812DA1782D2549BA3E2 /* MonteCarlo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85E2ABBB056772A22C359D97 /* MonteCarlo.cpp */; };
+		359354E0219163862109588C /* MonteCarlo.h in Sources */ = {isa = PBXBuildFile; fileRef = 85784151064319735DF4AFD0 /* MonteCarlo.h */; };
+		E842141391A0037E86D0DC47 /* PhotonMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2A2B1C3371CC07C891F368D /* PhotonMapping.cpp */; };
+		26209CE81C2A3A40E484F8DF /* PrecomputedVisibility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D50F48105DA06B49BFA8F63 /* PrecomputedVisibility.cpp */; };
+		92553B40343247C80B86ED71 /* Radiosity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 031A625C969C633EAAD146E7 /* Radiosity.cpp */; };
+		283E76AF1981F12B913856C6 /* Raster.h in Sources */ = {isa = PBXBuildFile; fileRef = EEF90CB13C2FD3F662827DEB /* Raster.h */; };
+		77AA1DFF9750B9C00F5418F5 /* SampleVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC97AF8A94C2E0CBC49C6D9D /* SampleVolume.cpp */; };
+		8FB1027BFE4F84A5C18B386E /* StaticMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63F293407E95B69AE017F5A5 /* StaticMesh.cpp */; };
+		7F4961A0A2B227DB3C806FE6 /* StaticMesh.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EC2BFCF7333305F4026A2 /* StaticMesh.h */; };
+		2E9F4C2EE5D3BC78BC5CFBB5 /* Texture.h in Sources */ = {isa = PBXBuildFile; fileRef = EEE3020F645D32E382ADF340 /* Texture.h */; };
+		D3F6CB6DE3C4463E23BE7202 /* TextureMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65F8F569C4F729F1420CD1EB /* TextureMapping.cpp */; };
+		7024CC010E421F80AC0C5BEE /* TextureMappingSetup.h in Sources */ = {isa = PBXBuildFile; fileRef = 084E94F716BD922F7100A96C /* TextureMappingSetup.h */; };
+		67C91F8B8301FDC625DFFDBE /* VolumeDistanceField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7442FE09EF156589C076075 /* VolumeDistanceField.cpp */; };
+		6231DA857AA279707A609A45 /* LMCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2394FCAA0E95C82851D600D1 /* LMCore.cpp */; };
+		8DB1907FA951CF6068A92852 /* LMCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 26774B83658D4397AAEABC0A /* LMCore.h */; };
+		F5AB49073E38248C3108F8C8 /* LMCollision.h in Sources */ = {isa = PBXBuildFile; fileRef = 11FAC6299039DD7A6CAA8397 /* LMCollision.h */; };
+		BE20A231F1CDBEEDF3D02E33 /* LMkDOP.h in Sources */ = {isa = PBXBuildFile; fileRef = 28ED17EC5CFE81245E37651B /* LMkDOP.h */; };
+		4945C2C4926827A3F5868AFE /* LMMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07C8222F859C201E7F82716B /* LMMath.cpp */; };
+		C61906700C429D4A27B2BDF8 /* LMMath.h in Sources */ = {isa = PBXBuildFile; fileRef = 7560F9C9E155D38B70C722C8 /* LMMath.h */; };
+		17ADF4D08A6517C6D357FD78 /* LMMathSSE.h in Sources */ = {isa = PBXBuildFile; fileRef = 62B796B2E83FD6540A29BA24 /* LMMathSSE.h */; };
+		A2573D2AAFE6FBFEF73D595E /* LMOctree.h in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDC0C29BF7241E62816629 /* LMOctree.h */; };
+		7E14B913049BC120F0136B8E /* MersennePrimeTwister.tps in Sources */ = {isa = PBXBuildFile; fileRef = 44CA0D297F6B6B7D9F8C99AD /* MersennePrimeTwister.tps */; };
+		DF37C264FF42CB86BB87B2DC /* SFMT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14ABE8570E0D42158189A892 /* SFMT.cpp */; };
+		F057A4F2CCE87BF27B0B33CD /* LMDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95D20AE47E5D3BC173115D4 /* LMDebug.cpp */; };
+		83136F914A842C568F3073A8 /* LMDebug.h in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9B9D20BC06108771B7EB0 /* LMDebug.h */; };
+		EC94CD9BB5EB7ABF42D06FB9 /* LMHelpers.h in Sources */ = {isa = PBXBuildFile; fileRef = 79E9A7F6DFDC3DA8E978106E /* LMHelpers.h */; };
+		2B00B057D00D5C6795BEA5B5 /* LMStats.h in Sources */ = {isa = PBXBuildFile; fileRef = B690A0A3B6B465CD6A005922 /* LMStats.h */; };
+		186A289BDDD5C774835F70B5 /* LMThreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A22EF35730724BA44F23F4F /* LMThreading.cpp */; };
+		3B9AF2351243032BA68E3F65 /* LMThreading.h in Sources */ = {isa = PBXBuildFile; fileRef = E4C189BFF631315720EB6894 /* LMThreading.h */; };
+		C5305A62DC9EDE252AD95F43 /* LMQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = E39261405B440EACE28951B1 /* LMQueue.h */; };
+		7D64C313C1E82E50315E6FE2 /* FluidExport.h in Sources */ = {isa = PBXBuildFile; fileRef = E8A04E07B0193A0A6246DC64 /* FluidExport.h */; };
+		CFF0FBDBDCBCB13BDFA8E578 /* ImportExport.h in Sources */ = {isa = PBXBuildFile; fileRef = DACA6442AB0E1184227E58BA /* ImportExport.h */; };
+		F606FBC84E464F36885F43D0 /* LightmassPublic.h in Sources */ = {isa = PBXBuildFile; fileRef = ED537475AC330340BBD62CE5 /* LightmassPublic.h */; };
+		B5F85F53345741509840E4D5 /* MaterialExport.h in Sources */ = {isa = PBXBuildFile; fileRef = C0E9ED9859AEEF7B87945558 /* MaterialExport.h */; };
+		9A9CD7EE7B17FF20D9161355 /* MeshExport.h in Sources */ = {isa = PBXBuildFile; fileRef = E7FB02301DF237AC6E9EB5C3 /* MeshExport.h */; };
+		466BE70CE6B15D21A306B998 /* SceneExport.h in Sources */ = {isa = PBXBuildFile; fileRef = 7F52D58040C4FBAAD597B05D /* SceneExport.h */; };
+		E1A60A6474D95142B684A132 /* UnrealLightmass.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A3DF7D243329B880BBC3F /* UnrealLightmass.Build.cs */; };
+		F032DA0A388F51F82BD257BA /* UnrealLightmass.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 1313D79329AF37C027E0300E /* UnrealLightmass.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A7AB093459FD1BE9E24BAE7 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/UnrealLightmass/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		EB30DDED7F80DDB5C82FB31A /* CPUSolver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CPUSolver.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver/CPUSolver.cpp"; sourceTree = SOURCE_ROOT; };
+		06340C7DAE09228882FC0BA2 /* CPUSolver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CPUSolver.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver/CPUSolver.h"; sourceTree = SOURCE_ROOT; };
+		5EE718BC8EB15620F021E74B /* 3DVisualizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "3DVisualizer.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/3DVisualizer.cpp"; sourceTree = SOURCE_ROOT; };
+		3811A7E3544BB64DA1621EC7 /* 3DVisualizer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "3DVisualizer.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/3DVisualizer.h"; sourceTree = SOURCE_ROOT; };
+		00B8E8D920052B265EDD847D /* Exporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Exporter.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Exporter.cpp"; sourceTree = SOURCE_ROOT; };
+		31C7E6948644DD677CD8E29C /* Exporter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Exporter.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Exporter.h"; sourceTree = SOURCE_ROOT; };
+		1F0CD9C426848EC2EA40A758 /* Importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Importer.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Importer.cpp"; sourceTree = SOURCE_ROOT; };
+		6C0EDA48D4B9C5B501B27479 /* Importer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Importer.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Importer.h"; sourceTree = SOURCE_ROOT; };
+		574F14C57B94A4F0CA4B5817 /* LightmassScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightmassScene.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassScene.cpp"; sourceTree = SOURCE_ROOT; };
+		DC09E86F7D205897923AF085 /* LightmassScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmassScene.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassScene.h"; sourceTree = SOURCE_ROOT; };
+		3280A6427D0F7D31A02DE872 /* LightmassSwarm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightmassSwarm.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassSwarm.cpp"; sourceTree = SOURCE_ROOT; };
+		B9E95D9E779025B3BBE43CFC /* LightmassSwarm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmassSwarm.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/LightmassSwarm.h"; sourceTree = SOURCE_ROOT; };
+		11042B00A3DDAECAF52B8893 /* Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Material.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Material.cpp"; sourceTree = SOURCE_ROOT; };
+		A502B395831463F128838D73 /* Material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Material.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Material.h"; sourceTree = SOURCE_ROOT; };
+		06D56EE210FBE29BD34F5AA0 /* Mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Mesh.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Mesh.cpp"; sourceTree = SOURCE_ROOT; };
+		24D890856EE24E1E31D58EAD /* Mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Mesh.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport/Mesh.h"; sourceTree = SOURCE_ROOT; };
+		2A2786F61CA28CC02B8ABD37 /* UnitTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnitTest.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnitTest.cpp"; sourceTree = SOURCE_ROOT; };
+		B63E8C5FA69419B425735B47 /* UnitTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnitTest.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnitTest.h"; sourceTree = SOURCE_ROOT; };
+		C5AE158E015D928FEC4040DD /* UnrealLightmass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealLightmass.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnrealLightmass.cpp"; sourceTree = SOURCE_ROOT; };
+		39DF0DBB181F820C7C4899F7 /* UnrealLightmass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealLightmass.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch/UnrealLightmass.h"; sourceTree = SOURCE_ROOT; };
+		B4EAA9B997CB43E0196C5422 /* AdaptiveVolumetricLightmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AdaptiveVolumetricLightmap.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/AdaptiveVolumetricLightmap.cpp"; sourceTree = SOURCE_ROOT; };
+		564915358A7A911566F1062D /* BSP.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BSP.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BSP.cpp"; sourceTree = SOURCE_ROOT; };
+		548E5CE3C2AA8992D1C4634E /* BSP.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BSP.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BSP.h"; sourceTree = SOURCE_ROOT; };
+		BEB1C9D94306AEC6D009E1FB /* BuildOptions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildOptions.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/BuildOptions.h"; sourceTree = SOURCE_ROOT; };
+		634036F8D4193B0B37672511 /* Collision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Collision.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Collision.cpp"; sourceTree = SOURCE_ROOT; };
+		EB00F65BEDA48F97B6D17603 /* Collision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Collision.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Collision.h"; sourceTree = SOURCE_ROOT; };
+		25919CC8A84ECB08C0080CD4 /* Embree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Embree.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Embree.cpp"; sourceTree = SOURCE_ROOT; };
+		ABC6DE5596C8A5AA253E365B /* Embree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Embree.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Embree.h"; sourceTree = SOURCE_ROOT; };
+		B830DFFBE6CA7FD9963B1DE2 /* FinalGather.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "FinalGather.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FinalGather.cpp"; sourceTree = SOURCE_ROOT; };
+		9DF209CB0832B78E32F19D65 /* FluidSurface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "FluidSurface.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FluidSurface.cpp"; sourceTree = SOURCE_ROOT; };
+		FA4B65466EB042F6A5CE5DF4 /* FluidSurface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FluidSurface.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/FluidSurface.h"; sourceTree = SOURCE_ROOT; };
+		9E53254EFDBF6790F978D0BD /* GatheredLightingSample.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GatheredLightingSample.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/GatheredLightingSample.h"; sourceTree = SOURCE_ROOT; };
+		8C60471A5D79B8ED3DACA71B /* Landscape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Landscape.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Landscape.cpp"; sourceTree = SOURCE_ROOT; };
+		6E2DCF304DF36CD0B819C29C /* Landscape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Landscape.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Landscape.h"; sourceTree = SOURCE_ROOT; };
+		AED9B37FD2522978C934AB2F /* Lighting.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Lighting.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Lighting.h"; sourceTree = SOURCE_ROOT; };
+		997B87FE9375496936158274 /* LightingCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightingCache.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingCache.cpp"; sourceTree = SOURCE_ROOT; };
+		4336E1F2A28488516A99E656 /* LightingCache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingCache.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingCache.h"; sourceTree = SOURCE_ROOT; };
+		D9FD82E8892C7895A64FBB5C /* LightingMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightingMesh.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingMesh.cpp"; sourceTree = SOURCE_ROOT; };
+		637F575E0B4133182D8D19A5 /* LightingMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingMesh.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingMesh.h"; sourceTree = SOURCE_ROOT; };
+		7B4607D421624D3262BC850A /* LightingSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightingSystem.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.cpp"; sourceTree = SOURCE_ROOT; };
+		69CC86B5F61F56DABFC3E3C4 /* LightingSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingSystem.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.h"; sourceTree = SOURCE_ROOT; };
+		C64B5FCC5AB85659961A6A54 /* LightingSystem.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightingSystem.inl"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightingSystem.inl"; sourceTree = SOURCE_ROOT; };
+		AB63C656DE69D3AB6480EEAA /* LightmapData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LightmapData.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightmapData.cpp"; sourceTree = SOURCE_ROOT; };
+		ABFFDF6E7257D0001FA320F6 /* LightmapData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmapData.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/LightmapData.h"; sourceTree = SOURCE_ROOT; };
+		2B42A3AC980DC808741FABDF /* Mappings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Mappings.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Mappings.cpp"; sourceTree = SOURCE_ROOT; };
+		0F00D735B393FD1A7B03422F /* Mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Mappings.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Mappings.h"; sourceTree = SOURCE_ROOT; };
+		85E2ABBB056772A22C359D97 /* MonteCarlo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MonteCarlo.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/MonteCarlo.cpp"; sourceTree = SOURCE_ROOT; };
+		85784151064319735DF4AFD0 /* MonteCarlo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MonteCarlo.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/MonteCarlo.h"; sourceTree = SOURCE_ROOT; };
+		C2A2B1C3371CC07C891F368D /* PhotonMapping.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PhotonMapping.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/PhotonMapping.cpp"; sourceTree = SOURCE_ROOT; };
+		7D50F48105DA06B49BFA8F63 /* PrecomputedVisibility.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PrecomputedVisibility.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/PrecomputedVisibility.cpp"; sourceTree = SOURCE_ROOT; };
+		031A625C969C633EAAD146E7 /* Radiosity.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Radiosity.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Radiosity.cpp"; sourceTree = SOURCE_ROOT; };
+		EEF90CB13C2FD3F662827DEB /* Raster.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Raster.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Raster.h"; sourceTree = SOURCE_ROOT; };
+		BC97AF8A94C2E0CBC49C6D9D /* SampleVolume.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SampleVolume.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/SampleVolume.cpp"; sourceTree = SOURCE_ROOT; };
+		63F293407E95B69AE017F5A5 /* StaticMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "StaticMesh.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/StaticMesh.cpp"; sourceTree = SOURCE_ROOT; };
+		4D3EC2BFCF7333305F4026A2 /* StaticMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StaticMesh.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/StaticMesh.h"; sourceTree = SOURCE_ROOT; };
+		EEE3020F645D32E382ADF340 /* Texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Texture.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/Texture.h"; sourceTree = SOURCE_ROOT; };
+		65F8F569C4F729F1420CD1EB /* TextureMapping.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TextureMapping.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/TextureMapping.cpp"; sourceTree = SOURCE_ROOT; };
+		084E94F716BD922F7100A96C /* TextureMappingSetup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TextureMappingSetup.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/TextureMappingSetup.h"; sourceTree = SOURCE_ROOT; };
+		F7442FE09EF156589C076075 /* VolumeDistanceField.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VolumeDistanceField.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting/VolumeDistanceField.cpp"; sourceTree = SOURCE_ROOT; };
+		2394FCAA0E95C82851D600D1 /* LMCore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMCore.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/LMCore.cpp"; sourceTree = SOURCE_ROOT; };
+		26774B83658D4397AAEABC0A /* LMCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMCore.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/LMCore.h"; sourceTree = SOURCE_ROOT; };
+		11FAC6299039DD7A6CAA8397 /* LMCollision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMCollision.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMCollision.h"; sourceTree = SOURCE_ROOT; };
+		28ED17EC5CFE81245E37651B /* LMkDOP.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMkDOP.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMkDOP.h"; sourceTree = SOURCE_ROOT; };
+		07C8222F859C201E7F82716B /* LMMath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMMath.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMath.cpp"; sourceTree = SOURCE_ROOT; };
+		7560F9C9E155D38B70C722C8 /* LMMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMMath.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMath.h"; sourceTree = SOURCE_ROOT; };
+		62B796B2E83FD6540A29BA24 /* LMMathSSE.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMMathSSE.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMMathSSE.h"; sourceTree = SOURCE_ROOT; };
+		4DCDC0C29BF7241E62816629 /* LMOctree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMOctree.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/LMOctree.h"; sourceTree = SOURCE_ROOT; };
+		44CA0D297F6B6B7D9F8C99AD /* MersennePrimeTwister.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MersennePrimeTwister.tps"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/MersennePrimeTwister.tps"; sourceTree = SOURCE_ROOT; };
+		14ABE8570E0D42158189A892 /* SFMT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SFMT.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math/SFMT.cpp"; sourceTree = SOURCE_ROOT; };
+		D95D20AE47E5D3BC173115D4 /* LMDebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMDebug.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMDebug.cpp"; sourceTree = SOURCE_ROOT; };
+		9DD9B9D20BC06108771B7EB0 /* LMDebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMDebug.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMDebug.h"; sourceTree = SOURCE_ROOT; };
+		79E9A7F6DFDC3DA8E978106E /* LMHelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMHelpers.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMHelpers.h"; sourceTree = SOURCE_ROOT; };
+		B690A0A3B6B465CD6A005922 /* LMStats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMStats.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMStats.h"; sourceTree = SOURCE_ROOT; };
+		3A22EF35730724BA44F23F4F /* LMThreading.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LMThreading.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMThreading.cpp"; sourceTree = SOURCE_ROOT; };
+		E4C189BFF631315720EB6894 /* LMThreading.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMThreading.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc/LMThreading.h"; sourceTree = SOURCE_ROOT; };
+		E39261405B440EACE28951B1 /* LMQueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LMQueue.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates/LMQueue.h"; sourceTree = SOURCE_ROOT; };
+		E8A04E07B0193A0A6246DC64 /* FluidExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FluidExport.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public/FluidExport.h"; sourceTree = SOURCE_ROOT; };
+		DACA6442AB0E1184227E58BA /* ImportExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ImportExport.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public/ImportExport.h"; sourceTree = SOURCE_ROOT; };
+		ED537475AC330340BBD62CE5 /* LightmassPublic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LightmassPublic.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public/LightmassPublic.h"; sourceTree = SOURCE_ROOT; };
+		C0E9ED9859AEEF7B87945558 /* MaterialExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MaterialExport.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public/MaterialExport.h"; sourceTree = SOURCE_ROOT; };
+		E7FB02301DF237AC6E9EB5C3 /* MeshExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MeshExport.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public/MeshExport.h"; sourceTree = SOURCE_ROOT; };
+		7F52D58040C4FBAAD597B05D /* SceneExport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SceneExport.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public/SceneExport.h"; sourceTree = SOURCE_ROOT; };
+		2F0A3DF7D243329B880BBC3F /* UnrealLightmass.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLightmass.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/UnrealLightmass.Build.cs"; sourceTree = SOURCE_ROOT; };
+		1313D79329AF37C027E0300E /* UnrealLightmass.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealLightmass.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/UnrealLightmass.Target.cs"; sourceTree = SOURCE_ROOT; };
+		FB00B3F5551DF4E8B0242917 /* UnrealLightmass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealLightmass; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38546A1523497E62322D6ADB = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B8D31D3539D59710A78740 /* CPUSolver.cpp in Sources */,
+				65441C082E0776F505B893AA /* 3DVisualizer.cpp in Sources */,
+				F165F9D0A6EBB1445DD095CF /* Exporter.cpp in Sources */,
+				62DC2D9B36F86914E17CC634 /* Importer.cpp in Sources */,
+				6A1940F74920B12234D47C9F /* LightmassScene.cpp in Sources */,
+				A500396D0E84AE1EC1284D03 /* LightmassSwarm.cpp in Sources */,
+				79161A82BCBFE57717C7C1DA /* Material.cpp in Sources */,
+				652410DD3671074E8D87D0DE /* Mesh.cpp in Sources */,
+				A581E12CA1F29F16CA70B31C /* UnitTest.cpp in Sources */,
+				5B57028F48CE811AC3A9C244 /* UnrealLightmass.cpp in Sources */,
+				7E8BB2C8E1CB5A1A1724781B /* AdaptiveVolumetricLightmap.cpp in Sources */,
+				50D677CCBE3361CE922218E5 /* BSP.cpp in Sources */,
+				1EAD52BB68745CB26526FAF7 /* Collision.cpp in Sources */,
+				D0B5F1B7CDD6C4B78841DAB8 /* Embree.cpp in Sources */,
+				08C6EF68066D43C7A81C94ED /* FinalGather.cpp in Sources */,
+				6F7572F76262AEE4AAC28B10 /* FluidSurface.cpp in Sources */,
+				CD712082AEA7BF1A4CCE9A0B /* Landscape.cpp in Sources */,
+				A9879F493FD66272325C6F1A /* LightingCache.cpp in Sources */,
+				CA2AE553EA42F894052B0953 /* LightingMesh.cpp in Sources */,
+				029FC73D2050B07B6F89BF93 /* LightingSystem.cpp in Sources */,
+				DB983C4366AB4A1036C52BBC /* LightmapData.cpp in Sources */,
+				F1FF7A2D47BFEF5BA99184DB /* Mappings.cpp in Sources */,
+				B4236812DA1782D2549BA3E2 /* MonteCarlo.cpp in Sources */,
+				E842141391A0037E86D0DC47 /* PhotonMapping.cpp in Sources */,
+				26209CE81C2A3A40E484F8DF /* PrecomputedVisibility.cpp in Sources */,
+				92553B40343247C80B86ED71 /* Radiosity.cpp in Sources */,
+				77AA1DFF9750B9C00F5418F5 /* SampleVolume.cpp in Sources */,
+				8FB1027BFE4F84A5C18B386E /* StaticMesh.cpp in Sources */,
+				D3F6CB6DE3C4463E23BE7202 /* TextureMapping.cpp in Sources */,
+				67C91F8B8301FDC625DFFDBE /* VolumeDistanceField.cpp in Sources */,
+				6231DA857AA279707A609A45 /* LMCore.cpp in Sources */,
+				4945C2C4926827A3F5868AFE /* LMMath.cpp in Sources */,
+				DF37C264FF42CB86BB87B2DC /* SFMT.cpp in Sources */,
+				F057A4F2CCE87BF27B0B33CD /* LMDebug.cpp in Sources */,
+				186A289BDDD5C774835F70B5 /* LMThreading.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	97B70C6DB6E0B83CED77CD19 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		90FAC794C13F79040BABFF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00C0215DC9FC257290AE202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA81326813C42AB61B5F2B30;
+			remoteInfo = "UnrealLightmass_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		3554F652283906E30B9A10DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA81326813C42AB61B5F2B30 /* UnrealLightmass_Build */;
+			targetProxy = 90FAC794C13F79040BABFF63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		AA00070B4BBC53014AF94E99 = {
+			isa = PBXGroup;
+			children = (
+				342968D6CECE0D3800FE284F /* Programs */,
+				1DFE120FA22D0A626B0ED1D5 /* Source */,
+				25189031ED5216032EEE1046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342968D6CECE0D3800FE284F = {
+			isa = PBXGroup;
+			children = (
+				9B4A991D50685130D3DAA689 /* UnrealLightmass */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		9B4A991D50685130D3DAA689 = {
+			isa = PBXGroup;
+			children = (
+				D2758CBA2127E969AF800E88 /* Config */,
+			);
+			name = "UnrealLightmass";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealLightmass";
+			sourceTree = "<absolute>";
+		};
+		D2758CBA2127E969AF800E88 = {
+			isa = PBXGroup;
+			children = (
+				7A7AB093459FD1BE9E24BAE7 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealLightmass/Config";
+			sourceTree = "<absolute>";
+		};
+		1DFE120FA22D0A626B0ED1D5 = {
+			isa = PBXGroup;
+			children = (
+				926CAF5AF77C375983DE0359 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		926CAF5AF77C375983DE0359 = {
+			isa = PBXGroup;
+			children = (
+				415216D915BE9F1A3C10FF51 /* UnrealLightmass */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		415216D915BE9F1A3C10FF51 = {
+			isa = PBXGroup;
+			children = (
+				55428EA5CF431DC4A3B728B5 /* Private */,
+				429B98321AD8CF2F0E52080E /* Public */,
+				2F0A3DF7D243329B880BBC3F /* UnrealLightmass.Build.cs */,
+				1313D79329AF37C027E0300E /* UnrealLightmass.Target.cs */,
+			);
+			name = "UnrealLightmass";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass";
+			sourceTree = "<absolute>";
+		};
+		55428EA5CF431DC4A3B728B5 = {
+			isa = PBXGroup;
+			children = (
+				788E723349B4053FFAB9CD4F /* CPUSolver */,
+				16304DAD6EB698816D5D04B5 /* ImportExport */,
+				ED918940C13FB58A2A616186 /* Launch */,
+				4C6CD1870BC0569C753F8E9E /* Lighting */,
+				F66F55ED1FA7481A89BC45B7 /* LightmassCore */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private";
+			sourceTree = "<absolute>";
+		};
+		788E723349B4053FFAB9CD4F = {
+			isa = PBXGroup;
+			children = (
+				EB30DDED7F80DDB5C82FB31A /* CPUSolver.cpp */,
+				06340C7DAE09228882FC0BA2 /* CPUSolver.h */,
+			);
+			name = "CPUSolver";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver";
+			sourceTree = "<absolute>";
+		};
+		16304DAD6EB698816D5D04B5 = {
+			isa = PBXGroup;
+			children = (
+				5EE718BC8EB15620F021E74B /* 3DVisualizer.cpp */,
+				3811A7E3544BB64DA1621EC7 /* 3DVisualizer.h */,
+				00B8E8D920052B265EDD847D /* Exporter.cpp */,
+				31C7E6948644DD677CD8E29C /* Exporter.h */,
+				1F0CD9C426848EC2EA40A758 /* Importer.cpp */,
+				6C0EDA48D4B9C5B501B27479 /* Importer.h */,
+				574F14C57B94A4F0CA4B5817 /* LightmassScene.cpp */,
+				DC09E86F7D205897923AF085 /* LightmassScene.h */,
+				3280A6427D0F7D31A02DE872 /* LightmassSwarm.cpp */,
+				B9E95D9E779025B3BBE43CFC /* LightmassSwarm.h */,
+				11042B00A3DDAECAF52B8893 /* Material.cpp */,
+				A502B395831463F128838D73 /* Material.h */,
+				06D56EE210FBE29BD34F5AA0 /* Mesh.cpp */,
+				24D890856EE24E1E31D58EAD /* Mesh.h */,
+			);
+			name = "ImportExport";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport";
+			sourceTree = "<absolute>";
+		};
+		ED918940C13FB58A2A616186 = {
+			isa = PBXGroup;
+			children = (
+				2A2786F61CA28CC02B8ABD37 /* UnitTest.cpp */,
+				B63E8C5FA69419B425735B47 /* UnitTest.h */,
+				C5AE158E015D928FEC4040DD /* UnrealLightmass.cpp */,
+				39DF0DBB181F820C7C4899F7 /* UnrealLightmass.h */,
+			);
+			name = "Launch";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch";
+			sourceTree = "<absolute>";
+		};
+		4C6CD1870BC0569C753F8E9E = {
+			isa = PBXGroup;
+			children = (
+				B4EAA9B997CB43E0196C5422 /* AdaptiveVolumetricLightmap.cpp */,
+				564915358A7A911566F1062D /* BSP.cpp */,
+				548E5CE3C2AA8992D1C4634E /* BSP.h */,
+				BEB1C9D94306AEC6D009E1FB /* BuildOptions.h */,
+				634036F8D4193B0B37672511 /* Collision.cpp */,
+				EB00F65BEDA48F97B6D17603 /* Collision.h */,
+				25919CC8A84ECB08C0080CD4 /* Embree.cpp */,
+				ABC6DE5596C8A5AA253E365B /* Embree.h */,
+				B830DFFBE6CA7FD9963B1DE2 /* FinalGather.cpp */,
+				9DF209CB0832B78E32F19D65 /* FluidSurface.cpp */,
+				FA4B65466EB042F6A5CE5DF4 /* FluidSurface.h */,
+				9E53254EFDBF6790F978D0BD /* GatheredLightingSample.h */,
+				8C60471A5D79B8ED3DACA71B /* Landscape.cpp */,
+				6E2DCF304DF36CD0B819C29C /* Landscape.h */,
+				AED9B37FD2522978C934AB2F /* Lighting.h */,
+				997B87FE9375496936158274 /* LightingCache.cpp */,
+				4336E1F2A28488516A99E656 /* LightingCache.h */,
+				D9FD82E8892C7895A64FBB5C /* LightingMesh.cpp */,
+				637F575E0B4133182D8D19A5 /* LightingMesh.h */,
+				7B4607D421624D3262BC850A /* LightingSystem.cpp */,
+				69CC86B5F61F56DABFC3E3C4 /* LightingSystem.h */,
+				C64B5FCC5AB85659961A6A54 /* LightingSystem.inl */,
+				AB63C656DE69D3AB6480EEAA /* LightmapData.cpp */,
+				ABFFDF6E7257D0001FA320F6 /* LightmapData.h */,
+				2B42A3AC980DC808741FABDF /* Mappings.cpp */,
+				0F00D735B393FD1A7B03422F /* Mappings.h */,
+				85E2ABBB056772A22C359D97 /* MonteCarlo.cpp */,
+				85784151064319735DF4AFD0 /* MonteCarlo.h */,
+				C2A2B1C3371CC07C891F368D /* PhotonMapping.cpp */,
+				7D50F48105DA06B49BFA8F63 /* PrecomputedVisibility.cpp */,
+				031A625C969C633EAAD146E7 /* Radiosity.cpp */,
+				EEF90CB13C2FD3F662827DEB /* Raster.h */,
+				BC97AF8A94C2E0CBC49C6D9D /* SampleVolume.cpp */,
+				63F293407E95B69AE017F5A5 /* StaticMesh.cpp */,
+				4D3EC2BFCF7333305F4026A2 /* StaticMesh.h */,
+				EEE3020F645D32E382ADF340 /* Texture.h */,
+				65F8F569C4F729F1420CD1EB /* TextureMapping.cpp */,
+				084E94F716BD922F7100A96C /* TextureMappingSetup.h */,
+				F7442FE09EF156589C076075 /* VolumeDistanceField.cpp */,
+			);
+			name = "Lighting";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting";
+			sourceTree = "<absolute>";
+		};
+		F66F55ED1FA7481A89BC45B7 = {
+			isa = PBXGroup;
+			children = (
+				2AC57DBB034324B5CFC66102 /* Math */,
+				E51075AC06683FAE02EB4951 /* Misc */,
+				EAC86A821947FD8F26195D46 /* Templates */,
+				2394FCAA0E95C82851D600D1 /* LMCore.cpp */,
+				26774B83658D4397AAEABC0A /* LMCore.h */,
+			);
+			name = "LightmassCore";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore";
+			sourceTree = "<absolute>";
+		};
+		2AC57DBB034324B5CFC66102 = {
+			isa = PBXGroup;
+			children = (
+				11FAC6299039DD7A6CAA8397 /* LMCollision.h */,
+				28ED17EC5CFE81245E37651B /* LMkDOP.h */,
+				07C8222F859C201E7F82716B /* LMMath.cpp */,
+				7560F9C9E155D38B70C722C8 /* LMMath.h */,
+				62B796B2E83FD6540A29BA24 /* LMMathSSE.h */,
+				4DCDC0C29BF7241E62816629 /* LMOctree.h */,
+				44CA0D297F6B6B7D9F8C99AD /* MersennePrimeTwister.tps */,
+				14ABE8570E0D42158189A892 /* SFMT.cpp */,
+			);
+			name = "Math";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math";
+			sourceTree = "<absolute>";
+		};
+		E51075AC06683FAE02EB4951 = {
+			isa = PBXGroup;
+			children = (
+				D95D20AE47E5D3BC173115D4 /* LMDebug.cpp */,
+				9DD9B9D20BC06108771B7EB0 /* LMDebug.h */,
+				79E9A7F6DFDC3DA8E978106E /* LMHelpers.h */,
+				B690A0A3B6B465CD6A005922 /* LMStats.h */,
+				3A22EF35730724BA44F23F4F /* LMThreading.cpp */,
+				E4C189BFF631315720EB6894 /* LMThreading.h */,
+			);
+			name = "Misc";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc";
+			sourceTree = "<absolute>";
+		};
+		EAC86A821947FD8F26195D46 = {
+			isa = PBXGroup;
+			children = (
+				E39261405B440EACE28951B1 /* LMQueue.h */,
+			);
+			name = "Templates";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates";
+			sourceTree = "<absolute>";
+		};
+		429B98321AD8CF2F0E52080E = {
+			isa = PBXGroup;
+			children = (
+				E8A04E07B0193A0A6246DC64 /* FluidExport.h */,
+				DACA6442AB0E1184227E58BA /* ImportExport.h */,
+				ED537475AC330340BBD62CE5 /* LightmassPublic.h */,
+				C0E9ED9859AEEF7B87945558 /* MaterialExport.h */,
+				E7FB02301DF237AC6E9EB5C3 /* MeshExport.h */,
+				7F52D58040C4FBAAD597B05D /* SceneExport.h */,
+			);
+			name = "Public";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public";
+			sourceTree = "<absolute>";
+		};
+		25189031ED5216032EEE1046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB00B3F5551DF4E8B0242917 /* UnrealLightmass */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EA81326813C42AB61B5F2B30 /* UnrealLightmass_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 2DC07DE7E59B478954935728 /* Build configuration list for PBXLegacyTarget "UnrealLightmass_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealLightmass_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLightmass_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4750775E6BE0D45AA11AA835 /* UnrealLightmass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502B3DBB2AF5553E275F9F53 /* Build configuration list for PBXNativeTarget "UnrealLightmass" */;
+			buildPhases = (
+				97B70C6DB6E0B83CED77CD19 /* Embed App Extensions */, 
+				2E2E90C327D6A6BCEFC1D2F6 /* Shell Script */, 
+			);
+			dependencies = (
+				3554F652283906E30B9A10DE /* PBXTargetDependency */,
+			);
+			name = "UnrealLightmass";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLightmass";
+			productReference = "FB00B3F5551DF4E8B0242917";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		85118EEEA6282D6CD0AFAA3F /* UnrealLightmass_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D11F0468149479BD483C794 /* Build configuration list for PBXNativeTarget "UnrealLightmass_Index" */;
+			buildPhases = (
+				38546A1523497E62322D6ADB /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealLightmass_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealLightmass_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00C0215DC9FC257290AE202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					4750775E6BE0D45AA11AA835 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 363B10F331BF5F7D163DDAD4 /* Build configuration list for PBXProject "UnrealLightmass" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = AA00070B4BBC53014AF94E99;
+			productRefGroup = 25189031ED5216032EEE1046;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			4750775E6BE0D45AA11AA835 /* UnrealLightmass */,
+			EA81326813C42AB61B5F2B30 /* UnrealLightmass_Build */,
+			85118EEEA6282D6CD0AFAA3F /* UnrealLightmass_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		513DDE007BEB66F7ADB49935 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/zlib/v1.2.8/include/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		8A58861B68106F0056E947C1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/zlib/v1.2.8/include/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		656BB1D10A4BF3B70D070710 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/zlib/v1.2.8/include/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		013790877B5CCD2393B87C8D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/zlib/v1.2.8/include/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		134325D653BE72620895F3EA /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/ImportExport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/CPUSolver",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/Lighting",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Misc",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Math",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private/LightmassCore/Templates",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/zlib/v1.2.8/include/Mac",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/SwarmInterface",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Networking",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/Messaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UdpMessaging",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealLightmass/Inc/UnrealLightmass",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/ThirdParty/Intel/Embree/Embree270/MacOSX/include",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealLightmass/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		46A84C4D36D459C18651E6F5 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		B00A70FFC8C350318CD34A7E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		5FBE1AEA88E883F43841D7F8 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		BE8206DCFAF209B5739F2FFA /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		31AE02DB89848319148D3C74 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		B9BA3B5B87AEEBD6E4151C79 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		1357B0B0E66C605E3DBCD12E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		557D8C70B0310D1406AA4B7A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		94902B1E21B72FF809A56E78 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		5A5FD94BB72CE9CD5DE40BDD /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealLightmass";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		02B7C00110D56B7A955A7C7F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		27D06DD3A51B221970FF5006 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		BB8E54F2C9192020C85D73E6 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		A08598AADC27E70211C73346 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		9259A44A320C700A92AD782D /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealLightmass-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363B10F331BF5F7D163DDAD4 /* Build configuration list for PBXProject "UnrealLightmass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513DDE007BEB66F7ADB49935 /* "Debug" */,
+				8A58861B68106F0056E947C1 /* "DebugGame" */,
+				656BB1D10A4BF3B70D070710 /* "Development" */,
+				013790877B5CCD2393B87C8D /* "Shipping" */,
+				134325D653BE72620895F3EA /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2DC07DE7E59B478954935728 /* Build configuration list for PBXLegacyTarget "UnrealLightmass_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BA3B5B87AEEBD6E4151C79 /* "Debug" */,
+				1357B0B0E66C605E3DBCD12E /* "DebugGame" */,
+				557D8C70B0310D1406AA4B7A /* "Development" */,
+				94902B1E21B72FF809A56E78 /* "Shipping" */,
+				5A5FD94BB72CE9CD5DE40BDD /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		502B3DBB2AF5553E275F9F53 /* Build configuration list for PBXNativeTarget "UnrealLightmass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A84C4D36D459C18651E6F5 /* "Debug" */,
+				B00A70FFC8C350318CD34A7E /* "DebugGame" */,
+				5FBE1AEA88E883F43841D7F8 /* "Development" */,
+				BE8206DCFAF209B5739F2FFA /* "Shipping" */,
+				31AE02DB89848319148D3C74 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		0D11F0468149479BD483C794 /* Build configuration list for PBXNativeTarget "UnrealLightmass_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B7C00110D56B7A955A7C7F /* "Debug" */,
+				27D06DD3A51B221970FF5006 /* "DebugGame" */,
+				BB8E54F2C9192020C85D73E6 /* "Development" */,
+				A08598AADC27E70211C73346 /* "Shipping" */,
+				9259A44A320C700A92AD782D /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00C0215DC9FC257290AE202 /* Project object */;
+}

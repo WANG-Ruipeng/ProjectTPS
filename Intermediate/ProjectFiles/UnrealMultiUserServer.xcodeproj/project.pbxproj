@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7A2E0D773BFDCB16FA2DF0 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE96B6F4E847F3E2B1A5E1 /* DefaultEngine.ini */; };
+		1CB76BA9A30AEDAEBA896028 /* UnrealMultiUserServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C8C4FB1CBEB06BAAC4504D /* UnrealMultiUserServerMain.cpp */; };
+		8BD3F1E3E5CF1B410D9378A5 /* UnrealMultiUserServerRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C4058DC26F956A79211D4F0 /* UnrealMultiUserServerRun.cpp */; };
+		2DB6C483B9461F57671D1DD0 /* UnrealMultiUserServerRun.h in Sources */ = {isa = PBXBuildFile; fileRef = 1909C8EA6D1E1AC04F1FBEDB /* UnrealMultiUserServerRun.h */; };
+		ACBE5D955CA8EAFBE714A810 /* UnrealMultiUserServer.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 30F33928B8F2B1E0426AB1CA /* UnrealMultiUserServer.Build.cs */; };
+		64BA66AE27FFE14960C856C8 /* UnrealMultiUserServer.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 68A6E4B54E789AB6BEFB8332 /* UnrealMultiUserServer.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DCE96B6F4E847F3E2B1A5E1 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../Desktop/UnrealEngine/Engine/Programs/UnrealMultiUserServer/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		53C8C4FB1CBEB06BAAC4504D /* UnrealMultiUserServerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealMultiUserServerMain.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private/UnrealMultiUserServerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		3C4058DC26F956A79211D4F0 /* UnrealMultiUserServerRun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealMultiUserServerRun.cpp"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private/UnrealMultiUserServerRun.cpp"; sourceTree = SOURCE_ROOT; };
+		1909C8EA6D1E1AC04F1FBEDB /* UnrealMultiUserServerRun.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealMultiUserServerRun.h"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private/UnrealMultiUserServerRun.h"; sourceTree = SOURCE_ROOT; };
+		30F33928B8F2B1E0426AB1CA /* UnrealMultiUserServer.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealMultiUserServer.Build.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/UnrealMultiUserServer.Build.cs"; sourceTree = SOURCE_ROOT; };
+		68A6E4B54E789AB6BEFB8332 /* UnrealMultiUserServer.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealMultiUserServer.Target.cs"; path = "../../../../../Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/UnrealMultiUserServer.Target.cs"; sourceTree = SOURCE_ROOT; };
+		3C47663C753C5B0332A9516F /* UnrealMultiUserServer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealMultiUserServer; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		622048251560674929A6B9FE = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB76BA9A30AEDAEBA896028 /* UnrealMultiUserServerMain.cpp in Sources */,
+				8BD3F1E3E5CF1B410D9378A5 /* UnrealMultiUserServerRun.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	4CE5EECC6E725A194B3F5768 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		32DB128F641DCB16CB5C5977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C59FDF0ADEBBE59D50ADE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028A2460E9377B7C521F55ED;
+			remoteInfo = "UnrealMultiUserServer_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		CF0D94291B1A4298C05C507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028A2460E9377B7C521F55ED /* UnrealMultiUserServer_Build */;
+			targetProxy = 32DB128F641DCB16CB5C5977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		260B92D6F6D0E13A89FAAD3B = {
+			isa = PBXGroup;
+			children = (
+				4F43FDC13327D27ABD990B21 /* Programs */,
+				EC931210E051A2E13B145ED8 /* Source */,
+				AD6B7EABE7A73CA9BD497EE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F43FDC13327D27ABD990B21 = {
+			isa = PBXGroup;
+			children = (
+				506B4BE503847614FA3FBDF6 /* UnrealMultiUserServer */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		506B4BE503847614FA3FBDF6 = {
+			isa = PBXGroup;
+			children = (
+				4AE0DBF28B66BFA04BD5E6F6 /* Config */,
+			);
+			name = "UnrealMultiUserServer";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealMultiUserServer";
+			sourceTree = "<absolute>";
+		};
+		4AE0DBF28B66BFA04BD5E6F6 = {
+			isa = PBXGroup;
+			children = (
+				3DCE96B6F4E847F3E2B1A5E1 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Programs/UnrealMultiUserServer/Config";
+			sourceTree = "<absolute>";
+		};
+		EC931210E051A2E13B145ED8 = {
+			isa = PBXGroup;
+			children = (
+				01F9E9280190F41085077653 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		01F9E9280190F41085077653 = {
+			isa = PBXGroup;
+			children = (
+				4CE0EE57DA6BD57B8554F870 /* UnrealMultiUserServer */,
+			);
+			name = "Programs";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		4CE0EE57DA6BD57B8554F870 = {
+			isa = PBXGroup;
+			children = (
+				716633A89CDCBB368102F091 /* Private */,
+				30F33928B8F2B1E0426AB1CA /* UnrealMultiUserServer.Build.cs */,
+				68A6E4B54E789AB6BEFB8332 /* UnrealMultiUserServer.Target.cs */,
+			);
+			name = "UnrealMultiUserServer";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer";
+			sourceTree = "<absolute>";
+		};
+		716633A89CDCBB368102F091 = {
+			isa = PBXGroup;
+			children = (
+				53C8C4FB1CBEB06BAAC4504D /* UnrealMultiUserServerMain.cpp */,
+				3C4058DC26F956A79211D4F0 /* UnrealMultiUserServerRun.cpp */,
+				1909C8EA6D1E1AC04F1FBEDB /* UnrealMultiUserServerRun.h */,
+			);
+			name = "Private";
+			path = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private";
+			sourceTree = "<absolute>";
+		};
+		AD6B7EABE7A73CA9BD497EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C47663C753C5B0332A9516F /* UnrealMultiUserServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		028A2460E9377B7C521F55ED /* UnrealMultiUserServer_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = BF4D669563539F73B31CEDD3 /* Build configuration list for PBXLegacyTarget "UnrealMultiUserServer_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/wangruipeng/Desktop/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealMultiUserServer_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealMultiUserServer_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		329B14217C96B43F7B2CD03B /* UnrealMultiUserServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A29C88C9D1DCCBB32E696A /* Build configuration list for PBXNativeTarget "UnrealMultiUserServer" */;
+			buildPhases = (
+				4CE5EECC6E725A194B3F5768 /* Embed App Extensions */, 
+				4EB7341850F23CDC8DA974D5 /* Shell Script */, 
+			);
+			dependencies = (
+				CF0D94291B1A4298C05C507D /* PBXTargetDependency */,
+			);
+			name = "UnrealMultiUserServer";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealMultiUserServer";
+			productReference = "3C47663C753C5B0332A9516F";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		B3062383004D4A888AA38CD9 /* UnrealMultiUserServer_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96A2D93E1DD251DF2787D28 /* Build configuration list for PBXNativeTarget "UnrealMultiUserServer_Index" */;
+			buildPhases = (
+				622048251560674929A6B9FE /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealMultiUserServer_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealMultiUserServer_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C59FDF0ADEBBE59D50ADE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					329B14217C96B43F7B2CD03B = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 14F87B04D4CC631CC08C9BF9 /* Build configuration list for PBXProject "UnrealMultiUserServer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 260B92D6F6D0E13A89FAAD3B;
+			productRefGroup = AD6B7EABE7A73CA9BD497EE8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			329B14217C96B43F7B2CD03B /* UnrealMultiUserServer */,
+			028A2460E9377B7C521F55ED /* UnrealMultiUserServer_Build */,
+			B3062383004D4A888AA38CD9 /* UnrealMultiUserServer_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		87BC252892631106B2805F02 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/UnrealMultiUserServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		B6F1EC280C520CA7E4C7FB43 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/UnrealMultiUserServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		B3E0BE9A9FC0B62DF42F4B56 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/UnrealMultiUserServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		1FF1C334ED2BFB8FFAF7732C /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/UnrealMultiUserServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		E108194B2200A9EB606E8DC6 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs/UnrealMultiUserServer/Private",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Core",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceLog",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/CoreUObject",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Concert",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertTransport",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Serialization",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Json",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Cbor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceInsights",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/AppFramework",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ApplicationCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RHI",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Slate",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/InputCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/SlateCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ImageWrapper",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/DesktopPlatform",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/EditorStyle",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/RenderCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Sockets",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/NetCommon",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceAnalysis",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/TraceServices",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/WorkspaceMenuStructure",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/XmlParser",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Projects",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/Launch",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ProfilerService",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncCore",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/ConcertSyncServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserServer/Inc/UnrealMultiUserServer",
+					"/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		B86F3B4AEF649D22C9DFD75D /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		6AD99CD50FBD919F2A89FDBD /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		5E937DDBC10155515924E5C7 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		2C29717BA7B11DBFCE349055 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		3BF4EFD62D8C7911BBA6C655 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		2C4EF9376ADC70A2701845B2 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserServer";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		DDB5F378290906FAEE188078 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserServer";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		2673938DBC78879A389FC549 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserServer";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		A627EF069F24CAE6B31B6DCA /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserServer";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		04101A98E53D5C7825B62496 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserServer";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		4C3287E72E50B5CD573160E0 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		F048961E0C9DCD8536437D54 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		4A6C5A2E625284C1FC3FC078 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		B452AC0DA4354F53F82D0138 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		0A7EC4B271826946C4E5D1AF /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealMultiUserServer-Mac-Test";
+				CONFIGURATION_BUILD_DIR = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangruipeng/Desktop/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F87B04D4CC631CC08C9BF9 /* Build configuration list for PBXProject "UnrealMultiUserServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BC252892631106B2805F02 /* "Debug" */,
+				B6F1EC280C520CA7E4C7FB43 /* "DebugGame" */,
+				B3E0BE9A9FC0B62DF42F4B56 /* "Development" */,
+				1FF1C334ED2BFB8FFAF7732C /* "Shipping" */,
+				E108194B2200A9EB606E8DC6 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		BF4D669563539F73B31CEDD3 /* Build configuration list for PBXLegacyTarget "UnrealMultiUserServer_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4EF9376ADC70A2701845B2 /* "Debug" */,
+				DDB5F378290906FAEE188078 /* "DebugGame" */,
+				2673938DBC78879A389FC549 /* "Development" */,
+				A627EF069F24CAE6B31B6DCA /* "Shipping" */,
+				04101A98E53D5C7825B62496 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		D8A29C88C9D1DCCBB32E696A /* Build configuration list for PBXNativeTarget "UnrealMultiUserServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86F3B4AEF649D22C9DFD75D /* "Debug" */,
+				6AD99CD50FBD919F2A89FDBD /* "DebugGame" */,
+				5E937DDBC10155515924E5C7 /* "Development" */,
+				2C29717BA7B11DBFCE349055 /* "Shipping" */,
+				3BF4EFD62D8C7911BBA6C655 /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F96A2D93E1DD251DF2787D28 /* Build configuration list for PBXNativeTarget "UnrealMultiUserServer_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3287E72E50B5CD573160E0 /* "Debug" */,
+				F048961E0C9DCD8536437D54 /* "DebugGame" */,
+				4A6C5A2E625284C1FC3FC078 /* "Development" */,
+				B452AC0DA4354F53F82D0138 /* "Shipping" */,
+				0A7EC4B271826946C4E5D1AF /* "Test" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C59FDF0ADEBBE59D50ADE3 /* Project object */;
+}
